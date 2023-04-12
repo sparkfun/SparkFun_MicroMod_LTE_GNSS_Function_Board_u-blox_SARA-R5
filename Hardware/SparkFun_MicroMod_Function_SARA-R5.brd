@@ -10143,7 +10143,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="J3" pad="GND2"/>
 <contactref element="J3" pad="GND"/>
 <contactref element="R9" pad="1"/>
-<polygon width="0.2032" layer="1" isolate="0.2032" rank="2">
+<polygon width="0.2032" layer="1" isolate="0.1778" rank="2">
 <vertex x="38" y="0"/>
 <vertex x="0" y="0"/>
 <vertex x="0" y="65"/>
