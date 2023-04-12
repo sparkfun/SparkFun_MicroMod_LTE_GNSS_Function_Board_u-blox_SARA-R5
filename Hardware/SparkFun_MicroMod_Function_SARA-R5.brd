@@ -3,12 +3,12 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -26,11 +26,11 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -52,13 +52,13 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="13" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="23" fill="5" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="23" fill="5" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -79,7 +79,7 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
-<layer number="100" name="Muster" color="7" fill="1" visible="no" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="no"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="no"/>
 <layer number="103" name="tMap" color="7" fill="1" visible="no" active="no"/>
@@ -1323,6 +1323,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="0402-TIGHT">
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="0" y="0.562" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.562" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<rectangle x1="-0.5" y1="-0.25" x2="-0.3" y2="0.25" layer="51"/>
+<rectangle x1="0.3" y1="-0.25" x2="0.5" y2="0.25" layer="51" rot="R180"/>
+<wire x1="0.9262" y1="0.4262" x2="-0.9262" y2="0.4262" width="0.05" layer="39"/>
+<wire x1="-0.9262" y1="0.4262" x2="-0.9262" y2="-0.4262" width="0.05" layer="39"/>
+<wire x1="-0.9262" y1="-0.4262" x2="0.9262" y2="-0.4262" width="0.05" layer="39"/>
+<wire x1="0.9262" y1="-0.4262" x2="0.9262" y2="0.4262" width="0.05" layer="39"/>
 </package>
 </packages>
 </library>
@@ -6594,6 +6610,50 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.27" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
 <text x="1.27" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
 </package>
+<package name="0402">
+<description>&lt;p&gt;&lt;b&gt;Generic 1005 (0402) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-0.2704" y1="0.2286" x2="0.2704" y2="0.2286" width="0.1524" layer="51"/>
+<wire x1="0.2704" y1="-0.2286" x2="-0.2704" y2="-0.2286" width="0.1524" layer="51"/>
+<wire x1="-1.2" y1="0.65" x2="1.2" y2="0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="0.65" x2="1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="-0.65" x2="-1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="-1.2" y1="-0.65" x2="-1.2" y2="0.65" width="0.0508" layer="39"/>
+<smd name="1" x="-0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<smd name="2" x="0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.3048" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.3048" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="SOT23-6L">
+<wire x1="-1.4625" y1="-0.8125" x2="-1.4625" y2="0.8125" width="0.002540625" layer="51"/>
+<wire x1="-1.4625" y1="0.8125" x2="1.4625" y2="0.8125" width="0.002540625" layer="51"/>
+<wire x1="1.4625" y1="0.8125" x2="1.4625" y2="-0.8125" width="0.002540625" layer="51"/>
+<wire x1="1.4625" y1="-0.8125" x2="-1.4625" y2="-0.8125" width="0.002540625" layer="51"/>
+<rectangle x1="0.7375" y1="1.05" x2="1.1625" y2="1.4" layer="51"/>
+<rectangle x1="-0.2125" y1="1.05" x2="0.2125" y2="1.4" layer="51"/>
+<rectangle x1="-1.1625" y1="1.05" x2="-0.7375" y2="1.4" layer="51"/>
+<rectangle x1="0.7375" y1="-1.4" x2="1.1625" y2="-1.05" layer="51" rot="R180"/>
+<rectangle x1="-0.2125" y1="-1.4" x2="0.2125" y2="-1.05" layer="51" rot="R180"/>
+<rectangle x1="-1.1625" y1="-1.4" x2="-0.7375" y2="-1.05" layer="51" rot="R180"/>
+<smd name="5" x="0" y="1.15" dx="0.6" dy="1.2" layer="1"/>
+<smd name="6" x="-0.95" y="1.15" dx="0.6" dy="1.2" layer="1"/>
+<smd name="4" x="0.95" y="1.15" dx="0.6" dy="1.2" layer="1"/>
+<smd name="1" x="-0.95" y="-1.15" dx="0.6" dy="1.2" layer="1" rot="R180"/>
+<smd name="2" x="0" y="-1.15" dx="0.6" dy="1.2" layer="1" rot="R180"/>
+<smd name="3" x="0.95" y="-1.15" dx="0.6" dy="1.2" layer="1" rot="R180"/>
+<wire x1="-1.5879" y1="-0.9125" x2="-1.5879" y2="0.9125" width="0.2032" layer="21"/>
+<wire x1="1.5879" y1="0.9125" x2="1.5879" y2="-0.9125" width="0.2032" layer="21"/>
+<wire x1="-1.5879" y1="0.9125" x2="-1.4645" y2="0.9125" width="0.2032" layer="21"/>
+<wire x1="1.5879" y1="-0.9125" x2="1.4645" y2="-0.9125" width="0.2032" layer="21"/>
+<wire x1="1.5879" y1="0.9125" x2="1.4645" y2="0.9125" width="0.2032" layer="21"/>
+<wire x1="-1.5879" y1="-0.9125" x2="-1.4645" y2="-0.9125" width="0.2032" layer="21"/>
+<circle x="-1.8508" y="-1.1746" radius="0.3" width="0" layer="21"/>
+<text x="0" y="2.032" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 </library>
 <library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">
@@ -6685,35 +6745,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package3d>
 </packages3d>
 </library>
-<library name="ublox">
-<packages>
-<package name="SOT23-6L">
-<wire x1="-1.4625" y1="-0.8125" x2="-1.4625" y2="0.8125" width="0.002540625" layer="51"/>
-<wire x1="-1.4625" y1="0.8125" x2="1.4625" y2="0.8125" width="0.002540625" layer="51"/>
-<wire x1="1.4625" y1="0.8125" x2="1.4625" y2="-0.8125" width="0.002540625" layer="51"/>
-<wire x1="1.4625" y1="-0.8125" x2="-1.4625" y2="-0.8125" width="0.002540625" layer="51"/>
-<rectangle x1="0.7375" y1="1.05" x2="1.1625" y2="1.4" layer="51"/>
-<rectangle x1="-0.2125" y1="1.05" x2="0.2125" y2="1.4" layer="51"/>
-<rectangle x1="-1.1625" y1="1.05" x2="-0.7375" y2="1.4" layer="51"/>
-<rectangle x1="0.7375" y1="-1.4" x2="1.1625" y2="-1.05" layer="51" rot="R180"/>
-<rectangle x1="-0.2125" y1="-1.4" x2="0.2125" y2="-1.05" layer="51" rot="R180"/>
-<rectangle x1="-1.1625" y1="-1.4" x2="-0.7375" y2="-1.05" layer="51" rot="R180"/>
-<smd name="5" x="0" y="1.15" dx="0.6" dy="1.2" layer="1"/>
-<smd name="6" x="-0.95" y="1.15" dx="0.6" dy="1.2" layer="1"/>
-<smd name="4" x="0.95" y="1.15" dx="0.6" dy="1.2" layer="1"/>
-<smd name="1" x="-0.95" y="-1.15" dx="0.6" dy="1.2" layer="1" rot="R180"/>
-<smd name="2" x="0" y="-1.15" dx="0.6" dy="1.2" layer="1" rot="R180"/>
-<smd name="3" x="0.95" y="-1.15" dx="0.6" dy="1.2" layer="1" rot="R180"/>
-<wire x1="-1.5879" y1="-0.9125" x2="-1.5879" y2="0.9125" width="0.2032" layer="21"/>
-<wire x1="1.5879" y1="0.9125" x2="1.5879" y2="-0.9125" width="0.2032" layer="21"/>
-<wire x1="-1.5879" y1="0.9125" x2="-1.4645" y2="0.9125" width="0.2032" layer="21"/>
-<wire x1="1.5879" y1="-0.9125" x2="1.4645" y2="-0.9125" width="0.2032" layer="21"/>
-<wire x1="1.5879" y1="0.9125" x2="1.4645" y2="0.9125" width="0.2032" layer="21"/>
-<wire x1="-1.5879" y1="-0.9125" x2="-1.4645" y2="-0.9125" width="0.2032" layer="21"/>
-<circle x="-1.8508" y="-1.1746" radius="0.3" width="0" layer="21"/>
-</package>
-</packages>
-</library>
 <library name="New_Parts">
 <packages>
 <package name="0402_COILCRAFT">
@@ -6726,71 +6757,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="P$2" x="0.4318" y="0" dx="0.3556" dy="0.6604" layer="1"/>
 <rectangle x1="0.3048" y1="-0.254" x2="0.508" y2="0.254" layer="51"/>
 <wire x1="0" y1="-0.127" x2="0" y2="0.127" width="0.254" layer="41"/>
-</package>
-<package name="0402">
-<description>&lt;p&gt;&lt;b&gt;Generic 1005 (0402) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-0.2704" y1="0.2286" x2="0.2704" y2="0.2286" width="0.1524" layer="51"/>
-<wire x1="0.2704" y1="-0.2286" x2="-0.2704" y2="-0.2286" width="0.1524" layer="51"/>
-<wire x1="-1.2" y1="0.65" x2="1.2" y2="0.65" width="0.0508" layer="39"/>
-<wire x1="1.2" y1="0.65" x2="1.2" y2="-0.65" width="0.0508" layer="39"/>
-<wire x1="1.2" y1="-0.65" x2="-1.2" y2="-0.65" width="0.0508" layer="39"/>
-<wire x1="-1.2" y1="-0.65" x2="-1.2" y2="0.65" width="0.0508" layer="39"/>
-<smd name="1" x="-0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
-<smd name="2" x="0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
-<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.3048" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.3048" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
-<package name="SOP65P640X120-16N">
-<description>&lt;b&gt;PW0016A&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-2.9" y="2.275" dx="1.5" dy="0.45" layer="1" cream="no"/>
-<smd name="2" x="-2.9" y="1.625" dx="1.5" dy="0.45" layer="1" cream="no"/>
-<smd name="3" x="-2.9" y="0.975" dx="1.5" dy="0.45" layer="1" cream="no"/>
-<smd name="4" x="-2.9" y="0.325" dx="1.5" dy="0.45" layer="1" cream="no"/>
-<smd name="5" x="-2.9" y="-0.325" dx="1.5" dy="0.45" layer="1" cream="no"/>
-<smd name="6" x="-2.9" y="-0.975" dx="1.5" dy="0.45" layer="1" cream="no"/>
-<smd name="7" x="-2.9" y="-1.625" dx="1.5" dy="0.45" layer="1" cream="no"/>
-<smd name="8" x="-2.9" y="-2.275" dx="1.5" dy="0.45" layer="1" cream="no"/>
-<smd name="9" x="2.9" y="-2.275" dx="1.5" dy="0.45" layer="1" cream="no"/>
-<smd name="10" x="2.9" y="-1.625" dx="1.5" dy="0.45" layer="1" cream="no"/>
-<smd name="11" x="2.9" y="-0.975" dx="1.5" dy="0.45" layer="1" cream="no"/>
-<smd name="12" x="2.9" y="-0.325" dx="1.5" dy="0.45" layer="1" cream="no"/>
-<smd name="13" x="2.9" y="0.325" dx="1.5" dy="0.45" layer="1" cream="no"/>
-<smd name="14" x="2.9" y="0.975" dx="1.5" dy="0.45" layer="1" cream="no"/>
-<smd name="15" x="2.9" y="1.625" dx="1.5" dy="0.45" layer="1" cream="no"/>
-<smd name="16" x="2.9" y="2.275" dx="1.5" dy="0.45" layer="1" cream="no"/>
-<text x="0" y="3.81" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="-3.81" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.2" y1="2.5" x2="2.2" y2="2.5" width="0.1" layer="51"/>
-<wire x1="2.2" y1="2.5" x2="2.2" y2="-2.5" width="0.1" layer="51"/>
-<wire x1="2.2" y1="-2.5" x2="-2.2" y2="-2.5" width="0.1" layer="51"/>
-<wire x1="-2.2" y1="-2.5" x2="-2.2" y2="2.5" width="0.1" layer="51"/>
-<wire x1="-2.2" y1="1.85" x2="-1.55" y2="2.5" width="0.1" layer="51"/>
-<wire x1="-1.85" y1="2.5" x2="1.85" y2="2.5" width="0.2" layer="21"/>
-<wire x1="1.85" y1="2.5" x2="1.85" y2="-2.5" width="0.2" layer="21"/>
-<wire x1="1.85" y1="-2.5" x2="-1.85" y2="-2.5" width="0.2" layer="21"/>
-<wire x1="-1.85" y1="-2.5" x2="-1.85" y2="2.5" width="0.2" layer="21"/>
-<circle x="-2.159" y="3.048" radius="0.127" width="0.254" layer="21"/>
-<rectangle x1="-3.575" y1="2.075" x2="-2.275" y2="2.475" layer="31"/>
-<rectangle x1="-3.575" y1="1.425" x2="-2.275" y2="1.825" layer="31"/>
-<rectangle x1="-3.575" y1="0.775" x2="-2.275" y2="1.175" layer="31"/>
-<rectangle x1="-3.55" y1="0.125" x2="-2.275" y2="0.525" layer="31"/>
-<rectangle x1="-3.55" y1="-0.525" x2="-2.275" y2="-0.125" layer="31"/>
-<rectangle x1="-3.55" y1="-1.175" x2="-2.275" y2="-0.775" layer="31"/>
-<rectangle x1="-3.55" y1="-1.825" x2="-2.275" y2="-1.425" layer="31"/>
-<rectangle x1="-3.55" y1="-2.475" x2="-2.275" y2="-2.075" layer="31"/>
-<rectangle x1="2.275" y1="2.075" x2="3.575" y2="2.475" layer="31"/>
-<rectangle x1="2.275" y1="1.425" x2="3.575" y2="1.825" layer="31"/>
-<rectangle x1="2.275" y1="0.775" x2="3.575" y2="1.175" layer="31"/>
-<rectangle x1="2.275" y1="0.125" x2="3.575" y2="0.525" layer="31"/>
-<rectangle x1="2.275" y1="-0.525" x2="3.575" y2="-0.125" layer="31"/>
-<rectangle x1="2.275" y1="-1.175" x2="3.575" y2="-0.775" layer="31"/>
-<rectangle x1="2.275" y1="-1.825" x2="3.575" y2="-1.425" layer="31"/>
-<rectangle x1="2.275" y1="-2.475" x2="3.575" y2="-2.075" layer="31"/>
 </package>
 </packages>
 </library>
@@ -8156,6 +8122,82 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
+<package name="0402_COILCRAFT">
+<smd name="P$1" x="-0.4318" y="0" dx="0.3556" dy="0.6604" layer="1"/>
+<smd name="P$2" x="0.4318" y="0" dx="0.3556" dy="0.6604" layer="1"/>
+<wire x1="0" y1="-0.127" x2="0" y2="0.127" width="0.254" layer="41"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<rectangle x1="-0.5" y1="-0.25" x2="-0.3" y2="0.25" layer="51"/>
+<rectangle x1="0.3" y1="-0.25" x2="0.5" y2="0.25" layer="51" rot="R180"/>
+</package>
+</packages>
+</library>
+<library name="SparkFun-IC-Comms">
+<description>&lt;h3&gt;SparkFun Communication ICs&lt;/h3&gt;
+This is the communications library, which contains things that exist on wired busses.  This includes USB to serial conversion ICs, like the FTDI line, plus high speed line drivers, level shifters, bus drivers, CAN transceivers and ethernet PHYs.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SOP65P640X120-16N">
+<description>&lt;b&gt;PW0016A&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.9" y="2.275" dx="1.5" dy="0.45" layer="1" cream="no"/>
+<smd name="2" x="-2.9" y="1.625" dx="1.5" dy="0.45" layer="1" cream="no"/>
+<smd name="3" x="-2.9" y="0.975" dx="1.5" dy="0.45" layer="1" cream="no"/>
+<smd name="4" x="-2.9" y="0.325" dx="1.5" dy="0.45" layer="1" cream="no"/>
+<smd name="5" x="-2.9" y="-0.325" dx="1.5" dy="0.45" layer="1" cream="no"/>
+<smd name="6" x="-2.9" y="-0.975" dx="1.5" dy="0.45" layer="1" cream="no"/>
+<smd name="7" x="-2.9" y="-1.625" dx="1.5" dy="0.45" layer="1" cream="no"/>
+<smd name="8" x="-2.9" y="-2.275" dx="1.5" dy="0.45" layer="1" cream="no"/>
+<smd name="9" x="2.9" y="-2.275" dx="1.5" dy="0.45" layer="1" cream="no"/>
+<smd name="10" x="2.9" y="-1.625" dx="1.5" dy="0.45" layer="1" cream="no"/>
+<smd name="11" x="2.9" y="-0.975" dx="1.5" dy="0.45" layer="1" cream="no"/>
+<smd name="12" x="2.9" y="-0.325" dx="1.5" dy="0.45" layer="1" cream="no"/>
+<smd name="13" x="2.9" y="0.325" dx="1.5" dy="0.45" layer="1" cream="no"/>
+<smd name="14" x="2.9" y="0.975" dx="1.5" dy="0.45" layer="1" cream="no"/>
+<smd name="15" x="2.9" y="1.625" dx="1.5" dy="0.45" layer="1" cream="no"/>
+<smd name="16" x="2.9" y="2.275" dx="1.5" dy="0.45" layer="1" cream="no"/>
+<text x="0" y="3.81" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-3.81" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.2" y1="2.5" x2="2.2" y2="2.5" width="0.1" layer="51"/>
+<wire x1="2.2" y1="2.5" x2="2.2" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="2.2" y1="-2.5" x2="-2.2" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="-2.2" y1="-2.5" x2="-2.2" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-2.2" y1="1.85" x2="-1.55" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-1.85" y1="2.5" x2="1.85" y2="2.5" width="0.2" layer="21"/>
+<wire x1="1.85" y1="2.5" x2="1.85" y2="-2.5" width="0.2" layer="21"/>
+<wire x1="1.85" y1="-2.5" x2="-1.85" y2="-2.5" width="0.2" layer="21"/>
+<wire x1="-1.85" y1="-2.5" x2="-1.85" y2="2.5" width="0.2" layer="21"/>
+<circle x="-2.159" y="3.048" radius="0.127" width="0.254" layer="21"/>
+<rectangle x1="-3.575" y1="2.075" x2="-2.275" y2="2.475" layer="31"/>
+<rectangle x1="-3.575" y1="1.425" x2="-2.275" y2="1.825" layer="31"/>
+<rectangle x1="-3.575" y1="0.775" x2="-2.275" y2="1.175" layer="31"/>
+<rectangle x1="-3.55" y1="0.125" x2="-2.275" y2="0.525" layer="31"/>
+<rectangle x1="-3.55" y1="-0.525" x2="-2.275" y2="-0.125" layer="31"/>
+<rectangle x1="-3.55" y1="-1.175" x2="-2.275" y2="-0.775" layer="31"/>
+<rectangle x1="-3.55" y1="-1.825" x2="-2.275" y2="-1.425" layer="31"/>
+<rectangle x1="-3.55" y1="-2.475" x2="-2.275" y2="-2.075" layer="31"/>
+<rectangle x1="2.275" y1="2.075" x2="3.575" y2="2.475" layer="31"/>
+<rectangle x1="2.275" y1="1.425" x2="3.575" y2="1.825" layer="31"/>
+<rectangle x1="2.275" y1="0.775" x2="3.575" y2="1.175" layer="31"/>
+<rectangle x1="2.275" y1="0.125" x2="3.575" y2="0.525" layer="31"/>
+<rectangle x1="2.275" y1="-0.525" x2="3.575" y2="-0.125" layer="31"/>
+<rectangle x1="2.275" y1="-1.175" x2="3.575" y2="-0.775" layer="31"/>
+<rectangle x1="2.275" y1="-1.825" x2="3.575" y2="-1.425" layer="31"/>
+<rectangle x1="2.275" y1="-2.475" x2="3.575" y2="-2.075" layer="31"/>
+</package>
 </packages>
 </library>
 </libraries>
@@ -8470,7 +8512,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CAP-07822" x="-6.196" y="40.64" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="14.124" y="6.858" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="D15" library="ublox" package="SOT23-6L" value="DT1042-04SO-7" x="19.917740625" y="20.3301625" smashed="yes" rot="R90">
+<element name="D15" library="SparkFun-DiscreteSemi" package="SOT23-6L" value="DT1042-04SO-7" x="19.917740625" y="20.3301625" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="DIO-14095" x="12.297740625" y="-30.4698375" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
 <element name="C37" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0603" package3d_urn="urn:adsk.eagle:package:37414/1" value="47pF" x="17.807" y="23.495" smashed="yes" rot="R90">
@@ -8516,10 +8558,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="L1" library="New_Parts" package="0402_COILCRAFT" value="DNP" x="34.277296875" y="47.219540625" smashed="yes">
 <attribute name="PROD_ID" value="" x="-57.162703125" y="34.519540625" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="C33" library="New_Parts" package="0402" value="33pF" x="33.616896875" y="49.1633" smashed="yes" rot="R90">
-<attribute name="DIGIKEY_PART" value="490-5936-1-ND" x="50.126896875" y="7.2533" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Murata" x="50.126896875" y="7.2533" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="MANU_PART" value="GRM1555C1H330JA" x="50.126896875" y="7.2533" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<element name="C33" library="SparkFun-Capacitors" package="0402-TIGHT" value="33pF" x="33.616896875" y="49.1633" smashed="yes" rot="R90">
 <attribute name="NAME" x="32.854896875" y="49.1633" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-15358" x="50.126896875" y="7.2533" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="34.378896875" y="49.1633" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
@@ -8604,17 +8643,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CAP-07881" x="-50.4301" y="-101.673659375" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="34.6599" y="34.724340625" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="IC2" library="New_Parts" package="SOP65P640X120-16N" value="SN74AVC4T774PW" x="33.2994" y="7.393" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="SN74AVC4T774PW" x="-27.6606" y="-143.737" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/sn74avc4t774pw/texas-instruments" x="-27.6606" y="-143.737" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="DESCRIPTION" value="Texas Instruments,SN74AVC4T774PW,IC, Texas Instruments SN74AVC4T774PW, Dual, Bus Transceiver, 4-Bit Non-Inverting 3-State, 1.2  3.6 V, 16-Pin TSSOP" x="-27.6606" y="-143.737" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="-27.6606" y="-143.737" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SN74AVC4T774PW" x="-27.6606" y="-143.737" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="595-SN74AVC4T774PW" x="-27.6606" y="-143.737" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AVC4T774PW?qs=WxL8HmPi5r44hV1AE7gRvg%3D%3D" x="-27.6606" y="-143.737" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="IC2" library="SparkFun-IC-Comms" package="SOP65P640X120-16N" value="SN74AVC4T774PW" x="33.2994" y="7.393" smashed="yes">
 <attribute name="NAME" x="33.2994" y="11.203" size="1.27" layer="25" align="center"/>
 <attribute name="PROD_ID" value="IC-15360" x="-27.6606" y="-143.737" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" x="33.2994" y="3.583" size="1.27" layer="27" align="center"/>
+<attribute name="VALUE" value="SN74AVC4T774PW" x="33.2994" y="3.583" size="1.27" layer="27" align="center"/>
 </element>
 <element name="R49" library="SparkFun-Resistors" package="0402-TIGHT" value="2.2k" x="9.20655625" y="19.6469" smashed="yes" rot="R180">
 <attribute name="NAME" x="9.20655625" y="18.8849" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
@@ -8753,7 +8785,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="CAP-08913" x="11.43" y="30.353" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" x="3.81" y="36.195" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="D4" library="New_Parts" package="0402" value="PESD0402" x="5.0317375" y="40.733978125" smashed="yes" rot="R270">
+<element name="D4" library="SparkFun-DiscreteSemi" package="0402" value="PESD0402-0402" x="5.0317375" y="40.733978125" smashed="yes" rot="R270">
 <attribute name="DIGIKEY_PART" value="PESD0402-140CT-ND" x="2.4917375" y="50.893978125" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="MOUSE_PART" value="650-PESD0402-140" x="2.4917375" y="50.893978125" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="5.7937375" y="40.733978125" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
@@ -8776,15 +8808,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="SF_ID" value="WRL-09144" x="6.35" y="60.96" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="3.81" y="62.23" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-left"/>
 </element>
-<element name="L2" library="New_Parts" package="0402_COILCRAFT" value="68nH" x="31.0261" y="57.779921875" smashed="yes">
-<attribute name="DIGIKEY_PART" value="490-2633-1-ND" x="29.7561" y="66.669921875" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="MOUSER_PART" value="81-LQG15HS68NJ02D" x="29.7561" y="66.669921875" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="L2" library="SparkFun-Coils" package="0402_COILCRAFT" value="68nH" x="31.0261" y="57.779921875" smashed="yes">
 <attribute name="PROD_ID" value="NDUC-15356" x="29.7561" y="66.669921875" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="C4" library="New_Parts" package="0402" value="27pF" x="26.90621875" y="58.338721875" smashed="yes" rot="R90">
-<attribute name="DIGIKEY_PART" value="490-11384-1-ND" x="25.63621875" y="54.528721875" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Murata" x="25.63621875" y="54.528721875" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="MANU_PART" value="GRM1555C1H270JA" x="25.63621875" y="54.528721875" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<element name="C4" library="SparkFun-Capacitors" package="0402" value="27pF" x="26.90621875" y="58.338721875" smashed="yes" rot="R90">
 <attribute name="NAME" x="26.14421875" y="58.338721875" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-15357" x="25.63621875" y="54.528721875" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="27.66821875" y="58.338721875" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
@@ -8794,7 +8821,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="RES-00824" x="27.843478125" y="58.656221875" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" x="27.843478125" y="56.878221875" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="D10" library="New_Parts" package="0402" value="PESD0402" x="28.6893" y="58.331096875" smashed="yes" rot="R90">
+<element name="D10" library="SparkFun-DiscreteSemi" package="0402" value="PESD0402-0402" x="28.6893" y="58.331096875" smashed="yes" rot="R90">
 <attribute name="DIGIKEY_PART" value="PESD0402-140CT-ND" x="38.8493" y="57.061096875" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="MOUSE_PART" value="650-PESD0402-140" x="38.8493" y="57.061096875" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="NAME" x="27.9273" y="58.331096875" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -9638,7 +9665,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="U1" pad="56"/>
 <wire x1="31" y1="42.42" x2="32.1076" y2="42.42" width="0.8128" layer="1"/>
 <wire x1="32.1076" y1="42.42" x2="33.627059375" y2="43.939459375" width="0.8128" layer="1" curve="90"/>
-<wire x1="33.616896875" y1="48.5833" x2="33.627059375" y2="48.5731375" width="0.8128" layer="1"/>
+<wire x1="33.616896875" y1="48.6633" x2="33.627059375" y2="48.5731375" width="0.8128" layer="1"/>
 <wire x1="33.627059375" y1="48.5731375" x2="33.627059375" y2="47.28558125" width="0.8128" layer="1"/>
 <wire x1="33.627059375" y1="47.28558125" x2="33.627059375" y2="43.939459375" width="0.8128" layer="1"/>
 <wire x1="33.845496875" y1="47.219540625" x2="33.6931" y2="47.219540625" width="0.254" layer="1"/>
@@ -10310,7 +10337,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="C33" pad="2"/>
 <contactref element="J2" pad="FEED"/>
 <wire x1="31.65" y1="59.435" x2="31.65" y2="57.587821875" width="0.8128" layer="1"/>
-<wire x1="33.616896875" y1="49.7433" x2="33.616896875" y2="51.916871875" width="0.8128" layer="1"/>
+<wire x1="33.616896875" y1="49.6633" x2="33.616896875" y2="51.916871875" width="0.8128" layer="1"/>
 <wire x1="33.616896875" y1="51.916871875" x2="32.91331875" y2="54.452521875" width="0.8128" layer="1" curve="31.015949"/>
 <wire x1="31.65" y1="57.488759375" x2="32.46628125" y2="55.153559375" width="0.8128" layer="1" curve="38.53469"/>
 <wire x1="32.46628125" y1="55.153559375" x2="32.91331875" y2="54.452521875" width="0.8128" layer="1" curve="-12.01968"/>
@@ -10402,6 +10429,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <approved hash="5,1,0e1a2b84307f5971"/>
 <approved hash="5,1,71185884307f5573"/>
 <approved hash="5,1,e027c984307f554c"/>
+<approved hash="8,1,3c009fe0e450d051"/>
 </errors>
 </board>
 </drawing>
