@@ -29913,8 +29913,8 @@ Closed (default): connected to GND</text>
 <instance part="SUPPLY7" gate="G$1" x="20.32" y="259.08" smashed="yes">
 <attribute name="VALUE" x="20.32" y="261.874" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY1" gate="G$1" x="50.8" y="147.32" smashed="yes">
-<attribute name="VALUE" x="50.8" y="150.114" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY1" gate="G$1" x="43.18" y="147.32" smashed="yes">
+<attribute name="VALUE" x="43.18" y="150.114" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="GND4" gate="1" x="45.72" y="83.82" smashed="yes">
 <attribute name="VALUE" x="43.18" y="81.28" size="1.778" layer="96" font="vector"/>
@@ -30904,8 +30904,8 @@ Closed (default): connected to GND</text>
 <segment>
 <pinref part="J1" gate="J1" pin="VCC"/>
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
-<wire x1="55.88" y1="144.78" x2="50.8" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="144.78" x2="50.8" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="144.78" x2="43.18" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="144.78" x2="43.18" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
@@ -31044,11 +31044,6 @@ Closed (default): connected to GND</text>
 <wire x1="218.44" y1="215.9" x2="215.9" y2="215.9" width="0.1524" layer="91"/>
 <label x="215.9" y="215.9" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U1" gate="G$2" pin="VUSB_DET"/>
-</segment>
-<segment>
-<pinref part="J1" gate="J1" pin="USB_VIN"/>
-<wire x1="55.88" y1="119.38" x2="53.34" y2="119.38" width="0.1524" layer="91"/>
-<label x="53.34" y="119.38" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="EWP" class="0">
@@ -31600,21 +31595,14 @@ Closed (default): connected to GND</text>
 <pinref part="U3" gate="G$1" pin="IN"/>
 <wire x1="365.76" y1="223.52" x2="363.22" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="G$1" pin="VIN"/>
-<wire x1="363.22" y1="223.52" x2="363.22" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="363.22" y1="233.68" x2="363.22" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="358.14" y1="231.14" x2="358.14" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="358.14" y1="233.68" x2="363.22" y2="233.68" width="0.1524" layer="91"/>
-<junction x="363.22" y="233.68"/>
+<wire x1="363.22" y1="223.52" x2="363.22" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY17" gate="G$1" pin="VIN"/>
 <pinref part="U5" gate="G$1" pin="IN"/>
 <wire x1="50.8" y1="246.38" x2="48.26" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="C23" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="246.38" x2="43.18" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="243.84" x2="43.18" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="246.38" x2="30.48" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="246.38" x2="30.48" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="246.38" x2="20.32" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="246.38" x2="20.32" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="246.38" x2="10.16" y2="246.38" width="0.1524" layer="91"/>
@@ -31624,7 +31612,6 @@ Closed (default): connected to GND</text>
 <pinref part="C25" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="243.84" x2="30.48" y2="246.38" width="0.1524" layer="91"/>
 <junction x="30.48" y="246.38"/>
-<pinref part="R33" gate="G$1" pin="2"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="10.16" y1="248.92" x2="10.16" y2="246.38" width="0.1524" layer="91"/>
 <junction x="10.16" y="246.38"/>
@@ -31632,7 +31619,6 @@ Closed (default): connected to GND</text>
 <wire x1="20.32" y1="248.92" x2="20.32" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="248.92" x2="48.26" y2="246.38" width="0.1524" layer="91"/>
 <junction x="48.26" y="246.38"/>
-<junction x="43.18" y="246.38"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -31737,6 +31723,25 @@ Closed (default): connected to GND</text>
 <wire x1="157.48" y1="129.54" x2="157.48" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="USB_SHLD" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="119.38" x2="149.86" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="3.3V_IN" class="0">
+<segment>
+<pinref part="J1" gate="J1" pin="3.3V"/>
+<wire x1="55.88" y1="147.32" x2="53.34" y2="147.32" width="0.1524" layer="91"/>
+<label x="53.34" y="147.32" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="43.18" y1="248.92" x2="40.64" y2="248.92" width="0.1524" layer="91"/>
+<label x="40.64" y="248.92" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="R33" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="243.84" x2="43.18" y2="248.92" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<label x="353.06" y="233.68" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="358.14" y1="231.14" x2="358.14" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="233.68" x2="353.06" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
