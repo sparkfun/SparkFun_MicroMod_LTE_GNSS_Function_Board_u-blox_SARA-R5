@@ -28478,28 +28478,28 @@ sized tool</text>
 <wire x1="-6.145" y1="-6.75" x2="6.145" y2="-6.75" width="0.05" layer="51"/>
 <wire x1="6.145" y1="-6.75" x2="6.145" y2="6.75" width="0.05" layer="51"/>
 <wire x1="6.145" y1="6.75" x2="-6.145" y2="6.75" width="0.05" layer="51"/>
-<wire x1="3.25" y1="-7.311" x2="3.25" y2="-6.361" width="0.05" layer="47"/>
-<wire x1="3.25" y1="-6.361" x2="3.25" y2="3.6" width="0.05" layer="47"/>
-<wire x1="2.561" y1="4.3" x2="-3.65" y2="4.3" width="0.05" layer="47"/>
-<wire x1="-5.55" y1="2.65" x2="-5.55" y2="-6.35" width="0.05" layer="47"/>
-<wire x1="-5.55" y1="-6.35" x2="-5.55" y2="-7.3" width="0.05" layer="47"/>
-<wire x1="-4.861" y1="-8" x2="2.55" y2="-8" width="0.05" layer="47"/>
-<wire x1="2.55" y1="-8" x2="3.25" y2="-7.311" width="0.05" layer="47" curve="90.025014"/>
-<wire x1="-5.55" y1="-7.3" x2="-4.861" y2="-8" width="0.05" layer="47" curve="90.025014"/>
-<wire x1="3.25" y1="3.6" x2="2.561" y2="4.3" width="0.05" layer="47" curve="90.025014"/>
-<wire x1="-4" y1="4.2" x2="-3.65" y2="4.3" width="0.05" layer="47" curve="-39.054824"/>
-<wire x1="-5.4" y1="2.95" x2="-5.55" y2="2.65" width="0.05" layer="47" curve="52.253496"/>
-<wire x1="-5.4" y1="2.95" x2="-4" y2="4.2" width="0.05" layer="47"/>
-<wire x1="-1.15" y1="-1.35" x2="-1.15" y2="-2.35" width="0.05" layer="47"/>
-<wire x1="-0.65" y1="-1.85" x2="-1.65" y2="-1.85" width="0.05" layer="47"/>
-<wire x1="3.25" y1="-10.161" x2="3.25" y2="-7.311" width="0.05" layer="47"/>
-<wire x1="-5.55" y1="-7.3" x2="-5.55" y2="-10.15" width="0.05" layer="47"/>
-<wire x1="-4.861" y1="-10.85" x2="2.55" y2="-10.85" width="0.05" layer="47"/>
-<wire x1="2.55" y1="-10.85" x2="3.25" y2="-10.161" width="0.05" layer="47" curve="90.025014"/>
-<wire x1="-5.55" y1="-10.15" x2="-4.861" y2="-10.85" width="0.05" layer="47" curve="90.025014"/>
-<wire x1="-4.861" y1="-7.05" x2="2.55" y2="-7.05" width="0.05" layer="47"/>
-<wire x1="2.55" y1="-7.05" x2="3.25" y2="-6.361" width="0.05" layer="47" curve="90.025014"/>
-<wire x1="-5.55" y1="-6.35" x2="-4.861" y2="-7.05" width="0.05" layer="47" curve="90.025014"/>
+<wire x1="3.25" y1="-7.311" x2="3.25" y2="-6.361" width="0.05" layer="49"/>
+<wire x1="3.25" y1="-6.361" x2="3.25" y2="3.6" width="0.05" layer="49"/>
+<wire x1="2.561" y1="4.3" x2="-3.65" y2="4.3" width="0.05" layer="49"/>
+<wire x1="-5.55" y1="2.65" x2="-5.55" y2="-6.35" width="0.05" layer="49"/>
+<wire x1="-5.55" y1="-6.35" x2="-5.55" y2="-7.3" width="0.05" layer="49"/>
+<wire x1="-4.861" y1="-8" x2="2.55" y2="-8" width="0.05" layer="49"/>
+<wire x1="2.55" y1="-8" x2="3.25" y2="-7.311" width="0.05" layer="49" curve="90.025014"/>
+<wire x1="-5.55" y1="-7.3" x2="-4.861" y2="-8" width="0.05" layer="49" curve="90.025014"/>
+<wire x1="3.25" y1="3.6" x2="2.561" y2="4.3" width="0.05" layer="49" curve="90.025014"/>
+<wire x1="-4" y1="4.2" x2="-3.65" y2="4.3" width="0.05" layer="49" curve="-39.054824"/>
+<wire x1="-5.4" y1="2.95" x2="-5.55" y2="2.65" width="0.05" layer="49" curve="52.253496"/>
+<wire x1="-5.4" y1="2.95" x2="-4" y2="4.2" width="0.05" layer="49"/>
+<wire x1="-1.15" y1="-1.35" x2="-1.15" y2="-2.35" width="0.05" layer="49"/>
+<wire x1="-0.65" y1="-1.85" x2="-1.65" y2="-1.85" width="0.05" layer="49"/>
+<wire x1="3.25" y1="-10.161" x2="3.25" y2="-7.311" width="0.05" layer="49"/>
+<wire x1="-5.55" y1="-7.3" x2="-5.55" y2="-10.15" width="0.05" layer="49"/>
+<wire x1="-4.861" y1="-10.85" x2="2.55" y2="-10.85" width="0.05" layer="49"/>
+<wire x1="2.55" y1="-10.85" x2="3.25" y2="-10.161" width="0.05" layer="49" curve="90.025014"/>
+<wire x1="-5.55" y1="-10.15" x2="-4.861" y2="-10.85" width="0.05" layer="49" curve="90.025014"/>
+<wire x1="-4.861" y1="-7.05" x2="2.55" y2="-7.05" width="0.05" layer="49"/>
+<wire x1="2.55" y1="-7.05" x2="3.25" y2="-6.361" width="0.05" layer="49" curve="90.025014"/>
+<wire x1="-5.55" y1="-6.35" x2="-4.861" y2="-7.05" width="0.05" layer="49" curve="90.025014"/>
 <wire x1="-1.15" y1="-1" x2="-1.15" y2="-8" width="0.05" layer="51"/>
 <wire x1="3.3" y1="6.8" x2="5.8" y2="6.8" width="0.1524" layer="21"/>
 <wire x1="6.2" y1="4.6" x2="6.2" y2="-4.6" width="0.1524" layer="21"/>
@@ -29695,7 +29695,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/sn74avc4t774.pdf"&gt; Datas
 <part name="D3" library="SparkFun-LED" deviceset="LED-RED" device="_0603-KB" value="RED"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="U.FL2PIN" device="" value="U.FL"/>
 <part name="J9" library="HPG_Solution_v1.0" deviceset="SIMHOLDER" device="-PUSHPUSH" value="NANO_SIM"/>
-<part name="R3" library="SparkFun-Resistors" deviceset="1KOHM" device="-0402T-1/16W-1%" value="1k"/>
+<part name="R3" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402T-1/16W-1%" value="100k"/>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="VCCIO" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".2_INCH"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".2_INCH" value="SFE_LOGO_FLAME.2_INCH"/>

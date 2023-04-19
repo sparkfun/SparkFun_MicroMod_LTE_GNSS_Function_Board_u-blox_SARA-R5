@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="2.54" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -32,15 +32,15 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -188,28 +188,28 @@
 <wire x1="-6.145" y1="-6.75" x2="6.145" y2="-6.75" width="0.05" layer="51"/>
 <wire x1="6.145" y1="-6.75" x2="6.145" y2="6.75" width="0.05" layer="51"/>
 <wire x1="6.145" y1="6.75" x2="-6.145" y2="6.75" width="0.05" layer="51"/>
-<wire x1="3.25" y1="-7.311" x2="3.25" y2="-6.361" width="0.05" layer="47"/>
-<wire x1="3.25" y1="-6.361" x2="3.25" y2="3.6" width="0.05" layer="47"/>
-<wire x1="2.561" y1="4.3" x2="-3.65" y2="4.3" width="0.05" layer="47"/>
-<wire x1="-5.55" y1="2.65" x2="-5.55" y2="-6.35" width="0.05" layer="47"/>
-<wire x1="-5.55" y1="-6.35" x2="-5.55" y2="-7.3" width="0.05" layer="47"/>
-<wire x1="-4.861" y1="-8" x2="2.55" y2="-8" width="0.05" layer="47"/>
-<wire x1="2.55" y1="-8" x2="3.25" y2="-7.311" width="0.05" layer="47" curve="90.025014"/>
-<wire x1="-5.55" y1="-7.3" x2="-4.861" y2="-8" width="0.05" layer="47" curve="90.025014"/>
-<wire x1="3.25" y1="3.6" x2="2.561" y2="4.3" width="0.05" layer="47" curve="90.025014"/>
-<wire x1="-4" y1="4.2" x2="-3.65" y2="4.3" width="0.05" layer="47" curve="-39.054824"/>
-<wire x1="-5.4" y1="2.95" x2="-5.55" y2="2.65" width="0.05" layer="47" curve="52.253496"/>
-<wire x1="-5.4" y1="2.95" x2="-4" y2="4.2" width="0.05" layer="47"/>
-<wire x1="-1.15" y1="-1.35" x2="-1.15" y2="-2.35" width="0.05" layer="47"/>
-<wire x1="-0.65" y1="-1.85" x2="-1.65" y2="-1.85" width="0.05" layer="47"/>
-<wire x1="3.25" y1="-10.161" x2="3.25" y2="-7.311" width="0.05" layer="47"/>
-<wire x1="-5.55" y1="-7.3" x2="-5.55" y2="-10.15" width="0.05" layer="47"/>
-<wire x1="-4.861" y1="-10.85" x2="2.55" y2="-10.85" width="0.05" layer="47"/>
-<wire x1="2.55" y1="-10.85" x2="3.25" y2="-10.161" width="0.05" layer="47" curve="90.025014"/>
-<wire x1="-5.55" y1="-10.15" x2="-4.861" y2="-10.85" width="0.05" layer="47" curve="90.025014"/>
-<wire x1="-4.861" y1="-7.05" x2="2.55" y2="-7.05" width="0.05" layer="47"/>
-<wire x1="2.55" y1="-7.05" x2="3.25" y2="-6.361" width="0.05" layer="47" curve="90.025014"/>
-<wire x1="-5.55" y1="-6.35" x2="-4.861" y2="-7.05" width="0.05" layer="47" curve="90.025014"/>
+<wire x1="3.25" y1="-7.311" x2="3.25" y2="-6.361" width="0.05" layer="49"/>
+<wire x1="3.25" y1="-6.361" x2="3.25" y2="3.6" width="0.05" layer="49"/>
+<wire x1="2.561" y1="4.3" x2="-3.65" y2="4.3" width="0.05" layer="49"/>
+<wire x1="-5.55" y1="2.65" x2="-5.55" y2="-6.35" width="0.05" layer="49"/>
+<wire x1="-5.55" y1="-6.35" x2="-5.55" y2="-7.3" width="0.05" layer="49"/>
+<wire x1="-4.861" y1="-8" x2="2.55" y2="-8" width="0.05" layer="49"/>
+<wire x1="2.55" y1="-8" x2="3.25" y2="-7.311" width="0.05" layer="49" curve="90.025014"/>
+<wire x1="-5.55" y1="-7.3" x2="-4.861" y2="-8" width="0.05" layer="49" curve="90.025014"/>
+<wire x1="3.25" y1="3.6" x2="2.561" y2="4.3" width="0.05" layer="49" curve="90.025014"/>
+<wire x1="-4" y1="4.2" x2="-3.65" y2="4.3" width="0.05" layer="49" curve="-39.054824"/>
+<wire x1="-5.4" y1="2.95" x2="-5.55" y2="2.65" width="0.05" layer="49" curve="52.253496"/>
+<wire x1="-5.4" y1="2.95" x2="-4" y2="4.2" width="0.05" layer="49"/>
+<wire x1="-1.15" y1="-1.35" x2="-1.15" y2="-2.35" width="0.05" layer="49"/>
+<wire x1="-0.65" y1="-1.85" x2="-1.65" y2="-1.85" width="0.05" layer="49"/>
+<wire x1="3.25" y1="-10.161" x2="3.25" y2="-7.311" width="0.05" layer="49"/>
+<wire x1="-5.55" y1="-7.3" x2="-5.55" y2="-10.15" width="0.05" layer="49"/>
+<wire x1="-4.861" y1="-10.85" x2="2.55" y2="-10.85" width="0.05" layer="49"/>
+<wire x1="2.55" y1="-10.85" x2="3.25" y2="-10.161" width="0.05" layer="49" curve="90.025014"/>
+<wire x1="-5.55" y1="-10.15" x2="-4.861" y2="-10.85" width="0.05" layer="49" curve="90.025014"/>
+<wire x1="-4.861" y1="-7.05" x2="2.55" y2="-7.05" width="0.05" layer="49"/>
+<wire x1="2.55" y1="-7.05" x2="3.25" y2="-6.361" width="0.05" layer="49" curve="90.025014"/>
+<wire x1="-5.55" y1="-6.35" x2="-4.861" y2="-7.05" width="0.05" layer="49" curve="90.025014"/>
 <wire x1="-1.15" y1="-1" x2="-1.15" y2="-8" width="0.05" layer="51"/>
 <wire x1="3.3" y1="6.8" x2="5.8" y2="6.8" width="0.1524" layer="21"/>
 <wire x1="6.2" y1="4.6" x2="6.2" y2="-4.6" width="0.1524" layer="21"/>
