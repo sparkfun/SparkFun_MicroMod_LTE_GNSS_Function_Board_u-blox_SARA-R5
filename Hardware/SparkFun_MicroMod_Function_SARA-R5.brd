@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -6908,21 +6908,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package3d>
 </packages3d>
 </library>
-<library name="New_Parts">
-<packages>
-<package name="0402_COILCRAFT">
-<wire x1="-0.5461" y1="-0.3048" x2="-0.5461" y2="0.3048" width="0.002540625" layer="51"/>
-<wire x1="-0.5461" y1="0.3048" x2="0.5461" y2="0.3048" width="0.002540625" layer="51"/>
-<wire x1="0.5461" y1="0.3048" x2="0.5461" y2="-0.3048" width="0.002540625" layer="51"/>
-<wire x1="0.5461" y1="-0.3048" x2="-0.5461" y2="-0.3048" width="0.002540625" layer="51"/>
-<rectangle x1="-0.508" y1="-0.254" x2="-0.3048" y2="0.254" layer="51"/>
-<smd name="P$1" x="-0.4318" y="0" dx="0.3556" dy="0.6604" layer="1"/>
-<smd name="P$2" x="0.4318" y="0" dx="0.3556" dy="0.6604" layer="1"/>
-<rectangle x1="0.3048" y1="-0.254" x2="0.508" y2="0.254" layer="51"/>
-<wire x1="0" y1="-0.127" x2="0" y2="0.127" width="0.254" layer="41"/>
-</package>
-</packages>
-</library>
 <library name="SparkFun-IC-Logic">
 <description>&lt;h3&gt;SparkFun Logic ICs&lt;/h3&gt;
 This library contains parts which fit into the standard logic IC families.&lt;br&gt;&lt;br&gt;
@@ -8726,9 +8711,6 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <attribute name="PROD_ID" value="CAP-11015" x="-33.9201" y="7.673340625" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="34.6599" y="29.771340625" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="L1" library="New_Parts" package="0402_COILCRAFT" value="DNP" x="34.277296875" y="47.219540625" smashed="yes">
-<attribute name="PROD_ID" value="" x="-57.162703125" y="34.519540625" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
 <element name="C33" library="SparkFun-Capacitors" package="0402-TIGHT" value="33pF" x="33.616896875" y="49.1633" smashed="yes" rot="R90">
 <attribute name="NAME" x="32.854896875" y="49.1633" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-15358" x="50.126896875" y="7.2533" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
@@ -8977,25 +8959,25 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <attribute name="SF_ID" value="WRL-09144" x="6.35" y="60.96" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="3.81" y="62.23" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-left"/>
 </element>
-<element name="L2" library="SparkFun-Coils" package="0402_COILCRAFT" value="68nH" x="31.0261" y="57.779921875" smashed="yes">
-<attribute name="PROD_ID" value="NDUC-15356" x="29.7561" y="66.669921875" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<element name="L2" library="SparkFun-Coils" package="0402_COILCRAFT" value="68nH" x="31.09721875" y="56.7436" smashed="yes">
+<attribute name="PROD_ID" value="NDUC-15356" x="29.82721875" y="65.6336" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 <element name="C4" library="SparkFun-Capacitors" package="0402" value="27pF" x="27.60471875" y="58.336178125" smashed="yes" rot="R90">
 <attribute name="NAME" x="26.84271875" y="58.336178125" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-15357" x="26.33471875" y="54.526178125" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="28.36671875" y="58.336178125" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="R23" library="SparkFun-Resistors" package="0603" value="10k" x="28.4607" y="56.116221875" smashed="yes" rot="R180">
-<attribute name="NAME" x="28.4607" y="55.354221875" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-00824" x="28.4607" y="58.656221875" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
-<attribute name="VALUE" x="28.4607" y="56.878221875" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<element name="R23" library="SparkFun-Resistors" package="0603" value="10k" x="28.539440625" y="55.689503125" smashed="yes" rot="R180">
+<attribute name="NAME" x="28.539440625" y="54.927503125" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-00824" x="28.539440625" y="58.229503125" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="VALUE" x="28.539440625" y="56.451503125" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="D10" library="SparkFun-DiscreteSemi" package="0402" value="PESD0402-0402" x="29.337" y="58.356496875" smashed="yes" rot="R90">
-<attribute name="DIGIKEY_PART" value="PESD0402-140CT-ND" x="39.497" y="57.086496875" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="MOUSE_PART" value="650-PESD0402-140" x="39.497" y="57.086496875" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="NAME" x="28.575" y="58.356496875" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-15359" x="39.497" y="57.086496875" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="VALUE" x="30.099" y="58.356496875" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<element name="D10" library="SparkFun-DiscreteSemi" package="0402" value="PESD0402-0402" x="32.232596875" y="57.7596" smashed="yes">
+<attribute name="DIGIKEY_PART" value="PESD0402-140CT-ND" x="30.962596875" y="47.5996" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MOUSE_PART" value="650-PESD0402-140" x="30.962596875" y="47.5996" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="NAME" x="32.232596875" y="58.5216" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-15359" x="30.962596875" y="47.5996" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="32.232596875" y="56.9976" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="U$11" library="output" package="LTE_#_GNSS0" value="" x="20.32" y="34.036" smashed="yes"/>
 <element name="U$13" library="output" package="FUNCTION0" value="" x="20.193" y="31.75" smashed="yes"/>
@@ -9168,7 +9150,6 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <contactref element="C20" pad="2"/>
 <contactref element="C22" pad="2"/>
 <contactref element="C24" pad="2"/>
-<contactref element="L1" pad="P$2"/>
 <contactref element="Q6" pad="2"/>
 <contactref element="Q5" pad="2"/>
 <contactref element="C17" pad="2"/>
@@ -9187,7 +9168,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <via x="11.711" y="58.166" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="7.139" y="56.134" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="25.3" y="55.88" extent="1-16" drill="0.3048" diameter="0.6096"/>
-<via x="32.92" y="58.42" extent="1-16" drill="0.3048" diameter="0.6096"/>
+<via x="32.833640625" y="58.85688125" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="27.41074375" y="60.650121875" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="25.51081875" y="60.162440625" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="4.98" y="58.42" extent="1-16" drill="0.3048" diameter="0.6096"/>
@@ -9283,7 +9264,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <via x="11.33" y="63.5" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="13.362" y="59.817" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="24.157" y="60.96" extent="1-16" drill="0.3048" diameter="0.6096"/>
-<via x="30.253" y="58.547" extent="1-16" drill="0.3048" diameter="0.6096"/>
+<via x="30.534940625" y="59.08801875" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="26.57" y="63.5" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="1.17" y="56.4515" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="36.73" y="53.34" extent="1-16" drill="0.3048" diameter="0.6096"/>
@@ -9308,7 +9289,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <via x="3.71" y="58.42" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="3.71" y="63.5" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="3.71" y="56.4515" extent="1-16" drill="0.3048" diameter="0.6096"/>
-<via x="34.19" y="58.42" extent="1-16" drill="0.3048" diameter="0.6096"/>
+<via x="33.963940625" y="57.7570625" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="34.19" y="63.5" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="29.11" y="63.5" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="8.79" y="63.5" extent="1-16" drill="0.3048" diameter="0.6096"/>
@@ -9437,7 +9418,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <via x="2.544140625" y="55.191659375" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="2.544140625" y="57.376059375" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="2.34601875" y="53.40858125" extent="1-16" drill="0.3048" diameter="0.6096"/>
-<via x="32.676159375" y="56.786778125" extent="1-16" drill="0.3048" diameter="0.6096"/>
+<via x="32.72441875" y="56.68771875" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="33.603259375" y="55.1307" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="34.43891875" y="53.2282375" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="34.568459375" y="51.071778125" extent="1-16" drill="0.3048" diameter="0.6096"/>
@@ -9451,8 +9432,8 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <via x="32.72188125" y="48.232059375" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="32.7269625" y="51.031140625" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="32.521221875" y="53.103778125" extent="1-16" drill="0.3048" diameter="0.6096"/>
-<via x="31.535703125" y="54.894478125" extent="1-16" drill="0.3048" diameter="0.6096"/>
-<via x="30.748303125" y="56.8071" extent="1-16" drill="0.3048" diameter="0.6096"/>
+<via x="31.213121875" y="55.3212" extent="1-16" drill="0.3048" diameter="0.6096"/>
+<via x="30.717825" y="57.701178125" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="34.753878125" y="56.80201875" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="35.4092" y="54.698896875" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="35.635259375" y="52.07761875" extent="1-16" drill="0.3048" diameter="0.6096"/>
@@ -9962,7 +9943,6 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <wire x1="31.70681875" y1="21.14041875" x2="32.33626875" y2="21.76986875" width="0.254" layer="16"/>
 </signal>
 <signal name="LTE_ANT" class="3">
-<contactref element="L1" pad="P$1"/>
 <contactref element="C33" pad="1"/>
 <contactref element="U1" pad="56"/>
 <wire x1="31" y1="42.42" x2="32.1076" y2="42.42" width="0.8128" layer="1"/>
@@ -9970,7 +9950,6 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <wire x1="33.616896875" y1="48.6633" x2="33.627059375" y2="48.5731375" width="0.8128" layer="1"/>
 <wire x1="33.627059375" y1="48.5731375" x2="33.627059375" y2="47.28558125" width="0.8128" layer="1"/>
 <wire x1="33.627059375" y1="47.28558125" x2="33.627059375" y2="43.939459375" width="0.8128" layer="1"/>
-<wire x1="33.845496875" y1="47.219540625" x2="33.6931" y2="47.219540625" width="0.254" layer="1"/>
 <wire x1="33.6931" y1="47.219540625" x2="33.627059375" y2="47.28558125" width="0.254" layer="1"/>
 </signal>
 <signal name="LTE_18_RI">
@@ -10182,10 +10161,8 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <wire x1="26.786840625" y1="53.952140625" x2="26.786840625" y2="52.706840625" width="0.4064" layer="1"/>
 <wire x1="26.786840625" y1="52.706840625" x2="26.75" y2="52.67" width="0.4064" layer="1"/>
 <wire x1="32.463740625" y1="38.12794375" x2="26.786840625" y2="43.80484375" width="0.4064" layer="16"/>
-<wire x1="8.97381875" y1="23.941103125" x2="7.563184375" y2="25.3517375" width="0.4064" layer="16"/>
-<wire x1="14.6685" y1="16.0782" x2="22.57419375" y2="16.0782" width="0.4064" layer="16"/>
-<wire x1="14.6685" y1="16.0782" x2="8.97381875" y2="21.77288125" width="0.4064" layer="16"/>
-<wire x1="8.97381875" y1="21.77288125" x2="8.97381875" y2="23.941103125" width="0.4064" layer="16"/>
+<wire x1="7.563184375" y1="25.3517375" x2="8.97381875" y2="23.941103125" width="0.4064" layer="16"/>
+<wire x1="16.7106625" y1="16.0782" x2="22.57419375" y2="16.0782" width="0.4064" layer="16"/>
 <wire x1="34.274375" y1="24.38306875" x2="32.111228125" y2="22.219921875" width="0.4064" layer="1"/>
 <wire x1="31.602678125" y1="22.219921875" x2="32.111228125" y2="22.219921875" width="0.4064" layer="1"/>
 <via x="31.602678125" y="22.219921875" extent="1-16" drill="0.3048"/>
@@ -10203,6 +10180,10 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <wire x1="31.960821875" y1="9.59611875" x2="32.4231" y2="10.058396875" width="0.4064" layer="1"/>
 <wire x1="31.6188" y1="10.7426" x2="31.6188" y2="9.938140625" width="0.4064" layer="1"/>
 <wire x1="31.6188" y1="9.938140625" x2="31.960821875" y2="9.59611875" width="0.4064" layer="1"/>
+<wire x1="13.19784375" y1="19.59101875" x2="16.7106625" y2="16.0782" width="0.4064" layer="16"/>
+<wire x1="8.97381875" y1="23.941103125" x2="8.97381875" y2="21.996403125" width="0.4064" layer="16"/>
+<wire x1="8.97381875" y1="21.996403125" x2="11.379203125" y2="19.59101875" width="0.4064" layer="16"/>
+<wire x1="11.379203125" y1="19.59101875" x2="13.19784375" y2="19.59101875" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$34">
 <contactref element="D16" pad="C"/>
@@ -10651,36 +10632,42 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <contactref element="L2" pad="P$2"/>
 <contactref element="C33" pad="2"/>
 <contactref element="J2" pad="FEED"/>
-<wire x1="31.65" y1="59.435" x2="31.65" y2="57.587821875" width="0.8128" layer="1"/>
-<wire x1="33.616896875" y1="49.6633" x2="33.616896875" y2="51.916871875" width="0.8128" layer="1"/>
-<wire x1="33.616896875" y1="51.916871875" x2="32.91331875" y2="54.452521875" width="0.8128" layer="1" curve="31.015949"/>
-<wire x1="31.65" y1="57.488759375" x2="32.46628125" y2="55.153559375" width="0.8128" layer="1" curve="38.53469"/>
-<wire x1="32.46628125" y1="55.153559375" x2="32.91331875" y2="54.452521875" width="0.8128" layer="1" curve="-12.01968"/>
-<wire x1="31.4579" y1="57.779921875" x2="31.65" y2="57.587821875" width="0.254" layer="1"/>
-<wire x1="31.65" y1="57.587821875" x2="31.65" y2="57.488759375" width="0.8128" layer="1"/>
+<wire x1="31.65" y1="59.435" x2="31.64491875" y2="59.42991875" width="0.8128" layer="1"/>
+<wire x1="31.64491875" y1="59.42991875" x2="31.64491875" y2="57.767278125" width="0.8128" layer="1"/>
+<wire x1="33.616896875" y1="49.6633" x2="33.616896875" y2="52.203584375" width="0.8128" layer="1"/>
+<wire x1="33.616896875" y1="52.203584375" x2="33.053628125" y2="54.23356875" width="0.8128" layer="1" curve="31.015949"/>
+<wire x1="31.65" y1="57.163640625" x2="32.213925" y2="55.550384375" width="0.8128" layer="1" curve="38.53469"/>
+<wire x1="32.213925" y1="55.550384375" x2="33.053628125" y2="54.23356875" width="0.8128" layer="1" curve="-12.01968"/>
+<contactref element="D10" pad="1"/>
+<wire x1="31.652596875" y1="57.7596" x2="31.64491875" y2="57.767278125" width="0.8128" layer="1"/>
+<wire x1="31.652596875" y1="57.7596" x2="31.652596875" y2="57.1662375" width="0.8128" layer="1"/>
+<wire x1="31.652596875" y1="57.1662375" x2="31.65" y2="57.163640625" width="0.8128" layer="1"/>
+<wire x1="31.52901875" y1="56.7436" x2="31.52901875" y2="57.636021875" width="0.254" layer="1"/>
+<wire x1="31.52901875" y1="57.636021875" x2="31.652596875" y2="57.7596" width="0.254" layer="1"/>
 </signal>
 <signal name="SARA_ANT_DET">
 <contactref element="R23" pad="1"/>
 <contactref element="U1" pad="62"/>
 <wire x1="31" y1="49.02" x2="31.935959375" y2="49.02" width="0.254" layer="1"/>
 <wire x1="31.935959375" y1="49.02" x2="32.161478125" y2="49.24551875" width="0.254" layer="1"/>
-<wire x1="29.413196875" y1="56.116221875" x2="29.3107" y2="56.116221875" width="0.254" layer="1"/>
-<wire x1="31.81858125" y1="53.7108375" x2="29.413196875" y2="56.116221875" width="0.254" layer="1"/>
 <wire x1="32.161478125" y1="49.24551875" x2="32.161478125" y2="52.351940625" width="0.254" layer="1"/>
 <wire x1="32.161478125" y1="52.351940625" x2="31.81858125" y2="52.6948375" width="0.254" layer="1"/>
 <wire x1="31.81858125" y1="52.6948375" x2="31.81858125" y2="53.7108375" width="0.254" layer="1"/>
+<wire x1="31.81858125" y1="53.7108375" x2="30.9524375" y2="54.57698125" width="0.254" layer="1"/>
+<wire x1="30.9524375" y1="54.57698125" x2="30.551121875" y2="54.57698125" width="0.254" layer="1"/>
+<wire x1="29.389440625" y1="55.689503125" x2="29.4386" y2="55.689503125" width="0.254" layer="1"/>
+<wire x1="30.551121875" y1="54.57698125" x2="29.4386" y2="55.689503125" width="0.254" layer="1"/>
 </signal>
 <signal name="N$18">
 <contactref element="R23" pad="2"/>
 <contactref element="C4" pad="1"/>
-<contactref element="D10" pad="1"/>
 <contactref element="L2" pad="P$1"/>
-<wire x1="27.6107" y1="56.116221875" x2="27.60471875" y2="56.122203125" width="0.254" layer="1"/>
-<wire x1="27.60471875" y1="56.122203125" x2="27.60471875" y2="57.756178125" width="0.254" layer="1"/>
-<wire x1="29.337" y1="57.776496875" x2="27.6250375" y2="57.776496875" width="0.254" layer="1"/>
+<wire x1="27.689440625" y1="55.689503125" x2="27.60471875" y2="55.774225" width="0.254" layer="1"/>
+<wire x1="27.60471875" y1="55.774225" x2="27.60471875" y2="57.756178125" width="0.254" layer="1"/>
 <wire x1="27.60471875" y1="57.756178125" x2="27.6250375" y2="57.776496875" width="0.254" layer="1"/>
-<wire x1="29.337" y1="57.776496875" x2="30.590875" y2="57.776496875" width="0.254" layer="1"/>
-<wire x1="30.590875" y1="57.776496875" x2="30.5943" y2="57.779921875" width="0.254" layer="1"/>
+<wire x1="30.66199375" y1="56.740175" x2="30.66541875" y2="56.7436" width="0.254" layer="1"/>
+<wire x1="30.66541875" y1="56.7436" x2="29.652840625" y2="57.756178125" width="0.254" layer="1"/>
+<wire x1="29.652840625" y1="57.756178125" x2="27.60471875" y2="57.756178125" width="0.254" layer="1"/>
 </signal>
 <signal name="SHLD">
 <contactref element="J3" pad="SHLD3"/>
@@ -10733,9 +10720,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="3,1,cdb7160e151b4d46"/>
 <approved hash="3,1,ab385d81b72ad4c7"/>
-<approved hash="3,1,7d82ed82ed397d39"/>
 <approved hash="6,1,411e449b527577e8"/>
 <approved hash="6,1,7359b704afc8e78b"/>
 <approved hash="22,1,03e803e706d906d6"/>
@@ -10777,6 +10762,8 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <approved hash="19,16,a3e3c30ff41fd6c3"/>
 <approved hash="19,16,4796c4dc13dd1296"/>
 <approved hash="19,16,133c11105510553c"/>
+<approved hash="3,1,8bc2b828b92a8ac0"/>
+<approved hash="3,1,6b0637303d1e45e8"/>
 </errors>
 </board>
 </drawing>
