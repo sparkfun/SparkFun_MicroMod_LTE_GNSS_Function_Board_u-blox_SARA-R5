@@ -29689,7 +29689,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/sn74avc4t774.pdf"&gt; Datas
 </class>
 <class number="2" name="supply" width="0.4064" drill="0">
 </class>
-<class number="3" name="RF" width="0.8128" drill="0">
+<class number="3" name="RF" width="0.31241875" drill="0">
 <clearance class="3" value="0.1778"/>
 </class>
 <class number="4" name="DiffPair" width="0.24" drill="0">
@@ -29935,14 +29935,6 @@ SARA-R5</text>
 <wire x1="307.34" y1="147.32" x2="330.2" y2="147.32" width="0.6096" layer="97"/>
 <wire x1="330.2" y1="147.32" x2="330.2" y2="142.24" width="0.6096" layer="97"/>
 <wire x1="127" y1="55.88" x2="0" y2="55.88" width="0.2032" layer="97" style="longdash"/>
-<text x="274.066" y="195.072" size="1.27" layer="97" font="vector">Board thickness: 0.8mm</text>
-<text x="274.066" y="189.992" size="1.27" layer="97" font="vector">Er: 4.6</text>
-<text x="274.066" y="197.612" size="1.27" layer="97" font="vector">Copper Thickness (1oz): 1.4mil/0.035mm</text>
-<text x="274.066" y="184.912" size="1.27" layer="97" font="vector">RF Trace Width: 32 mil / 0.8128 mm</text>
-<text x="274.066" y="187.452" size="1.27" layer="97" font="vector">Polygon Isolation: 7mil / 0.1778mm</text>
-<text x="274.066" y="192.532" size="1.27" layer="97" font="vector">Prepreg dielectric thickness (layer 1 to 2): 0.7mm</text>
-<text x="274.066" y="182.372" size="0.762" layer="97" font="vector">https://chemandy.com/calculators/coplanar-waveguide-with-ground-calculator.htm</text>
-<text x="274.066" y="200.152" size="1.524" layer="97" font="vector" ratio="15">Microstrip Calculation:</text>
 <text x="190.754" y="159.766" size="2.54" layer="94" font="vector" align="center">USB</text>
 <wire x1="431.8" y1="167.64" x2="335.28" y2="167.64" width="0.2032" layer="97" style="longdash"/>
 <wire x1="335.28" y1="167.64" x2="261.62" y2="167.64" width="0.2032" layer="97" style="longdash"/>
@@ -29980,6 +29972,14 @@ Use this jumper to connect/disconnect
 your USB-C cable shield to this PCB's GND.
 Closed (default): connected to GND</text>
 <wire x1="144.272" y1="115.062" x2="148.082" y2="101.346" width="0.2032" layer="97" style="shortdash"/>
+<text x="268.986" y="192.532" size="1.27" layer="97" font="vector">Board thickness: 0.8mm</text>
+<text x="268.986" y="187.452" size="1.27" layer="97" font="vector">Er: 4.6</text>
+<text x="268.986" y="195.072" size="1.27" layer="97" font="vector">Copper Thickness (1oz): 1.4mil/0.035mm</text>
+<text x="268.986" y="182.372" size="1.27" layer="97" font="vector">RF Trace Width: 12.3mil/0.31mm</text>
+<text x="268.986" y="184.912" size="1.27" layer="97" font="vector">Polygon Isolation: 7mil/0.18mm</text>
+<text x="268.986" y="189.992" size="1.27" layer="97" font="vector">Prepreg dielectric thickness (layer 1 to 2): 7.1mil / 0.18mm</text>
+<text x="268.986" y="179.832" size="0.762" layer="97" font="vector">https://chemandy.com/calculators/coplanar-waveguide-with-ground-calculator.htm</text>
+<text x="268.986" y="197.612" size="1.524" layer="97" font="vector" ratio="15">Coplanar Waveguide Calculation:</text>
 </plain>
 <instances>
 <instance part="J1" gate="J1" x="73.66" y="121.92" smashed="yes">
