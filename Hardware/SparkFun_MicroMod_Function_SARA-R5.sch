@@ -29569,8 +29569,8 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/sn74avc4t774.pdf"&gt; Datas
 <class number="3" name="RF" width="0.8128" drill="0">
 <clearance class="3" value="0.1778"/>
 </class>
-<class number="4" name="DiffPair" width="0.2286" drill="0">
-<clearance class="4" value="0.2032"/>
+<class number="4" name="DiffPair" width="0.24" drill="0">
+<clearance class="4" value="0.1778"/>
 </class>
 </classes>
 <parts>
@@ -29839,15 +29839,16 @@ Iq = 50µA </text>
 <wire x1="335.28" y1="167.64" x2="335.28" y2="279.4" width="0.2032" layer="97" style="longdash"/>
 <text x="241.3" y="182.88" size="2.54" layer="97" font="vector">50Ω</text>
 <wire x1="330.2" y1="35.56" x2="330.2" y2="78.74" width="0.2032" layer="97" style="longdash"/>
-<text x="180.086" y="136.652" size="1.27" layer="97" font="vector">Plating Thickness: 1oz</text>
-<text x="180.086" y="134.112" size="1.27" layer="97" font="vector">Material: FR-4 STD   Er: 4.6</text>
-<text x="180.086" y="139.192" size="1.27" layer="97" font="vector">Copper Thickness: 1oz</text>
-<text x="180.086" y="129.032" size="1.27" layer="97" font="vector">Conductor Spacing: 8mil / 0.20mm</text>
-<text x="180.086" y="131.572" size="1.27" layer="97" font="vector">Conductor Width: 9mil / 0.23mm</text>
-<text x="180.086" y="126.492" size="1.27" layer="97" font="vector">Prepreg dielectric thickness: 0.2mm (8mil)</text>
-<text x="180.086" y="121.412" size="0.762" layer="97" font="vector">https://saturnpcb.com/pcb_toolkit/</text>
-<text x="180.086" y="141.732" size="1.524" layer="97" font="vector" ratio="15">Differential Pair Calculation:</text>
-<text x="180.086" y="123.952" size="1.27" layer="97" font="vector">Zdifferential: 90.7 Ohms</text>
+<text x="180.086" y="136.652" size="1.27" layer="97" font="vector"></text>
+<text x="180.086" y="136.652" size="1.27" layer="97" font="vector" align="top-left">Material: FR-4 STD   Er: 4.6</text>
+<text x="180.086" y="139.192" size="1.27" layer="97" font="vector" align="top-left">Total Copper Thickness: 1.4mil / 36um</text>
+<text x="180.086" y="131.572" size="1.27" layer="97" font="vector" align="top-left">Conductor Spacing: 7mil / 0.18mm</text>
+<text x="180.086" y="134.112" size="1.27" layer="97" font="vector" align="top-left">Conductor Width: 9.4mil / 0.24mm</text>
+<text x="180.086" y="129.032" size="1.27" layer="97" font="vector" align="top-left">JLC-7628 Prepreg dielectric 
+thickness: 0.180mm (7.1mil)</text>
+<text x="180.086" y="121.412" size="0.762" layer="97" font="vector" align="top-left">https://saturnpcb.com/pcb_toolkit/</text>
+<text x="180.086" y="141.732" size="1.524" layer="97" font="vector" ratio="15" align="top-left">Differential Pair Calculation:</text>
+<text x="180.086" y="123.952" size="1.27" layer="97" font="vector" align="top-left">Zdifferential: 90.0 Ohms</text>
 <text x="139.7" y="88.9" size="2.032" layer="97" font="vector" rot="MR180" align="top-left">USB_SHLD Jumper
 Use this jumper to connect/disconnect
 your USB-C cable shield to this PCB's GND.
