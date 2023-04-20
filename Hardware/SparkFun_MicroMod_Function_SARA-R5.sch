@@ -22548,6 +22548,31 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.778" y="2.159" size="0.6096" layer="25" ratio="20">&gt;NAME</text>
 <text x="-1.778" y="-2.794" size="0.6096" layer="27" ratio="20">&gt;VALUE</text>
 </package>
+<package name="SOT886">
+<description>&lt;h3&gt;SOT886&lt;/h3&gt;
+&lt;p&gt;Package for "F" variant of PRTR5V0U2F&lt;/p&gt;</description>
+<wire x1="0.5" y1="-0.725" x2="-0.5" y2="-0.725" width="0.002540625" layer="51"/>
+<wire x1="-0.5" y1="-0.725" x2="-0.5" y2="0.725" width="0.002540625" layer="51"/>
+<wire x1="-0.5" y1="0.725" x2="0.5" y2="0.725" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="0.725" x2="0.5" y2="-0.725" width="0.002540625" layer="51"/>
+<rectangle x1="-0.465" y1="-0.105" x2="-0.155" y2="0.105" layer="51"/>
+<rectangle x1="-0.465" y1="-0.605" x2="-0.155" y2="-0.395" layer="51"/>
+<rectangle x1="0.155" y1="-0.605" x2="0.465" y2="-0.395" layer="51" rot="R180"/>
+<rectangle x1="0.155" y1="-0.105" x2="0.465" y2="0.105" layer="51" rot="R180"/>
+<rectangle x1="0.155" y1="0.395" x2="0.465" y2="0.605" layer="51" rot="R180"/>
+<rectangle x1="-0.465" y1="0.395" x2="-0.105" y2="0.605" layer="51"/>
+<smd name="1" x="-0.405" y="0.5" dx="0.61" dy="0.25" layer="1"/>
+<smd name="2" x="-0.43" y="0" dx="0.56" dy="0.25" layer="1"/>
+<smd name="3" x="-0.43" y="-0.5" dx="0.56" dy="0.25" layer="1"/>
+<smd name="4" x="0.43" y="-0.5" dx="0.56" dy="0.25" layer="1" rot="R180"/>
+<smd name="5" x="0.43" y="0" dx="0.56" dy="0.25" layer="1" rot="R180"/>
+<smd name="6" x="0.43" y="0.5" dx="0.56" dy="0.25" layer="1" rot="R180"/>
+<circle x="-0.7" y="0.9" radius="0.15" width="0" layer="21"/>
+<text x="0" y="1.1" size="0.6096" layer="25" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-0.9" size="0.6096" layer="27" ratio="20" align="top-center">&gt;Value</text>
+<wire x1="-0.4572" y1="0.8382" x2="0.4572" y2="0.8382" width="0.1524" layer="21"/>
+<wire x1="-0.4572" y1="-0.8382" x2="0.4572" y2="-0.8382" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="AP7361C">
@@ -22575,6 +22600,81 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="GND" x="-10.16" y="-5.08" visible="pin" length="short" direction="in"/>
 <pin name="OUT" x="7.62" y="5.08" visible="pin" length="short" direction="pas" rot="R180"/>
 <pin name="EN" x="-10.16" y="0" visible="pin" length="short" direction="in"/>
+</symbol>
+<symbol name="PRTR5V0U2">
+<pin name="1" x="-10.16" y="5.08" visible="pad" length="short"/>
+<pin name="2" x="-10.16" y="0" visible="pad" length="short" direction="pwr"/>
+<pin name="3" x="-10.16" y="-5.08" visible="pad" length="short"/>
+<pin name="6" x="10.16" y="5.08" visible="pad" length="short" rot="R180"/>
+<pin name="5" x="10.16" y="0" visible="pad" length="short" direction="pwr" rot="R180"/>
+<pin name="4" x="10.16" y="-5.08" visible="pad" length="short" rot="R180"/>
+<wire x1="-7.62" y1="5.08" x2="0" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-3.048" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-3.048" y1="2.54" x2="-3.048" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-3.048" y1="3.81" x2="-1.778" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="2.54" x2="-3.048" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.048" y1="1.27" x2="-3.048" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="2.54" x2="-1.778" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="2.54" x2="-1.778" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="0" x2="-0.508" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="1.27" x2="0.762" y2="0" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="-0.508" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="-1.27" x2="-0.508" y2="0" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="0.762" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="0.762" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-3.048" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-3.048" y1="-2.54" x2="-3.048" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-3.048" y1="-1.27" x2="-1.778" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="-2.54" x2="-3.048" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-3.048" y1="-3.81" x2="-3.048" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-3.81" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="3.81" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="3.81" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="0" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="-5.08" x2="7.62" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<circle x="-5.08" y="0" radius="0.254" width="0" layer="94"/>
+<circle x="0" y="2.54" radius="0.254" width="0" layer="94"/>
+<circle x="0" y="5.08" radius="0.254" width="0" layer="94"/>
+<circle x="5.08" y="0" radius="0.254" width="0" layer="94"/>
+<circle x="0" y="-2.54" radius="0.254" width="0" layer="94"/>
+<circle x="0" y="-5.08" radius="0.254" width="0" layer="94"/>
+<text x="-7.62" y="7.874" size="1.778" layer="95">&gt;Name</text>
+<text x="-7.62" y="-7.874" size="1.778" layer="96" align="top-left">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -22636,6 +22736,29 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name="">
 <attribute name="PROD_ID" value="VREG-12457"/>
 <attribute name="VALUE" value="3.3V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PRTR5V0U2" prefix="D">
+<description>A small ESD protection device. Most commonly used on USB D+/D- signals to protect large, expensive, or especially sensitive USB enabled devices.</description>
+<gates>
+<gate name="D1" symbol="PRTR5V0U2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="F" package="SOT886">
+<connects>
+<connect gate="D1" pin="1" pad="1"/>
+<connect gate="D1" pin="2" pad="2"/>
+<connect gate="D1" pin="3" pad="3"/>
+<connect gate="D1" pin="4" pad="4"/>
+<connect gate="D1" pin="5" pad="5"/>
+<connect gate="D1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-14084"/>
 </technology>
 </technologies>
 </device>
@@ -29746,6 +29869,9 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/sn74avc4t774.pdf"&gt; Datas
 <part name="USB_SHLD" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
 <part name="GND25" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND26" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND27" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="D6" library="SparkFun-IC-Power" deviceset="PRTR5V0U2" device="F"/>
+<part name="SUPPLY21" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -29817,16 +29943,16 @@ SARA-R5</text>
 <text x="274.066" y="192.532" size="1.27" layer="97" font="vector">Prepreg dielectric thickness (layer 1 to 2): 0.7mm</text>
 <text x="274.066" y="182.372" size="0.762" layer="97" font="vector">https://chemandy.com/calculators/coplanar-waveguide-with-ground-calculator.htm</text>
 <text x="274.066" y="200.152" size="1.524" layer="97" font="vector" ratio="15">Microstrip Calculation:</text>
-<text x="172.974" y="159.766" size="2.54" layer="94" font="vector" align="center">USB</text>
+<text x="190.754" y="159.766" size="2.54" layer="94" font="vector" align="center">USB</text>
 <wire x1="431.8" y1="167.64" x2="335.28" y2="167.64" width="0.2032" layer="97" style="longdash"/>
 <wire x1="335.28" y1="167.64" x2="261.62" y2="167.64" width="0.2032" layer="97" style="longdash"/>
-<wire x1="261.62" y1="167.64" x2="220.98" y2="167.64" width="0.2032" layer="97" style="longdash"/>
-<wire x1="220.98" y1="167.64" x2="127" y2="167.64" width="0.2032" layer="97" style="longdash"/>
+<wire x1="261.62" y1="167.64" x2="254" y2="167.64" width="0.2032" layer="97" style="longdash"/>
+<wire x1="254" y1="167.64" x2="127" y2="167.64" width="0.2032" layer="97" style="longdash"/>
 <wire x1="431.8" y1="78.74" x2="330.2" y2="78.74" width="0.2032" layer="97" style="longdash"/>
-<wire x1="330.2" y1="78.74" x2="220.98" y2="78.74" width="0.2032" layer="97" style="longdash"/>
-<wire x1="220.98" y1="78.74" x2="127" y2="78.74" width="0.2032" layer="97" style="longdash"/>
+<wire x1="330.2" y1="78.74" x2="254" y2="78.74" width="0.2032" layer="97" style="longdash"/>
+<wire x1="254" y1="78.74" x2="127" y2="78.74" width="0.2032" layer="97" style="longdash"/>
 <wire x1="261.62" y1="167.64" x2="261.62" y2="279.4" width="0.2032" layer="97" style="longdash"/>
-<wire x1="220.98" y1="78.74" x2="220.98" y2="167.64" width="0.2032" layer="97" style="longdash"/>
+<wire x1="254" y1="78.74" x2="254" y2="167.64" width="0.2032" layer="97" style="longdash"/>
 <wire x1="218.44" y1="0" x2="218.44" y2="78.74" width="0.2032" layer="97" style="longdash"/>
 <text x="92.71" y="89.662" size="1.778" layer="97" font="vector">F6/F7 are shared 
 with RX/TX on ESP32</text>
@@ -29840,15 +29966,15 @@ Iq = 50µA </text>
 <text x="241.3" y="182.88" size="2.54" layer="97" font="vector">50Ω</text>
 <wire x1="330.2" y1="35.56" x2="330.2" y2="78.74" width="0.2032" layer="97" style="longdash"/>
 <text x="180.086" y="136.652" size="1.27" layer="97" font="vector"></text>
-<text x="180.086" y="136.652" size="1.27" layer="97" font="vector" align="top-left">Material: FR-4 STD   Er: 4.6</text>
-<text x="180.086" y="139.192" size="1.27" layer="97" font="vector" align="top-left">Total Copper Thickness: 1.4mil / 36um</text>
-<text x="180.086" y="131.572" size="1.27" layer="97" font="vector" align="top-left">Conductor Spacing: 7mil / 0.18mm</text>
-<text x="180.086" y="134.112" size="1.27" layer="97" font="vector" align="top-left">Conductor Width: 9.4mil / 0.24mm</text>
-<text x="180.086" y="129.032" size="1.27" layer="97" font="vector" align="top-left">JLC-7628 Prepreg dielectric 
+<text x="210.566" y="101.092" size="1.27" layer="97" font="vector" align="top-left">Material: FR-4 STD   Er: 4.6</text>
+<text x="210.566" y="103.632" size="1.27" layer="97" font="vector" align="top-left">Total Copper Thickness: 1.4mil / 36um</text>
+<text x="210.566" y="96.012" size="1.27" layer="97" font="vector" align="top-left">Conductor Spacing: 7mil / 0.18mm</text>
+<text x="210.566" y="98.552" size="1.27" layer="97" font="vector" align="top-left">Conductor Width: 9.4mil / 0.24mm</text>
+<text x="210.566" y="93.472" size="1.27" layer="97" font="vector" align="top-left">JLC-7628 Prepreg dielectric 
 thickness: 0.180mm (7.1mil)</text>
-<text x="180.086" y="121.412" size="0.762" layer="97" font="vector" align="top-left">https://saturnpcb.com/pcb_toolkit/</text>
-<text x="180.086" y="141.732" size="1.524" layer="97" font="vector" ratio="15" align="top-left">Differential Pair Calculation:</text>
-<text x="180.086" y="123.952" size="1.27" layer="97" font="vector" align="top-left">Zdifferential: 90.0 Ohms</text>
+<text x="210.566" y="85.852" size="0.762" layer="97" font="vector" align="top-left">https://saturnpcb.com/pcb_toolkit/</text>
+<text x="210.566" y="106.172" size="1.524" layer="97" font="vector" ratio="15" align="top-left">Differential Pair Calculation:</text>
+<text x="210.566" y="88.392" size="1.27" layer="97" font="vector" align="top-left">Zdifferential: 90.1 Ohms</text>
 <text x="139.7" y="88.9" size="2.032" layer="97" font="vector" rot="MR180" align="top-left">USB_SHLD Jumper
 Use this jumper to connect/disconnect
 your USB-C cable shield to this PCB's GND.
@@ -30434,6 +30560,16 @@ Closed (default): connected to GND</text>
 <instance part="GND26" gate="1" x="154.94" y="114.3" smashed="yes">
 <attribute name="VALUE" x="152.4" y="111.76" size="1.778" layer="96" font="vector"/>
 </instance>
+<instance part="GND27" gate="1" x="180.34" y="124.46" smashed="yes">
+<attribute name="VALUE" x="177.8" y="121.92" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="D6" gate="D1" x="193.04" y="134.62" smashed="yes">
+<attribute name="NAME" x="191.77" y="143.002" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="185.42" y="125.984" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="SUPPLY21" gate="G$1" x="205.74" y="142.24" smashed="yes">
+<attribute name="VALUE" x="201.676" y="145.288" size="1.778" layer="96" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -30819,6 +30955,12 @@ Closed (default): connected to GND</text>
 <pinref part="GND25" gate="1" pin="GND"/>
 <wire x1="137.16" y1="119.38" x2="137.16" y2="116.84" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND27" gate="1" pin="GND"/>
+<wire x1="180.34" y1="134.62" x2="180.34" y2="127" width="0.1524" layer="91"/>
+<pinref part="D6" gate="D1" pin="2"/>
+<wire x1="180.34" y1="134.62" x2="182.88" y2="134.62" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="EN" class="0">
 <segment>
@@ -30982,6 +31124,12 @@ Closed (default): connected to GND</text>
 <wire x1="208.28" y1="215.9" x2="205.74" y2="215.9" width="0.1524" layer="91"/>
 <label x="205.74" y="215.9" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U1" gate="G$2" pin="VUSB_DET"/>
+</segment>
+<segment>
+<pinref part="SUPPLY21" gate="G$1" pin="V_USB"/>
+<wire x1="203.2" y1="134.62" x2="205.74" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="134.62" x2="205.74" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="D6" gate="D1" pin="5"/>
 </segment>
 </net>
 <net name="EWP" class="0">
@@ -31421,11 +31569,6 @@ Closed (default): connected to GND</text>
 </net>
 <net name="USB_P" class="4">
 <segment>
-<pinref part="J3" gate="J1" pin="D+"/>
-<wire x1="152.4" y1="139.7" x2="154.94" y2="139.7" width="0.1524" layer="91"/>
-<label x="154.94" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
 <wire x1="208.28" y1="187.96" x2="205.74" y2="187.96" width="0.1524" layer="91"/>
 <label x="205.74" y="187.96" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U1" gate="G$2" pin="USB_D+"/>
@@ -31435,13 +31578,13 @@ Closed (default): connected to GND</text>
 <wire x1="55.88" y1="114.3" x2="53.34" y2="114.3" width="0.1524" layer="91"/>
 <label x="53.34" y="114.3" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<label x="208.28" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="208.28" y1="139.7" x2="203.2" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="D6" gate="D1" pin="6"/>
+</segment>
 </net>
 <net name="USB_N" class="4">
-<segment>
-<pinref part="J3" gate="J1" pin="D-"/>
-<wire x1="152.4" y1="137.16" x2="154.94" y2="137.16" width="0.1524" layer="91"/>
-<label x="154.94" y="137.16" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
 <segment>
 <wire x1="208.28" y1="190.5" x2="205.74" y2="190.5" width="0.1524" layer="91"/>
 <label x="205.74" y="190.5" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
@@ -31451,6 +31594,11 @@ Closed (default): connected to GND</text>
 <pinref part="J1" gate="J1" pin="USBHOST_D-"/>
 <wire x1="55.88" y1="116.84" x2="53.34" y2="116.84" width="0.1524" layer="91"/>
 <label x="53.34" y="116.84" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<label x="208.28" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="208.28" y1="129.54" x2="203.2" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="D6" gate="D1" pin="4"/>
 </segment>
 </net>
 <net name="SIM_DET" class="0">
@@ -31676,6 +31824,22 @@ Closed (default): connected to GND</text>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="353.06" y1="228.6" x2="353.06" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="231.14" x2="347.98" y2="231.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="4">
+<segment>
+<pinref part="J3" gate="J1" pin="D-"/>
+<wire x1="152.4" y1="137.16" x2="177.8" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="137.16" x2="177.8" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="D6" gate="D1" pin="3"/>
+<wire x1="177.8" y1="129.54" x2="182.88" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="J3" gate="J1" pin="D+"/>
+<pinref part="D6" gate="D1" pin="1"/>
+<wire x1="152.4" y1="139.7" x2="182.88" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
