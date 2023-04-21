@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="13" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="23" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="13" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,20 +53,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="58" name="bCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -22996,23 +22996,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <vertex x="1.8364" y="-0.0051" curve="-90.012967"/>
 </polygon>
 </package>
-<package name="0603">
-<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
 <package name="0805">
 <description>&lt;p&gt;&lt;b&gt;Generic 2012 (0805) package&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
@@ -23042,6 +23025,143 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
+<package name="0603">
+<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+<package name="EIA3216">
+<description>Generic EIA 3216 (1206) polarized tantalum capacitor</description>
+<wire x1="-1" y1="-1.2" x2="-2.5" y2="-1.2" width="0.2032" layer="51"/>
+<wire x1="-2.5" y1="-1.2" x2="-2.5" y2="1.2" width="0.2032" layer="51"/>
+<wire x1="-2.5" y1="1.2" x2="-1" y2="1.2" width="0.2032" layer="51"/>
+<wire x1="1" y1="-1.2" x2="2.1" y2="-1.2" width="0.2032" layer="51"/>
+<wire x1="2.1" y1="-1.2" x2="2.5" y2="-0.8" width="0.2032" layer="51"/>
+<wire x1="2.5" y1="-0.8" x2="2.5" y2="0.8" width="0.2032" layer="51"/>
+<wire x1="2.5" y1="0.8" x2="2.1" y2="1.2" width="0.2032" layer="51"/>
+<wire x1="2.1" y1="1.2" x2="1" y2="1.2" width="0.2032" layer="51"/>
+<wire x1="2.413" y1="0.762" x2="2.413" y2="-0.762" width="0.2032" layer="21"/>
+<smd name="-" x="-1.4" y="0" dx="1.6" dy="1.4" layer="1" rot="R90"/>
+<smd name="+" x="1.4" y="0" dx="1.6" dy="1.4" layer="1" rot="R90"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-2.286" y1="0.9906" x2="2.286" y2="0.9906" width="0.0508" layer="39"/>
+<wire x1="2.286" y1="0.9906" x2="2.286" y2="-0.9906" width="0.0508" layer="39"/>
+<wire x1="2.286" y1="-0.9906" x2="-2.286" y2="-0.9906" width="0.0508" layer="39"/>
+<wire x1="-2.286" y1="-0.9906" x2="-2.286" y2="0.9906" width="0.0508" layer="39"/>
+</package>
+<package name="0603-POLAR">
+<description>&lt;p&gt;&lt;b&gt;Polarized 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-1.1" y1="-0.8" x2="-1.7" y2="-0.8" width="0.2032" layer="51"/>
+<wire x1="-1.7" y1="-0.8" x2="-1.7" y2="0.8" width="0.2032" layer="51"/>
+<wire x1="-1.7" y1="0.8" x2="-1.1" y2="0.8" width="0.2032" layer="51"/>
+<wire x1="1.1" y1="-0.8" x2="1.5" y2="-0.8" width="0.2032" layer="51"/>
+<wire x1="1.5" y1="-0.8" x2="1.9" y2="-0.4" width="0.2032" layer="51"/>
+<wire x1="1.9" y1="-0.4" x2="1.9" y2="0.4" width="0.2032" layer="51"/>
+<wire x1="1.9" y1="0.4" x2="1.5" y2="0.8" width="0.2032" layer="51"/>
+<wire x1="1.5" y1="0.8" x2="1.1" y2="0.8" width="0.2032" layer="51"/>
+<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="-" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="+" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<wire x1="1.651" y1="0.508" x2="1.651" y2="-0.508" width="0.2032" layer="21"/>
+</package>
+<package name="EIA3528">
+<description>Generic EIA 3528 polarized tantalum capacitor</description>
+<wire x1="-0.9" y1="-1.55" x2="-2.6" y2="-1.55" width="0.2032" layer="51"/>
+<wire x1="-2.6" y1="-1.55" x2="-2.6" y2="1.55" width="0.2032" layer="51"/>
+<wire x1="-2.6" y1="1.55" x2="-0.9" y2="1.55" width="0.2032" layer="51"/>
+<wire x1="1" y1="-1.55" x2="2.2" y2="-1.55" width="0.2032" layer="51"/>
+<wire x1="2.2" y1="-1.55" x2="2.6" y2="-1.2" width="0.2032" layer="51"/>
+<wire x1="2.6" y1="-1.2" x2="2.6" y2="1.25" width="0.2032" layer="51"/>
+<wire x1="2.6" y1="1.25" x2="2.2" y2="1.55" width="0.2032" layer="51"/>
+<wire x1="2.2" y1="1.55" x2="1" y2="1.55" width="0.2032" layer="51"/>
+<wire x1="2.641" y1="1.311" x2="2.641" y2="-1.286" width="0.2032" layer="21" style="longdash"/>
+<smd name="C" x="-1.65" y="0" dx="2.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="A" x="1.65" y="0" dx="2.5" dy="1.2" layer="1" rot="R90"/>
+<text x="0" y="1.778" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+<package name="CPOL-RADIAL-2.5MM-5MM">
+<description>2.5 mm spaced PTHs with 5 mm diameter outline and standard solder mask</description>
+<pad name="1" x="1.25" y="0" drill="0.7" diameter="1.651" shape="square"/>
+<pad name="2" x="-1.25" y="0" drill="0.7" diameter="1.651"/>
+<circle x="0" y="0" radius="2.5" width="0.2032" layer="21"/>
+<text x="0" y="2.667" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-2.667" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<wire x1="-0.742" y1="1.397" x2="-1.758" y2="1.397" width="0.2032" layer="21"/>
+<wire x1="1.758" y1="1.397" x2="0.742" y2="1.397" width="0.2032" layer="21"/>
+<wire x1="1.25" y1="1.905" x2="1.25" y2="0.889" width="0.2032" layer="21"/>
+</package>
+<package name="CPOL-RADIAL-2.5MM-5MM-KIT">
+<description>2.5 mm spaced PTHs with top copper masked</description>
+<circle x="0" y="0" radius="2.5" width="0.2032" layer="21"/>
+<pad name="1" x="1.25" y="0" drill="0.7" diameter="1.651" shape="square" stop="no"/>
+<pad name="2" x="-1.25" y="0" drill="0.7" diameter="1.651" stop="no"/>
+<text x="0" y="2.667" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-2.667" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<circle x="-1.25" y="0" radius="0.3556" width="0" layer="29"/>
+<circle x="-1.25" y="0" radius="0.9652" width="0" layer="30"/>
+<circle x="1.25" y="0" radius="0.3556" width="0" layer="29"/>
+<rectangle x1="0.2848" y1="-0.9652" x2="2.2152" y2="0.9652" layer="30"/>
+<wire x1="-0.742" y1="1.397" x2="-1.758" y2="1.397" width="0.2032" layer="21"/>
+<wire x1="1.758" y1="1.397" x2="0.742" y2="1.397" width="0.2032" layer="21"/>
+<wire x1="1.25" y1="1.905" x2="1.25" y2="0.889" width="0.2032" layer="21"/>
+</package>
+<package name="EIA6032-NOM">
+<description>Metric Size Code EIA 6032-25 Median (Nominal) Land Protrusion&lt;br /&gt;
+http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf</description>
+<wire x1="-3.91" y1="1.5" x2="-2" y2="1.5" width="0.127" layer="51"/>
+<wire x1="-3.91" y1="1.5" x2="-3.91" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="-3.91" y1="-1.5" x2="-2" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="2" y1="1.5" x2="3.5" y2="1.5" width="0.127" layer="51"/>
+<wire x1="3.5" y1="1.5" x2="3.91" y2="1" width="0.127" layer="51"/>
+<wire x1="3.91" y1="1" x2="3.91" y2="-1" width="0.127" layer="51"/>
+<wire x1="3.91" y1="-1" x2="3.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="3.5" y1="-1.5" x2="2" y2="-1.5" width="0.127" layer="51"/>
+<smd name="C" x="-2.47" y="0" dx="2.37" dy="2.23" layer="1" rot="R180"/>
+<smd name="A" x="2.47" y="0" dx="2.37" dy="2.23" layer="1" rot="R180"/>
+<text x="0" y="1.27" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.27" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<wire x1="3.91" y1="1" x2="3.91" y2="-1" width="0.127" layer="21"/>
+</package>
+<package name="1210">
+<description>&lt;p&gt;&lt;b&gt;Generic 3225 (1210) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-1.5365" y1="1.1865" x2="1.5365" y2="1.1865" width="0.127" layer="51"/>
+<wire x1="1.5365" y1="1.1865" x2="1.5365" y2="-1.1865" width="0.127" layer="51"/>
+<wire x1="1.5365" y1="-1.1865" x2="-1.5365" y2="-1.1865" width="0.127" layer="51"/>
+<wire x1="-1.5365" y1="-1.1865" x2="-1.5365" y2="1.1865" width="0.127" layer="51"/>
+<wire x1="-2.59" y1="1.45" x2="2.59" y2="1.45" width="0.0508" layer="39"/>
+<wire x1="2.59" y1="1.45" x2="2.59" y2="-1.45" width="0.0508" layer="39"/>
+<wire x1="2.59" y1="-1.45" x2="-2.59" y2="-1.45" width="0.0508" layer="39"/>
+<wire x1="-2.59" y1="-1.45" x2="-2.59" y2="1.45" width="0.0508" layer="39"/>
+<smd name="1" x="-1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
+<smd name="2" x="1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
+<text x="0" y="1.397" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.397" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CAP">
@@ -23053,6 +23173,28 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+<symbol name="CAP-2">
+<rectangle x1="-2.032" y1="0.508" x2="2.032" y2="1.016" layer="94"/>
+<rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="0.508" width="0.1524" layer="94"/>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<text x="1.524" y="2.921" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="1.524" y="-2.159" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+<symbol name="CAP_POL">
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.016" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1" x2="2.4892" y2="-1.8542" width="0.254" layer="94" curve="-37.878202" cap="flat"/>
+<wire x1="-2.4669" y1="-1.8504" x2="0" y2="-1.0161" width="0.254" layer="94" curve="-37.376341" cap="flat"/>
+<text x="1.016" y="0.635" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="1.016" y="-4.191" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<rectangle x1="-2.253" y1="0.668" x2="-1.364" y2="0.795" layer="94"/>
+<rectangle x1="-1.872" y1="0.287" x2="-1.745" y2="1.176" layer="94"/>
+<pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -23492,6 +23634,348 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technology name="">
 <attribute name="PROD_ID" value="CAP-15358" constant="no"/>
 <attribute name="VALUE" value="33pF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="8.2PF" prefix="C">
+<description>&lt;h3&gt;8.2pF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-50V-10%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-16662" constant="no"/>
+<attribute name="VALUE" value="8.2pF"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0.22UF" prefix="C">
+<description>&lt;h3&gt;0.22µF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-25V-10%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-07822" constant="no"/>
+<attribute name="VALUE" value="0.22uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402T-10V-10%" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-14846" constant="no"/>
+<attribute name="VALUE" value="0.22uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-50V-10%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-15456" constant="no"/>
+<attribute name="VALUE" value="0.22uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="10UF-POLAR" prefix="C">
+<description>&lt;h3&gt;10.0µF polarized capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP_POL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-EIA3216-16V-10%(TANT)" package="EIA3216">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-00811"/>
+<attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-6.3V-20%(TANT)" package="0603-POLAR">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-13210"/>
+<attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-EIA3528-20V-10%(TANT)" package="EIA3528">
+<connects>
+<connect gate="G$1" pin="+" pad="A"/>
+<connect gate="G$1" pin="-" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-08063"/>
+<attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-RADIAL-2.5MM-25V-20%" package="CPOL-RADIAL-2.5MM-5MM">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-08440"/>
+<attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-RADIAL-2.5MM-KIT-25V-20%" package="CPOL-RADIAL-2.5MM-5MM-KIT">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-08440"/>
+<attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-EIA6032-25V-10%" package="EIA6032-NOM">
+<connects>
+<connect gate="G$1" pin="+" pad="A"/>
+<connect gate="G$1" pin="-" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-12984"/>
+<attribute name="VALUE" value="10µF"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="10UF" prefix="C">
+<description>&lt;h3&gt;10.0µF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-6.3V-20%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-11015"/>
+<attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-1206-6.3V-20%" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-10057"/>
+<attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0805-10V-10%" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-11330"/>
+<attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-1210-50V-20%" package="1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-09824"/>
+<attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0805-25V-10%" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-14259"/>
+<attribute name="VALUE" value="10uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402T-6.3V-20%" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-14848" constant="no"/>
+<attribute name="VALUE" value="10uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="4.7UF" prefix="C">
+<description>&lt;h3&gt;4.7µF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="-0603-6.3V-(10%)" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-08280"/>
+<attribute name="VALUE" value="4.7uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-1206-16V-(+80/-20%)" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-10300" constant="no"/>
+<attribute name="VALUE" value="4.7uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-35V-(20%)" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-14106"/>
+<attribute name="VALUE" value="4.7uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402_TIGHT-6.3V-20%-X5R" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-14240"/>
+<attribute name="VALUE" value="4.7uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0805-50V-(10%)" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-15457" constant="no"/>
+<attribute name="VALUE" value="4.7uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="15PF" prefix="C">
+<description>&lt;h3&gt;15pF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0402-50V-5%" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-13063"/>
+<attribute name="VALUE" value="15pF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-50V-5%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-07881"/>
+<attribute name="VALUE" value="15pF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402T-50V-5%" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-13063" constant="no"/>
+<attribute name="VALUE" value="15pF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -24277,6 +24761,72 @@ Used as a test point connection for pogo pins or other debugging tools.
 <text x="-1.27" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 </package>
+<package name="NANO_SIM_PP">
+<description>Part#: ATOM-A03621 or MUP-C7801</description>
+<wire x1="-6.145" y1="6.75" x2="-6.145" y2="-6.75" width="0.05" layer="51"/>
+<wire x1="-6.145" y1="-6.75" x2="6.145" y2="-6.75" width="0.05" layer="51"/>
+<wire x1="6.145" y1="-6.75" x2="6.145" y2="6.75" width="0.05" layer="51"/>
+<wire x1="6.145" y1="6.75" x2="-6.145" y2="6.75" width="0.05" layer="51"/>
+<wire x1="3.25" y1="-7.311" x2="3.25" y2="-6.361" width="0.05" layer="49"/>
+<wire x1="3.25" y1="-6.361" x2="3.25" y2="3.6" width="0.05" layer="49"/>
+<wire x1="2.561" y1="4.3" x2="-3.65" y2="4.3" width="0.05" layer="49"/>
+<wire x1="-5.55" y1="2.65" x2="-5.55" y2="-6.35" width="0.05" layer="49"/>
+<wire x1="-5.55" y1="-6.35" x2="-5.55" y2="-7.3" width="0.05" layer="49"/>
+<wire x1="-4.861" y1="-8" x2="2.55" y2="-8" width="0.05" layer="49"/>
+<wire x1="2.55" y1="-8" x2="3.25" y2="-7.311" width="0.05" layer="49" curve="90.025014"/>
+<wire x1="-5.55" y1="-7.3" x2="-4.861" y2="-8" width="0.05" layer="49" curve="90.025014"/>
+<wire x1="3.25" y1="3.6" x2="2.561" y2="4.3" width="0.05" layer="49" curve="90.025014"/>
+<wire x1="-4" y1="4.2" x2="-3.65" y2="4.3" width="0.05" layer="49" curve="-39.054824"/>
+<wire x1="-5.4" y1="2.95" x2="-5.55" y2="2.65" width="0.05" layer="49" curve="52.253496"/>
+<wire x1="-5.4" y1="2.95" x2="-4" y2="4.2" width="0.05" layer="49"/>
+<wire x1="-1.15" y1="-1.35" x2="-1.15" y2="-2.35" width="0.05" layer="49"/>
+<wire x1="-0.65" y1="-1.85" x2="-1.65" y2="-1.85" width="0.05" layer="49"/>
+<wire x1="3.25" y1="-10.161" x2="3.25" y2="-7.311" width="0.05" layer="49"/>
+<wire x1="-5.55" y1="-7.3" x2="-5.55" y2="-10.15" width="0.05" layer="49"/>
+<wire x1="-4.861" y1="-10.85" x2="2.55" y2="-10.85" width="0.05" layer="49"/>
+<wire x1="2.55" y1="-10.85" x2="3.25" y2="-10.161" width="0.05" layer="49" curve="90.025014"/>
+<wire x1="-5.55" y1="-10.15" x2="-4.861" y2="-10.85" width="0.05" layer="49" curve="90.025014"/>
+<wire x1="-4.861" y1="-7.05" x2="2.55" y2="-7.05" width="0.05" layer="49"/>
+<wire x1="2.55" y1="-7.05" x2="3.25" y2="-6.361" width="0.05" layer="49" curve="90.025014"/>
+<wire x1="-5.55" y1="-6.35" x2="-4.861" y2="-7.05" width="0.05" layer="49" curve="90.025014"/>
+<wire x1="-1.15" y1="-1" x2="-1.15" y2="-8" width="0.05" layer="51"/>
+<wire x1="3.3" y1="6.8" x2="5.8" y2="6.8" width="0.1524" layer="21"/>
+<wire x1="6.2" y1="4.6" x2="6.2" y2="-4.6" width="0.1524" layer="21"/>
+<wire x1="-5.5" y1="6.8" x2="-5.8" y2="6.8" width="0.1524" layer="21"/>
+<wire x1="-6.2" y1="4.6" x2="-6.2" y2="-4.6" width="0.1524" layer="21"/>
+<rectangle x1="0.085" y1="6.75" x2="0.435" y2="7.85" layer="51"/>
+<rectangle x1="-1.185" y1="6.75" x2="-0.835" y2="7.85" layer="51"/>
+<rectangle x1="-2.455" y1="6.75" x2="-2.105" y2="7.85" layer="51"/>
+<rectangle x1="-3.725" y1="6.75" x2="-3.375" y2="7.85" layer="51"/>
+<rectangle x1="-4.995" y1="6.75" x2="-4.645" y2="7.85" layer="51"/>
+<rectangle x1="1.355" y1="6.75" x2="1.705" y2="7.85" layer="51"/>
+<rectangle x1="2.305" y1="6.75" x2="2.655" y2="7.85" layer="51"/>
+<rectangle x1="-6.545" y1="5.25" x2="-6.145" y2="6.75" layer="51"/>
+<rectangle x1="-6.545" y1="-6.75" x2="-6.145" y2="-5.25" layer="51"/>
+<rectangle x1="6.145" y1="5.25" x2="6.545" y2="6.75" layer="51"/>
+<rectangle x1="6.145" y1="-6.75" x2="6.545" y2="-5.25" layer="51"/>
+<smd name="A1" x="6.495" y="6" dx="0.7" dy="2.1" layer="1"/>
+<smd name="A2" x="-6.495" y="6" dx="0.7" dy="2.1" layer="1"/>
+<smd name="A3" x="-6.495" y="-6" dx="0.7" dy="2.1" layer="1"/>
+<smd name="A4" x="6.495" y="-6" dx="0.7" dy="2.1" layer="1"/>
+<smd name="C1" x="0.255" y="7.535" dx="0.65" dy="1.23" layer="1"/>
+<smd name="C2" x="-2.285" y="7.535" dx="0.65" dy="1.23" layer="1"/>
+<smd name="C3" x="-4.825" y="7.535" dx="0.65" dy="1.23" layer="1"/>
+<smd name="C5" x="1.525" y="7.535" dx="0.65" dy="1.23" layer="1"/>
+<smd name="C6" x="-1.015" y="7.535" dx="0.65" dy="1.23" layer="1"/>
+<smd name="C7" x="-3.555" y="7.535" dx="0.65" dy="1.23" layer="1"/>
+<smd name="CD" x="2.475" y="7.535" dx="0.65" dy="1.23" layer="1"/>
+<text x="0" y="1" size="0.5" layer="25" align="center">&gt;Name</text>
+<text x="0" y="0" size="0.5" layer="27" align="center">&gt;Value</text>
+<hole x="3.505" y="-4.75" drill="0.75"/>
+<hole x="-4.995" y="-4.75" drill="0.75"/>
+<rectangle x1="-4.477" y1="-6.797" x2="-2.876" y2="-2.096" layer="41"/>
+<rectangle x1="-1.937" y1="-6.797" x2="-0.336" y2="-2.096" layer="41"/>
+<rectangle x1="0.603" y1="-6.797" x2="2.204" y2="-2.096" layer="41"/>
+<rectangle x1="-4.5" y1="0.344" x2="-2.899" y2="5.045" layer="41"/>
+<rectangle x1="-1.96" y1="0.344" x2="-0.359" y2="5.045" layer="41"/>
+<rectangle x1="0.58" y1="0.344" x2="2.181" y2="5.045" layer="41"/>
+</package>
 </packages>
 <symbols>
 <symbol name="USB-C-MINIMUM">
@@ -24311,6 +24861,21 @@ Exposes the minimal pins needed to implement a USB 2.x legacy device.</descripti
 <text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;Name</text>
 <text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector">&gt;Value</text>
 <pin name="1" x="0" y="0" visible="off" length="point" rot="R180"/>
+</symbol>
+<symbol name="SIMHOLDER-1">
+<wire x1="-5.08" y1="-7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="12.7" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<pin name="CD" x="-7.62" y="10.16" visible="pin" length="short" direction="in"/>
+<pin name="CLK" x="-7.62" y="0" visible="pin" length="short" direction="in"/>
+<pin name="GND" x="-7.62" y="-5.08" visible="pin" length="short" direction="pwr"/>
+<pin name="I/O" x="-7.62" y="2.54" visible="pin" length="short"/>
+<pin name="RST" x="-7.62" y="-2.54" visible="pin" length="short" direction="in"/>
+<pin name="VCC" x="-7.62" y="5.08" visible="pin" length="short" direction="pwr"/>
+<pin name="VPP" x="-7.62" y="7.62" visible="pin" length="short" direction="in"/>
+<text x="-4.572" y="13.208" size="1.778" layer="95">&gt;Name</text>
+<text x="-4.572" y="-10.16" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -24485,6 +25050,37 @@ If designing 4-layer board, make sure to select the variant &lt;strong&gt;_4-LAY
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIMHOLDER_WITH_CD" prefix="J" uservalue="yes">
+<description>&lt;h3&gt;SIM Cellular Card Socket&lt;/h3&gt;
+&lt;p&gt;SMT 6 pin standard connection. &lt;/p&gt;
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/548”&gt;SIM Socket&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13120"&gt;SparkFun Cellular Shield - MG2639&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/573”&gt;SparkFun SIM Card Socket Breakout&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="J1" symbol="SIMHOLDER-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-PUSHPUSH" package="NANO_SIM_PP">
+<connects>
+<connect gate="J1" pin="CD" pad="CD"/>
+<connect gate="J1" pin="CLK" pad="C3"/>
+<connect gate="J1" pin="GND" pad="A1 A2 A3 A4 C5"/>
+<connect gate="J1" pin="I/O" pad="C7"/>
+<connect gate="J1" pin="RST" pad="C2"/>
+<connect gate="J1" pin="VCC" pad="C1"/>
+<connect gate="J1" pin="VPP" pad="C6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-16272" constant="no"/>
+<attribute name="VALUE" value="NANO_SIM" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -25948,742 +26544,6 @@ Provides ESD protection</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">
-<description>&lt;h3&gt;SparkFun Capacitors&lt;/h3&gt;
-This library contains capacitors. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="0603" urn="urn:adsk.eagle:footprint:37386/1" library_version="1">
-<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
-<package name="0402" urn="urn:adsk.eagle:footprint:37389/1" library_version="1">
-<description>&lt;p&gt;&lt;b&gt;Generic 1005 (0402) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-0.2704" y1="0.2286" x2="0.2704" y2="0.2286" width="0.1524" layer="51"/>
-<wire x1="0.2704" y1="-0.2286" x2="-0.2704" y2="-0.2286" width="0.1524" layer="51"/>
-<wire x1="-1.2" y1="0.65" x2="1.2" y2="0.65" width="0.0508" layer="39"/>
-<wire x1="1.2" y1="0.65" x2="1.2" y2="-0.65" width="0.0508" layer="39"/>
-<wire x1="1.2" y1="-0.65" x2="-1.2" y2="-0.65" width="0.0508" layer="39"/>
-<wire x1="-1.2" y1="-0.65" x2="-1.2" y2="0.65" width="0.0508" layer="39"/>
-<smd name="1" x="-0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
-<smd name="2" x="0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
-<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.3048" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.3048" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
-<package name="CAP-PTH-SMALL-KIT" urn="urn:adsk.eagle:footprint:37404/1" library_version="1">
-<description>&lt;h3&gt;CAP-PTH-SMALL-KIT&lt;/h3&gt;
-Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.com/products/8375) or 22pF caps (http://www.sparkfun.com/products/8571).&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.</description>
-<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.254" layer="21"/>
-<wire x1="-2.667" y1="1.27" x2="2.667" y2="1.27" width="0.254" layer="21"/>
-<wire x1="2.667" y1="1.27" x2="2.667" y2="-1.27" width="0.254" layer="21"/>
-<wire x1="2.667" y1="-1.27" x2="-2.667" y2="-1.27" width="0.254" layer="21"/>
-<wire x1="-2.667" y1="-1.27" x2="-2.667" y2="1.27" width="0.254" layer="21"/>
-<pad name="1" x="-1.397" y="0" drill="1.016" diameter="2.032" stop="no"/>
-<pad name="2" x="1.397" y="0" drill="1.016" diameter="2.032" stop="no"/>
-<polygon width="0.127" layer="30">
-<vertex x="-1.4021" y="-0.9475" curve="-90"/>
-<vertex x="-2.357" y="-0.0178" curve="-90.011749"/>
-<vertex x="-1.4046" y="0.9576" curve="-90"/>
-<vertex x="-0.4546" y="-0.0204" curve="-90.024193"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="-1.4046" y="-0.4395" curve="-90.012891"/>
-<vertex x="-1.8491" y="-0.0153" curve="-90"/>
-<vertex x="-1.4046" y="0.452" curve="-90"/>
-<vertex x="-0.9627" y="-0.0051" curve="-90.012967"/>
-</polygon>
-<polygon width="0.127" layer="30">
-<vertex x="1.397" y="-0.9475" curve="-90"/>
-<vertex x="0.4421" y="-0.0178" curve="-90.011749"/>
-<vertex x="1.3945" y="0.9576" curve="-90"/>
-<vertex x="2.3445" y="-0.0204" curve="-90.024193"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="1.3945" y="-0.4395" curve="-90.012891"/>
-<vertex x="0.95" y="-0.0153" curve="-90"/>
-<vertex x="1.3945" y="0.452" curve="-90"/>
-<vertex x="1.8364" y="-0.0051" curve="-90.012967"/>
-</polygon>
-</package>
-<package name="EIA3216" urn="urn:adsk.eagle:footprint:37394/1" library_version="1">
-<description>Generic EIA 3216 (1206) polarized tantalum capacitor</description>
-<wire x1="-1" y1="-1.2" x2="-2.5" y2="-1.2" width="0.2032" layer="51"/>
-<wire x1="-2.5" y1="-1.2" x2="-2.5" y2="1.2" width="0.2032" layer="51"/>
-<wire x1="-2.5" y1="1.2" x2="-1" y2="1.2" width="0.2032" layer="51"/>
-<wire x1="1" y1="-1.2" x2="2.1" y2="-1.2" width="0.2032" layer="51"/>
-<wire x1="2.1" y1="-1.2" x2="2.5" y2="-0.8" width="0.2032" layer="51"/>
-<wire x1="2.5" y1="-0.8" x2="2.5" y2="0.8" width="0.2032" layer="51"/>
-<wire x1="2.5" y1="0.8" x2="2.1" y2="1.2" width="0.2032" layer="51"/>
-<wire x1="2.1" y1="1.2" x2="1" y2="1.2" width="0.2032" layer="51"/>
-<wire x1="2.413" y1="0.762" x2="2.413" y2="-0.762" width="0.2032" layer="21"/>
-<smd name="-" x="-1.4" y="0" dx="1.6" dy="1.4" layer="1" rot="R90"/>
-<smd name="+" x="1.4" y="0" dx="1.6" dy="1.4" layer="1" rot="R90"/>
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
-<package name="0603-POLAR" urn="urn:adsk.eagle:footprint:37395/1" library_version="1">
-<description>&lt;p&gt;&lt;b&gt;Polarized 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-1.1" y1="-0.8" x2="-1.7" y2="-0.8" width="0.2032" layer="51"/>
-<wire x1="-1.7" y1="-0.8" x2="-1.7" y2="0.8" width="0.2032" layer="51"/>
-<wire x1="-1.7" y1="0.8" x2="-1.1" y2="0.8" width="0.2032" layer="51"/>
-<wire x1="1.1" y1="-0.8" x2="1.5" y2="-0.8" width="0.2032" layer="51"/>
-<wire x1="1.5" y1="-0.8" x2="1.9" y2="-0.4" width="0.2032" layer="51"/>
-<wire x1="1.9" y1="-0.4" x2="1.9" y2="0.4" width="0.2032" layer="51"/>
-<wire x1="1.9" y1="0.4" x2="1.5" y2="0.8" width="0.2032" layer="51"/>
-<wire x1="1.5" y1="0.8" x2="1.1" y2="0.8" width="0.2032" layer="51"/>
-<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<wire x1="1.651" y1="0.508" x2="1.651" y2="-0.508" width="0.127" layer="21"/>
-<smd name="-" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="+" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-</package>
-<package name="EIA3528" urn="urn:adsk.eagle:footprint:37383/1" library_version="1">
-<description>Generic EIA 3528 polarized tantalum capacitor</description>
-<wire x1="-0.9" y1="-1.6" x2="-2.6" y2="-1.6" width="0.2032" layer="51"/>
-<wire x1="-2.6" y1="-1.6" x2="-2.6" y2="1.55" width="0.2032" layer="51"/>
-<wire x1="-2.6" y1="1.55" x2="-0.9" y2="1.55" width="0.2032" layer="51"/>
-<wire x1="1" y1="-1.55" x2="2.2" y2="-1.55" width="0.2032" layer="51"/>
-<wire x1="2.2" y1="-1.55" x2="2.6" y2="-1.2" width="0.2032" layer="51"/>
-<wire x1="2.6" y1="-1.2" x2="2.6" y2="1.25" width="0.2032" layer="51"/>
-<wire x1="2.6" y1="1.25" x2="2.2" y2="1.55" width="0.2032" layer="51"/>
-<wire x1="2.2" y1="1.55" x2="1" y2="1.55" width="0.2032" layer="51"/>
-<wire x1="2.641" y1="1.311" x2="2.641" y2="-1.286" width="0.2032" layer="21" style="longdash"/>
-<smd name="C" x="-1.65" y="0" dx="2.5" dy="1.2" layer="1" rot="R90"/>
-<smd name="A" x="1.65" y="0" dx="2.5" dy="1.2" layer="1" rot="R90"/>
-<text x="0" y="1.778" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
-<package name="CPOL-RADIAL-2.5MM-5MM" urn="urn:adsk.eagle:footprint:37396/1" library_version="1">
-<description>2.5 mm spaced PTHs with 5 mm diameter outline and standard solder mask</description>
-<pad name="1" x="1.25" y="0" drill="0.7" diameter="1.651" shape="square"/>
-<pad name="2" x="-1.25" y="0" drill="0.7" diameter="1.651"/>
-<circle x="0" y="0" radius="2.5" width="0.2032" layer="21"/>
-<text x="0" y="2.667" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-2.667" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-<wire x1="-0.742" y1="1.397" x2="-1.758" y2="1.397" width="0.2032" layer="21"/>
-<wire x1="1.758" y1="1.397" x2="0.742" y2="1.397" width="0.2032" layer="21"/>
-<wire x1="1.25" y1="1.905" x2="1.25" y2="0.889" width="0.2032" layer="21"/>
-</package>
-<package name="CPOL-RADIAL-2.5MM-5MM-KIT" urn="urn:adsk.eagle:footprint:37397/1" library_version="1">
-<description>2.5 mm spaced PTHs with top copper masked</description>
-<circle x="0" y="0" radius="2.5" width="0.2032" layer="21"/>
-<circle x="-1.25" y="0" radius="0.3556" width="0" layer="29"/>
-<circle x="-1.25" y="0" radius="0.9652" width="0" layer="30"/>
-<circle x="1.25" y="0" radius="0.3556" width="0" layer="29"/>
-<pad name="1" x="1.25" y="0" drill="0.7" diameter="1.651" shape="square" stop="no"/>
-<pad name="2" x="-1.25" y="0" drill="0.7" diameter="1.651" stop="no"/>
-<text x="0" y="2.667" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-2.667" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-<rectangle x1="0.2848" y1="-0.9652" x2="2.2152" y2="0.9652" layer="30"/>
-<wire x1="-0.742" y1="1.397" x2="-1.758" y2="1.397" width="0.2032" layer="21"/>
-<wire x1="1.758" y1="1.397" x2="0.742" y2="1.397" width="0.2032" layer="21"/>
-<wire x1="1.25" y1="1.905" x2="1.25" y2="0.889" width="0.2032" layer="21"/>
-</package>
-<package name="EIA6032-NOM" urn="urn:adsk.eagle:footprint:37398/1" library_version="1">
-<description>Metric Size Code EIA 6032-25 Median (Nominal) Land Protrusion&lt;br /&gt;
-http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf</description>
-<wire x1="-3.91" y1="1.5" x2="-2" y2="1.5" width="0.127" layer="51"/>
-<wire x1="-3.91" y1="1.5" x2="-3.91" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="-3.91" y1="-1.5" x2="-2" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="2" y1="1.5" x2="3.5" y2="1.5" width="0.127" layer="51"/>
-<wire x1="3.5" y1="1.5" x2="3.91" y2="1" width="0.127" layer="51"/>
-<wire x1="3.91" y1="1" x2="3.91" y2="-1" width="0.127" layer="51"/>
-<wire x1="3.91" y1="-1" x2="3.5" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="3.5" y1="-1.5" x2="2" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="3.91" y1="1" x2="3.91" y2="-1" width="0.127" layer="21"/>
-<smd name="C" x="-2.47" y="0" dx="2.37" dy="2.23" layer="1" rot="R180"/>
-<smd name="A" x="2.47" y="0" dx="2.37" dy="2.23" layer="1" rot="R180"/>
-<text x="0" y="1.27" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-1.27" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
-<package name="1206" urn="urn:adsk.eagle:footprint:37399/1" library_version="1">
-<description>&lt;p&gt;&lt;b&gt;Generic 3216 (1206) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-2.4" y1="1.1" x2="2.4" y2="1.1" width="0.0508" layer="39"/>
-<wire x1="2.4" y1="-1.1" x2="-2.4" y2="-1.1" width="0.0508" layer="39"/>
-<wire x1="-2.4" y1="-1.1" x2="-2.4" y2="1.1" width="0.0508" layer="39"/>
-<wire x1="2.4" y1="1.1" x2="2.4" y2="-1.1" width="0.0508" layer="39"/>
-<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
-<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
-<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-</package>
-<package name="0805" urn="urn:adsk.eagle:footprint:37400/1" library_version="1">
-<description>&lt;p&gt;&lt;b&gt;Generic 2012 (0805) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
-<smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
-<text x="0" y="0.889" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.889" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="-1.5" y1="0.8" x2="1.5" y2="0.8" width="0.0508" layer="39"/>
-<wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.0508" layer="39"/>
-<wire x1="1.5" y1="-0.8" x2="-1.5" y2="-0.8" width="0.0508" layer="39"/>
-<wire x1="-1.5" y1="-0.8" x2="-1.5" y2="0.8" width="0.0508" layer="39"/>
-</package>
-<package name="1210" urn="urn:adsk.eagle:footprint:37401/1" library_version="1">
-<description>&lt;p&gt;&lt;b&gt;Generic 3225 (1210) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-1.5365" y1="1.1865" x2="1.5365" y2="1.1865" width="0.127" layer="51"/>
-<wire x1="1.5365" y1="1.1865" x2="1.5365" y2="-1.1865" width="0.127" layer="51"/>
-<wire x1="1.5365" y1="-1.1865" x2="-1.5365" y2="-1.1865" width="0.127" layer="51"/>
-<wire x1="-1.5365" y1="-1.1865" x2="-1.5365" y2="1.1865" width="0.127" layer="51"/>
-<wire x1="-2.59" y1="1.45" x2="2.59" y2="1.45" width="0.0508" layer="39"/>
-<wire x1="2.59" y1="1.45" x2="2.59" y2="-1.45" width="0.0508" layer="39"/>
-<wire x1="2.59" y1="-1.45" x2="-2.59" y2="-1.45" width="0.0508" layer="39"/>
-<wire x1="-2.59" y1="-1.45" x2="-2.59" y2="1.45" width="0.0508" layer="39"/>
-<smd name="1" x="-1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
-<smd name="2" x="1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
-<text x="0" y="1.397" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.397" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="0603" urn="urn:adsk.eagle:package:37414/1" type="box" library_version="1">
-<description>Generic 1608 (0603) package
-0.2mm courtyard excess rounded to nearest 0.05mm.</description>
-<packageinstances>
-<packageinstance name="0603"/>
-</packageinstances>
-</package3d>
-<package3d name="0402" urn="urn:adsk.eagle:package:37413/1" type="box" library_version="1">
-<description>Generic 1005 (0402) package
-0.2mm courtyard excess rounded to nearest 0.05mm.</description>
-<packageinstances>
-<packageinstance name="0402"/>
-</packageinstances>
-</package3d>
-<package3d name="CAP-PTH-SMALL-KIT" urn="urn:adsk.eagle:package:37428/1" type="box" library_version="1">
-<description>CAP-PTH-SMALL-KIT
-Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.com/products/8375) or 22pF caps (http://www.sparkfun.com/products/8571).
-
-Warning: This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.</description>
-<packageinstances>
-<packageinstance name="CAP-PTH-SMALL-KIT"/>
-</packageinstances>
-</package3d>
-<package3d name="EIA3216" urn="urn:adsk.eagle:package:37418/1" type="box" library_version="1">
-<description>Generic EIA 3216 (1206) polarized tantalum capacitor</description>
-<packageinstances>
-<packageinstance name="EIA3216"/>
-</packageinstances>
-</package3d>
-<package3d name="0603-POLAR" urn="urn:adsk.eagle:package:37422/1" type="box" library_version="1">
-<description>Polarized 1608 (0603) package
-0.2mm courtyard excess rounded to nearest 0.05mm.</description>
-<packageinstances>
-<packageinstance name="0603-POLAR"/>
-</packageinstances>
-</package3d>
-<package3d name="EIA3528" urn="urn:adsk.eagle:package:37411/1" type="box" library_version="1">
-<description>Generic EIA 3528 polarized tantalum capacitor</description>
-<packageinstances>
-<packageinstance name="EIA3528"/>
-</packageinstances>
-</package3d>
-<package3d name="CPOL-RADIAL-2.5MM-5MM" urn="urn:adsk.eagle:package:37423/1" type="box" library_version="1">
-<description>2.5 mm spaced PTHs with 5 mm diameter outline and standard solder mask</description>
-<packageinstances>
-<packageinstance name="CPOL-RADIAL-2.5MM-5MM"/>
-</packageinstances>
-</package3d>
-<package3d name="CPOL-RADIAL-2.5MM-5MM-KIT" urn="urn:adsk.eagle:package:37424/1" type="box" library_version="1">
-<description>2.5 mm spaced PTHs with top copper masked</description>
-<packageinstances>
-<packageinstance name="CPOL-RADIAL-2.5MM-5MM-KIT"/>
-</packageinstances>
-</package3d>
-<package3d name="EIA6032-NOM" urn="urn:adsk.eagle:package:37425/1" type="box" library_version="1">
-<description>Metric Size Code EIA 6032-25 Median (Nominal) Land Protrusion
-http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf</description>
-<packageinstances>
-<packageinstance name="EIA6032-NOM"/>
-</packageinstances>
-</package3d>
-<package3d name="1206" urn="urn:adsk.eagle:package:37426/1" type="box" library_version="1">
-<description>Generic 3216 (1206) package
-0.2mm courtyard excess rounded to nearest 0.05mm.</description>
-<packageinstances>
-<packageinstance name="1206"/>
-</packageinstances>
-</package3d>
-<package3d name="0805" urn="urn:adsk.eagle:package:37429/1" type="box" library_version="1">
-<description>Generic 2012 (0805) package
-0.2mm courtyard excess rounded to nearest 0.05mm.</description>
-<packageinstances>
-<packageinstance name="0805"/>
-</packageinstances>
-</package3d>
-<package3d name="1210" urn="urn:adsk.eagle:package:37436/1" type="box" library_version="1">
-<description>Generic 3225 (1210) package
-0.2mm courtyard excess rounded to nearest 0.05mm.</description>
-<packageinstances>
-<packageinstance name="1210"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="CAP" urn="urn:adsk.eagle:symbol:37385/1" library_version="1">
-<wire x1="0" y1="2.54" x2="0" y2="2.032" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="0.508" width="0.1524" layer="94"/>
-<text x="1.524" y="2.921" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="1.524" y="-2.159" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-<rectangle x1="-2.032" y1="0.508" x2="2.032" y2="1.016" layer="94"/>
-<rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
-<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
-<symbol name="CAP_POL" urn="urn:adsk.eagle:symbol:37382/1" library_version="1">
-<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.016" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1" x2="2.4892" y2="-1.8542" width="0.254" layer="94" curve="-37.878202" cap="flat"/>
-<wire x1="-2.4669" y1="-1.8504" x2="0" y2="-1.0161" width="0.254" layer="94" curve="-37.376341" cap="flat"/>
-<text x="1.016" y="0.635" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="1.016" y="-4.191" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-<rectangle x1="-2.253" y1="0.668" x2="-1.364" y2="0.795" layer="94"/>
-<rectangle x1="-1.872" y1="0.287" x2="-1.745" y2="1.176" layer="94"/>
-<pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="0.22UF" urn="urn:adsk.eagle:component:37437/1" prefix="C" library_version="1">
-<description>&lt;h3&gt;0.22µF ceramic capacitors&lt;/h3&gt;
-&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603-25V-10%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37414/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-07822" constant="no"/>
-<attribute name="VALUE" value="0.22uF" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-0603-50V-(-20/+80%)" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37414/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-09885"/>
-<attribute name="VALUE" value="0.22uF"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="0.1UF" urn="urn:adsk.eagle:component:37472/1" prefix="C" library_version="1">
-<description>&lt;h3&gt;0.1µF ceramic capacitors&lt;/h3&gt;
-&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0402-16V-10%" package="0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37413/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-12416"/>
-<attribute name="VALUE" value="0.1uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0603-25V-(+80/-20%)" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37414/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-00810"/>
-<attribute name="VALUE" value="0.1uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0603-25V-5%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37414/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-08604"/>
-<attribute name="VALUE" value="0.1uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-KIT-EZ-50V-20%" package="CAP-PTH-SMALL-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37428/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-08370"/>
-<attribute name="VALUE" value="0.1uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0603-100V-10%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37414/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-08390"/>
-<attribute name="VALUE" value="0.1uF"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="10UF-POLAR" urn="urn:adsk.eagle:component:37468/1" prefix="C" library_version="1">
-<description>&lt;h3&gt;10.0µF polarized capacitors&lt;/h3&gt;
-&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAP_POL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-EIA3216-16V-10%(TANT)" package="EIA3216">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37418/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-00811"/>
-<attribute name="VALUE" value="10uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0603-6.3V-20%(TANT)" package="0603-POLAR">
-<connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37422/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-13210"/>
-<attribute name="VALUE" value="10uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-EIA3528-20V-10%(TANT)" package="EIA3528">
-<connects>
-<connect gate="G$1" pin="+" pad="A"/>
-<connect gate="G$1" pin="-" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37411/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-08063"/>
-<attribute name="VALUE" value="10uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-RADIAL-2.5MM-25V-20%" package="CPOL-RADIAL-2.5MM-5MM">
-<connects>
-<connect gate="G$1" pin="+" pad="1"/>
-<connect gate="G$1" pin="-" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37423/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-08440"/>
-<attribute name="VALUE" value="10uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-RADIAL-2.5MM-KIT-25V-20%" package="CPOL-RADIAL-2.5MM-5MM-KIT">
-<connects>
-<connect gate="G$1" pin="+" pad="1"/>
-<connect gate="G$1" pin="-" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37424/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-08440"/>
-<attribute name="VALUE" value="10uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-EIA6032-25V-10%" package="EIA6032-NOM">
-<connects>
-<connect gate="G$1" pin="+" pad="A"/>
-<connect gate="G$1" pin="-" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37425/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-12984"/>
-<attribute name="VALUE" value="10µF"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="4.7UF" urn="urn:adsk.eagle:component:37469/1" prefix="C" library_version="1">
-<description>&lt;h3&gt;4.7µF ceramic capacitors&lt;/h3&gt;
-&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="-2.54"/>
-</gates>
-<devices>
-<device name="0603" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37414/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-08280"/>
-<attribute name="VALUE" value="4.7uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-1206-16V-(+80/-20%)" package="1206">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37426/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-10300" constant="no"/>
-<attribute name="VALUE" value="4.7uF" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="47PF" urn="urn:adsk.eagle:component:37454/1" prefix="C" library_version="1">
-<description>&lt;h3&gt;47pF ceramic capacitors&lt;/h3&gt;
-&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603-50V-5%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37414/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-08913"/>
-<attribute name="VALUE" value="47pF"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="10UF" urn="urn:adsk.eagle:component:37478/1" prefix="C" library_version="1">
-<description>&lt;h3&gt;10.0µF ceramic capacitors&lt;/h3&gt;
-&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603-6.3V-20%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37414/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-11015"/>
-<attribute name="VALUE" value="10uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-1206-6.3V-20%" package="1206">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37426/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-10057"/>
-<attribute name="VALUE" value="10uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0805-10V-10%" package="0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37429/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-11330"/>
-<attribute name="VALUE" value="10uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-1210-50V-20%" package="1210">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37436/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-09824"/>
-<attribute name="VALUE" value="10uF"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="15PF" urn="urn:adsk.eagle:component:37460/1" prefix="C" library_version="1">
-<description>&lt;h3&gt;15pF ceramic capacitors&lt;/h3&gt;
-&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0402-50V-5%" package="0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37413/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-13063"/>
-<attribute name="VALUE" value="15pF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0603-50V-5%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37414/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-07881"/>
-<attribute name="VALUE" value="15pF"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Switches">
 <description>&lt;h3&gt;SparkFun Switches, Buttons, Encoders&lt;/h3&gt;
 In this library you'll find switches, buttons, joysticks, and anything that moves to create or disrupt an electrical connection.
@@ -27974,73 +27834,6 @@ Supply: 1.65V to 5.5V
 </deviceset>
 </devicesets>
 </library>
-<library name="HPG_Solution">
-<packages>
-<package name="0603" urn="urn:adsk.eagle:footprint:37386/1" library_version="1">
-<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="0603" urn="urn:adsk.eagle:package:37414/1" type="box" library_version="1">
-<description>Generic 1608 (0603) package
-0.2mm courtyard excess rounded to nearest 0.05mm.</description>
-<packageinstances>
-<packageinstance name="0603"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="CAP">
-<wire x1="0" y1="2.54" x2="0" y2="2.032" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="0.508" width="0.1524" layer="94"/>
-<text x="1.524" y="2.921" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="1.524" y="-2.159" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-<rectangle x1="-2.032" y1="0.508" x2="2.032" y2="1.016" layer="94"/>
-<rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
-<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="8.2PF" prefix="C">
-<description>&lt;h3&gt;8.2pF ceramic capacitors&lt;/h3&gt;
-&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603-50V-10%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37414/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="8.2pF"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-MicroMod">
 <packages>
 <package name="M.2-CARD-E-22_FUNCTION_STANDARD">
@@ -28586,201 +28379,6 @@ sized tool</text>
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="CONN-14877" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="HPG_Solution_v1.0">
-<packages>
-<package name="NANO_SIM_PP">
-<description>Part#: ATOM-A03621 or MUP-C7801</description>
-<wire x1="-6.145" y1="6.75" x2="-6.145" y2="-6.75" width="0.05" layer="51"/>
-<wire x1="-6.145" y1="-6.75" x2="6.145" y2="-6.75" width="0.05" layer="51"/>
-<wire x1="6.145" y1="-6.75" x2="6.145" y2="6.75" width="0.05" layer="51"/>
-<wire x1="6.145" y1="6.75" x2="-6.145" y2="6.75" width="0.05" layer="51"/>
-<wire x1="3.25" y1="-7.311" x2="3.25" y2="-6.361" width="0.05" layer="49"/>
-<wire x1="3.25" y1="-6.361" x2="3.25" y2="3.6" width="0.05" layer="49"/>
-<wire x1="2.561" y1="4.3" x2="-3.65" y2="4.3" width="0.05" layer="49"/>
-<wire x1="-5.55" y1="2.65" x2="-5.55" y2="-6.35" width="0.05" layer="49"/>
-<wire x1="-5.55" y1="-6.35" x2="-5.55" y2="-7.3" width="0.05" layer="49"/>
-<wire x1="-4.861" y1="-8" x2="2.55" y2="-8" width="0.05" layer="49"/>
-<wire x1="2.55" y1="-8" x2="3.25" y2="-7.311" width="0.05" layer="49" curve="90.025014"/>
-<wire x1="-5.55" y1="-7.3" x2="-4.861" y2="-8" width="0.05" layer="49" curve="90.025014"/>
-<wire x1="3.25" y1="3.6" x2="2.561" y2="4.3" width="0.05" layer="49" curve="90.025014"/>
-<wire x1="-4" y1="4.2" x2="-3.65" y2="4.3" width="0.05" layer="49" curve="-39.054824"/>
-<wire x1="-5.4" y1="2.95" x2="-5.55" y2="2.65" width="0.05" layer="49" curve="52.253496"/>
-<wire x1="-5.4" y1="2.95" x2="-4" y2="4.2" width="0.05" layer="49"/>
-<wire x1="-1.15" y1="-1.35" x2="-1.15" y2="-2.35" width="0.05" layer="49"/>
-<wire x1="-0.65" y1="-1.85" x2="-1.65" y2="-1.85" width="0.05" layer="49"/>
-<wire x1="3.25" y1="-10.161" x2="3.25" y2="-7.311" width="0.05" layer="49"/>
-<wire x1="-5.55" y1="-7.3" x2="-5.55" y2="-10.15" width="0.05" layer="49"/>
-<wire x1="-4.861" y1="-10.85" x2="2.55" y2="-10.85" width="0.05" layer="49"/>
-<wire x1="2.55" y1="-10.85" x2="3.25" y2="-10.161" width="0.05" layer="49" curve="90.025014"/>
-<wire x1="-5.55" y1="-10.15" x2="-4.861" y2="-10.85" width="0.05" layer="49" curve="90.025014"/>
-<wire x1="-4.861" y1="-7.05" x2="2.55" y2="-7.05" width="0.05" layer="49"/>
-<wire x1="2.55" y1="-7.05" x2="3.25" y2="-6.361" width="0.05" layer="49" curve="90.025014"/>
-<wire x1="-5.55" y1="-6.35" x2="-4.861" y2="-7.05" width="0.05" layer="49" curve="90.025014"/>
-<wire x1="-1.15" y1="-1" x2="-1.15" y2="-8" width="0.05" layer="51"/>
-<wire x1="3.3" y1="6.8" x2="5.8" y2="6.8" width="0.1524" layer="21"/>
-<wire x1="6.2" y1="4.6" x2="6.2" y2="-4.6" width="0.1524" layer="21"/>
-<wire x1="-5.5" y1="6.8" x2="-5.8" y2="6.8" width="0.1524" layer="21"/>
-<wire x1="-6.2" y1="4.6" x2="-6.2" y2="-4.6" width="0.1524" layer="21"/>
-<rectangle x1="0.085" y1="6.75" x2="0.435" y2="7.85" layer="51"/>
-<rectangle x1="-1.185" y1="6.75" x2="-0.835" y2="7.85" layer="51"/>
-<rectangle x1="-2.455" y1="6.75" x2="-2.105" y2="7.85" layer="51"/>
-<rectangle x1="-3.725" y1="6.75" x2="-3.375" y2="7.85" layer="51"/>
-<rectangle x1="-4.995" y1="6.75" x2="-4.645" y2="7.85" layer="51"/>
-<rectangle x1="1.355" y1="6.75" x2="1.705" y2="7.85" layer="51"/>
-<rectangle x1="2.305" y1="6.75" x2="2.655" y2="7.85" layer="51"/>
-<rectangle x1="-6.545" y1="5.25" x2="-6.145" y2="6.75" layer="51"/>
-<rectangle x1="-6.545" y1="-6.75" x2="-6.145" y2="-5.25" layer="51"/>
-<rectangle x1="6.145" y1="5.25" x2="6.545" y2="6.75" layer="51"/>
-<rectangle x1="6.145" y1="-6.75" x2="6.545" y2="-5.25" layer="51"/>
-<smd name="A1" x="6.495" y="6" dx="0.7" dy="2.1" layer="1"/>
-<smd name="A2" x="-6.495" y="6" dx="0.7" dy="2.1" layer="1"/>
-<smd name="A3" x="-6.495" y="-6" dx="0.7" dy="2.1" layer="1"/>
-<smd name="A4" x="6.495" y="-6" dx="0.7" dy="2.1" layer="1"/>
-<smd name="C1" x="0.255" y="7.535" dx="0.65" dy="1.23" layer="1"/>
-<smd name="C2" x="-2.285" y="7.535" dx="0.65" dy="1.23" layer="1"/>
-<smd name="C3" x="-4.825" y="7.535" dx="0.65" dy="1.23" layer="1"/>
-<smd name="C5" x="1.525" y="7.535" dx="0.65" dy="1.23" layer="1"/>
-<smd name="C6" x="-1.015" y="7.535" dx="0.65" dy="1.23" layer="1"/>
-<smd name="C7" x="-3.555" y="7.535" dx="0.65" dy="1.23" layer="1"/>
-<smd name="CD" x="2.475" y="7.535" dx="0.65" dy="1.23" layer="1"/>
-<text x="0" y="1" size="0.5" layer="25" align="center">&gt;Name</text>
-<text x="0" y="0" size="0.5" layer="27" align="center">&gt;Value</text>
-<hole x="3.505" y="-4.75" drill="0.75"/>
-<hole x="-4.995" y="-4.75" drill="0.75"/>
-<rectangle x1="-4.477" y1="-6.797" x2="-2.876" y2="-2.096" layer="41"/>
-<rectangle x1="-1.937" y1="-6.797" x2="-0.336" y2="-2.096" layer="41"/>
-<rectangle x1="0.603" y1="-6.797" x2="2.204" y2="-2.096" layer="41"/>
-<rectangle x1="-4.5" y1="0.344" x2="-2.899" y2="5.045" layer="41"/>
-<rectangle x1="-1.96" y1="0.344" x2="-0.359" y2="5.045" layer="41"/>
-<rectangle x1="0.58" y1="0.344" x2="2.181" y2="5.045" layer="41"/>
-</package>
-<package name="NANO_SIM_PP_REDUCED_PADS">
-<description>Part#: ATOM-A03621 or MUP-C7801</description>
-<wire x1="-6.145" y1="6.75" x2="-6.145" y2="-6.75" width="0.05" layer="51"/>
-<wire x1="-6.145" y1="-6.75" x2="6.145" y2="-6.75" width="0.05" layer="51"/>
-<wire x1="6.145" y1="-6.75" x2="6.145" y2="6.75" width="0.05" layer="51"/>
-<wire x1="6.145" y1="6.75" x2="-6.145" y2="6.75" width="0.05" layer="51"/>
-<wire x1="3.25" y1="-7.311" x2="3.25" y2="-6.361" width="0.05" layer="47"/>
-<wire x1="3.25" y1="-6.361" x2="3.25" y2="3.6" width="0.05" layer="47"/>
-<wire x1="2.561" y1="4.3" x2="-3.65" y2="4.3" width="0.05" layer="47"/>
-<wire x1="-5.55" y1="2.65" x2="-5.55" y2="-6.35" width="0.05" layer="47"/>
-<wire x1="-5.55" y1="-6.35" x2="-5.55" y2="-7.3" width="0.05" layer="47"/>
-<wire x1="-4.861" y1="-8" x2="2.55" y2="-8" width="0.05" layer="47"/>
-<wire x1="2.55" y1="-8" x2="3.25" y2="-7.311" width="0.05" layer="47" curve="90.025014"/>
-<wire x1="-5.55" y1="-7.3" x2="-4.861" y2="-8" width="0.05" layer="47" curve="90.025014"/>
-<wire x1="3.25" y1="3.6" x2="2.561" y2="4.3" width="0.05" layer="47" curve="90.025014"/>
-<wire x1="-4" y1="4.2" x2="-3.65" y2="4.3" width="0.05" layer="47" curve="-39.054824"/>
-<wire x1="-5.4" y1="2.95" x2="-5.55" y2="2.65" width="0.05" layer="47" curve="52.253496"/>
-<wire x1="-5.4" y1="2.95" x2="-4" y2="4.2" width="0.05" layer="47"/>
-<wire x1="-1.15" y1="-1.35" x2="-1.15" y2="-2.35" width="0.05" layer="47"/>
-<wire x1="-0.65" y1="-1.85" x2="-1.65" y2="-1.85" width="0.05" layer="47"/>
-<wire x1="3.25" y1="-10.161" x2="3.25" y2="-7.311" width="0.05" layer="47"/>
-<wire x1="-5.55" y1="-7.3" x2="-5.55" y2="-10.15" width="0.05" layer="47"/>
-<wire x1="-4.861" y1="-10.85" x2="2.55" y2="-10.85" width="0.05" layer="47"/>
-<wire x1="2.55" y1="-10.85" x2="3.25" y2="-10.161" width="0.05" layer="47" curve="90.025014"/>
-<wire x1="-5.55" y1="-10.15" x2="-4.861" y2="-10.85" width="0.05" layer="47" curve="90.025014"/>
-<wire x1="-4.861" y1="-7.05" x2="2.55" y2="-7.05" width="0.05" layer="47"/>
-<wire x1="2.55" y1="-7.05" x2="3.25" y2="-6.361" width="0.05" layer="47" curve="90.025014"/>
-<wire x1="-5.55" y1="-6.35" x2="-4.861" y2="-7.05" width="0.05" layer="47" curve="90.025014"/>
-<wire x1="-1.15" y1="-1" x2="-1.15" y2="-8" width="0.05" layer="51"/>
-<wire x1="3.3" y1="6.8" x2="5.8" y2="6.8" width="0.1524" layer="21"/>
-<wire x1="6.2" y1="4.6" x2="6.2" y2="-4.6" width="0.1524" layer="21"/>
-<wire x1="-5.5" y1="6.8" x2="-5.8" y2="6.8" width="0.1524" layer="21"/>
-<wire x1="-6.2" y1="4.6" x2="-6.2" y2="-4.6" width="0.1524" layer="21"/>
-<rectangle x1="0.085" y1="6.75" x2="0.435" y2="7.85" layer="51"/>
-<rectangle x1="-1.185" y1="6.75" x2="-0.835" y2="7.85" layer="51"/>
-<rectangle x1="-2.455" y1="6.75" x2="-2.105" y2="7.85" layer="51"/>
-<rectangle x1="-3.725" y1="6.75" x2="-3.375" y2="7.85" layer="51"/>
-<rectangle x1="-4.995" y1="6.75" x2="-4.645" y2="7.85" layer="51"/>
-<rectangle x1="1.355" y1="6.75" x2="1.705" y2="7.85" layer="51"/>
-<rectangle x1="2.305" y1="6.75" x2="2.655" y2="7.85" layer="51"/>
-<rectangle x1="-6.545" y1="5.25" x2="-6.145" y2="6.75" layer="51"/>
-<rectangle x1="-6.545" y1="-6.75" x2="-6.145" y2="-5.25" layer="51"/>
-<rectangle x1="6.145" y1="5.25" x2="6.545" y2="6.75" layer="51"/>
-<rectangle x1="6.145" y1="-6.75" x2="6.545" y2="-5.25" layer="51"/>
-<smd name="A1" x="6.495" y="6" dx="0.7" dy="2.1" layer="1"/>
-<smd name="A2" x="-6.495" y="6" dx="0.7" dy="2.1" layer="1"/>
-<smd name="A3" x="-6.495" y="-5.85" dx="0.7" dy="1.8" layer="1"/>
-<smd name="A4" x="6.495" y="-5.85" dx="0.7" dy="1.8" layer="1"/>
-<smd name="C1" x="0.255" y="7.535" dx="0.65" dy="1.23" layer="1"/>
-<smd name="C2" x="-2.285" y="7.535" dx="0.65" dy="1.23" layer="1"/>
-<smd name="C3" x="-4.825" y="7.535" dx="0.65" dy="1.23" layer="1"/>
-<smd name="C5" x="1.525" y="7.535" dx="0.65" dy="1.23" layer="1"/>
-<smd name="C6" x="-1.015" y="7.535" dx="0.65" dy="1.23" layer="1"/>
-<smd name="C7" x="-3.555" y="7.535" dx="0.65" dy="1.23" layer="1"/>
-<smd name="CD" x="2.475" y="7.535" dx="0.65" dy="1.23" layer="1"/>
-<text x="0" y="1" size="0.5" layer="25" align="center">&gt;Name</text>
-<text x="0" y="0" size="0.5" layer="27" align="center">&gt;Value</text>
-<hole x="3.505" y="-4.75" drill="0.75"/>
-<hole x="-4.995" y="-4.75" drill="0.75"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SIMHOLDER">
-<wire x1="-5.08" y1="-7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-7.62" x2="2.54" y2="12.7" width="0.254" layer="94"/>
-<wire x1="2.54" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="12.7" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<pin name="CD" x="-7.62" y="10.16" visible="pin" length="short" direction="in"/>
-<pin name="CLK" x="-7.62" y="0" visible="pin" length="short" direction="in"/>
-<pin name="GND" x="-7.62" y="-5.08" visible="pin" length="short" direction="pwr"/>
-<pin name="I/O" x="-7.62" y="2.54" visible="pin" length="short"/>
-<pin name="RST" x="-7.62" y="-2.54" visible="pin" length="short" direction="in"/>
-<pin name="VCC" x="-7.62" y="5.08" visible="pin" length="short" direction="pwr"/>
-<pin name="VPP" x="-7.62" y="7.62" visible="pin" length="short" direction="in"/>
-<text x="-4.572" y="13.208" size="1.778" layer="95">&gt;Name</text>
-<text x="-4.572" y="-10.16" size="1.778" layer="96">&gt;Value</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SIMHOLDER" prefix="J" uservalue="yes">
-<description>&lt;h3&gt;SIM Cellular Card Socket&lt;/h3&gt;
-&lt;p&gt;SMT 6 pin standard connection. &lt;/p&gt;
-&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/548”&gt;SIM Socket&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13120"&gt;SparkFun Cellular Shield - MG2639&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/573”&gt;SparkFun SIM Card Socket Breakout&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="J1" symbol="SIMHOLDER" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-PUSHPUSH" package="NANO_SIM_PP">
-<connects>
-<connect gate="J1" pin="CD" pad="CD"/>
-<connect gate="J1" pin="CLK" pad="C3"/>
-<connect gate="J1" pin="GND" pad="A1 A2 A3 A4 C5"/>
-<connect gate="J1" pin="I/O" pad="C7"/>
-<connect gate="J1" pin="RST" pad="C2"/>
-<connect gate="J1" pin="VCC" pad="C1"/>
-<connect gate="J1" pin="VPP" pad="C6"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CONN-16272" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-PUSHPUSH-REDUCED-PADS" package="NANO_SIM_PP_REDUCED_PADS">
-<connects>
-<connect gate="J1" pin="CD" pad="CD"/>
-<connect gate="J1" pin="CLK" pad="C3"/>
-<connect gate="J1" pin="GND" pad="C5"/>
-<connect gate="J1" pin="I/O" pad="C7"/>
-<connect gate="J1" pin="RST" pad="C2"/>
-<connect gate="J1" pin="VCC" pad="C1"/>
-<connect gate="J1" pin="VPP" pad="C6"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CONN-16272" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -29715,7 +29313,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/sn74avc4t774.pdf"&gt; Datas
 <part name="U4" library="SparkFun-IC-Memory" deviceset="EEPROM-I2C" device="512K" value="EEPROM"/>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND17" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C9" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402-16V-10%" value="0.1uF"/>
+<part name="C9" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
 <part name="GND18" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="I2C" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_2-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39289/1"/>
@@ -29733,16 +29331,16 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/sn74avc4t774.pdf"&gt; Datas
 <part name="U5" library="SparkFun-IC-Power" deviceset="AP7361C-33FGE" device="UDFN-8" value="AP7361C-33FGE"/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND20" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C23" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.22UF" device="-0603-25V-10%" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.22uF"/>
+<part name="C23" library="SparkFun-Capacitors" deviceset="0.22UF" device="-0603-25V-10%" value="0.22uF"/>
 <part name="GND21" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND22" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C25" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-16V-10%" package3d_urn="urn:adsk.eagle:package:37413/1" value="0.1uF"/>
-<part name="C21" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF-POLAR" device="-EIA3216-16V-10%(TANT)" package3d_urn="urn:adsk.eagle:package:37418/1" value="10uF"/>
+<part name="C25" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
+<part name="C21" library="SparkFun-Capacitors" deviceset="10UF-POLAR" device="-EIA3216-16V-10%(TANT)" value="10uF"/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R33" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402T-1/16W-1%" value="100k"/>
-<part name="C28" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="4.7UF" device="0603" package3d_urn="urn:adsk.eagle:package:37414/1" value="4.7uF"/>
-<part name="C32" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-16V-10%" package3d_urn="urn:adsk.eagle:package:37413/1" value="0.1uF"/>
-<part name="C30" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.22UF" device="-0603-25V-10%" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.22uF"/>
+<part name="C28" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0603-6.3V-(10%)" value="4.7uF"/>
+<part name="C32" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
+<part name="C30" library="SparkFun-Capacitors" deviceset="0.22UF" device="-0603-25V-10%" value="0.22uF"/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND16" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND24" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -29753,20 +29351,20 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/sn74avc4t774.pdf"&gt; Datas
 <part name="GND34" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND42" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND37" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C37" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="47PF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="47pF"/>
-<part name="C39" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="47PF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="47pF"/>
-<part name="C40" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="47PF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="47pF"/>
-<part name="C38" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="47PF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="47pF"/>
-<part name="C36" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-16V-10%" package3d_urn="urn:adsk.eagle:package:37413/1" value="0.1uF"/>
-<part name="C19" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-16V-10%" package3d_urn="urn:adsk.eagle:package:37413/1" value="0.1uF"/>
+<part name="C37" library="SparkFun-Capacitors" deviceset="47PF" device="-0603-50V-5%" value="47pF"/>
+<part name="C39" library="SparkFun-Capacitors" deviceset="47PF" device="-0603-50V-5%" value="47pF"/>
+<part name="C40" library="SparkFun-Capacitors" deviceset="47PF" device="-0603-50V-5%" value="47pF"/>
+<part name="C38" library="SparkFun-Capacitors" deviceset="47PF" device="-0603-50V-5%" value="47pF"/>
+<part name="C36" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
+<part name="C19" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
 <part name="C20" library="SparkFun-Capacitors" deviceset="68PF" device="-0603-50V-5%" value="68pF"/>
 <part name="GND39" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C18" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF"/>
+<part name="C18" library="SparkFun-Capacitors" deviceset="10UF" device="-0603-6.3V-20%" value="10uF"/>
 <part name="C33" library="SparkFun-Capacitors" deviceset="33PF" device="-0402T-50V-5%" value="33pF"/>
 <part name="SUPPLY24" library="SparkFun-PowerSymbols" deviceset="VCCIO" device=""/>
 <part name="SUPPLY30" library="SparkFun-PowerSymbols" deviceset="VCCIO" device=""/>
 <part name="SUPPLY31" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="C17" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-16V-10%" package3d_urn="urn:adsk.eagle:package:37413/1" value="0.1uF"/>
+<part name="C17" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
 <part name="GND60" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="Q2" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-2N7002PW" value="310mA/60V/1.6Ω"/>
 <part name="GND63" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -29791,7 +29389,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/sn74avc4t774.pdf"&gt; Datas
 <part name="R45" library="SparkFun-Resistors" deviceset="1KOHM" device="-0402T-1/16W-1%" value="1k"/>
 <part name="SUPPLY34" library="SparkFun-PowerSymbols" deviceset="VCCIO" device=""/>
 <part name="R47" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402T-1/16W-1%" value="100k"/>
-<part name="C22" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="15PF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="15pF"/>
+<part name="C22" library="SparkFun-Capacitors" deviceset="15PF" device="-0603-50V-5%" value="15pF"/>
 <part name="U2" library="SparkFun-IC-Comms" deviceset="SN74AVC4T774PW" device="" value="SN74AVC4T774PW"/>
 <part name="GND56" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND70" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -29802,7 +29400,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/sn74avc4t774.pdf"&gt; Datas
 <part name="R43" library="SparkFun-Resistors" deviceset="240OHM" device="-0603-1/10W-1%" value="240"/>
 <part name="D17" library="SparkFun-LED" deviceset="LED-GREEN" device="0603" value="GREEN"/>
 <part name="R46" library="SparkFun-Resistors" deviceset="330OHM" device="-0603-1/10W-1%" value="330"/>
-<part name="C24" library="HPG_Solution" deviceset="8.2PF" device="-0603-50V-10%" package3d_urn="urn:adsk.eagle:package:37414/1" value="8.2pF">
+<part name="C24" library="SparkFun-Capacitors" deviceset="8.2PF" device="-0603-50V-10%" value="8.2pF">
 <attribute name="PROD_ID" value="CAP-16662"/>
 </part>
 <part name="S3" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-4.6X2.8MM" value="PWR_ON"/>
@@ -29815,7 +29413,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/sn74avc4t774.pdf"&gt; Datas
 <part name="R4" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0402T-1/16W-1%" value="4.7k"/>
 <part name="D3" library="SparkFun-LED" deviceset="LED-RED" device="_0603-KB" value="RED"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="U.FL2PIN" device="" value="U.FL"/>
-<part name="J9" library="HPG_Solution_v1.0" deviceset="SIMHOLDER" device="-PUSHPUSH" value="NANO_SIM"/>
+<part name="J9" library="SparkFun-Connectors" deviceset="SIMHOLDER_WITH_CD" device="-PUSHPUSH" value="NANO_SIM"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402T-1/16W-1%" value="100k"/>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="VCCIO" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".2_INCH"/>
@@ -29833,7 +29431,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/sn74avc4t774.pdf"&gt; Datas
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
-<part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
+<part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
 <part name="GND53" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND55" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="FB1" library="SparkFun-Coils" deviceset="FERRITE_BEAD" device="-0603" value="30Ω/1.8A"/>
@@ -29848,7 +29446,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/sn74avc4t774.pdf"&gt; Datas
 <part name="J4" library="SparkFun-Connectors" deviceset="U.FL2PIN" device="" value="U.FL"/>
 <part name="L2" library="SparkFun-Coils" deviceset="68NH" device="-0402-200MA" value="68nH"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="27PF" device="-0402-50V-5%" value="27pF"/>
-<part name="R23" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
+<part name="R23" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402T-1/16W-1%" value="10k"/>
 <part name="GND46" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="D10" library="SparkFun-DiscreteSemi" deviceset="PESD0402" device="-0402"/>
 <part name="GND50" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -29876,7 +29474,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/sn74avc4t774.pdf"&gt; Datas
 <part name="SUPPLY22" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="C5" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-16V-10%" package3d_urn="urn:adsk.eagle:package:37413/1" value="0.1uF"/>
+<part name="C5" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
 <part name="GND28" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -31945,11 +31543,6 @@ Closed (default): connected to GND</text>
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
-</note>
-<note version="8.2" severity="warning">
-Since Version 8.2, EAGLE supports online libraries. The ids
-of those online libraries will not be understood (or retained)
-with this version.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
