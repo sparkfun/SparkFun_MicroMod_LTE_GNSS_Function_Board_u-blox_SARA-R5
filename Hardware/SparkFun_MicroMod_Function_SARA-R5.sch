@@ -29875,6 +29875,9 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/sn74avc4t774.pdf"&gt; Datas
 <part name="LTE_ON_LED" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
 <part name="SUPPLY22" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="C5" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-16V-10%" package3d_urn="urn:adsk.eagle:package:37413/1" value="0.1uF"/>
+<part name="GND28" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -30582,6 +30585,16 @@ Closed (default): connected to GND</text>
 <instance part="SUPPLY4" gate="G$1" x="292.1" y="58.42" smashed="yes">
 <attribute name="VALUE" x="292.1" y="61.214" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
+<instance part="SUPPLY10" gate="G$1" x="314.96" y="101.6" smashed="yes">
+<attribute name="VALUE" x="314.96" y="104.394" size="1.778" layer="96" font="vector" align="bottom-center"/>
+</instance>
+<instance part="C5" gate="G$1" x="314.96" y="93.98" smashed="yes" rot="MR0">
+<attribute name="NAME" x="316.484" y="96.774" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="316.23" y="91.948" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="GND28" gate="1" x="314.96" y="86.36" smashed="yes">
+<attribute name="VALUE" x="314.96" y="86.106" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -30692,6 +30705,11 @@ Closed (default): connected to GND</text>
 <pinref part="SUPPLY4" gate="G$1" pin="3.3V"/>
 <pinref part="LTE_ON_LED" gate="G$1" pin="2"/>
 <wire x1="294.64" y1="55.88" x2="292.1" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="314.96" y1="101.6" x2="314.96" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -30974,6 +30992,11 @@ Closed (default): connected to GND</text>
 <wire x1="180.34" y1="134.62" x2="180.34" y2="127" width="0.1524" layer="91"/>
 <pinref part="D6" gate="D1" pin="2"/>
 <wire x1="180.34" y1="134.62" x2="182.88" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="GND28" gate="1" pin="GND"/>
+<wire x1="314.96" y1="88.9" x2="314.96" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EN" class="0">
