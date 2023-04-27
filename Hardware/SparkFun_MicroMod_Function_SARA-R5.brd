@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0001" altunitdist="inch" altunit="inch"/>
@@ -48,8 +48,8 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
@@ -79,7 +79,7 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
-<layer number="100" name="Muster" color="7" fill="1" visible="no" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="no"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="no"/>
 <layer number="103" name="tMap" color="7" fill="1" visible="no" active="no"/>
@@ -9686,10 +9686,10 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="18.63598125" y="46.9011" smashed="yes" rot="MR0"/>
 <element name="U$3" library="SparkFun-MicroMod" package="MICROMOD_MI_LOGO_1" value="" x="17.772378125" y="42.1275" smashed="yes" rot="MR0"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="SFE_LOGO_FLAME.2_INCH" x="29.337" y="33.02" smashed="yes"/>
-<element name="R5" library="SparkFun-Resistors" package="0402-TIGHT" value="100k" x="13.208" y="10.922" smashed="yes" rot="R90">
+<element name="R5" library="SparkFun-Resistors" package="0402-TIGHT" value="10k" x="13.208" y="10.922" smashed="yes" rot="R90">
 <attribute name="NAME" x="12.646" y="10.922" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-13495" x="13.208" y="10.922" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="VALUE" x="13.77" y="10.922" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<attribute name="PROD_ID" value="RES-14241" x="13.208" y="10.922" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="VALUE" value="10k" x="13.77" y="10.922" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="LTE_PWR_ON" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK" x="23.749" y="7.1755" smashed="yes" rot="MR0">
 <attribute name="NAME" x="23.749" y="8.3185" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
@@ -10170,7 +10170,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <via x="28.475" y="23.3045" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="29.5545" y="22.098" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="12.727" y="24.13" extent="1-16" drill="0.3048" diameter="0.6096"/>
-<via x="12.87178125" y="3.042921875" extent="1-16" drill="0.3048" diameter="0.6096"/>
+<via x="12.409503125" y="4.818384375" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="35.272040625" y="15.50161875" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="35.5844625" y="12.26311875" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="35.099321875" y="4.5974" extent="1-16" drill="0.3048" diameter="0.6096"/>
@@ -10295,7 +10295,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <via x="25.871496875" y="26.014678125" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="22.472978125" y="27.939996875" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="21.93195625" y="26.073096875" extent="1-16" drill="0.3048" diameter="0.6096"/>
-<via x="20.1539625" y="54.73191875" extent="1-16" drill="0.3048" diameter="0.6096"/>
+<via x="21.0429625" y="55.87491875" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="20.3724" y="55.46851875" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="14.53294375" y="54.74715625" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <via x="17.481884375" y="55.118" extent="1-16" drill="0.3048" diameter="0.6096"/>
@@ -10403,6 +10403,9 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <via x="26.6055625" y="56.30418125" extent="1-16" drill="0.3048" diameter="0.6096"/>
 <wire x1="19.1769625" y1="17.75968125" x2="19.9389625" y2="16.99768125" width="0.254" layer="1"/>
 <wire x1="19.9389625" y1="16.99768125" x2="21.650959375" y2="16.99768125" width="0.254" layer="1"/>
+<wire x1="14.974" y1="6.0325" x2="14.361859375" y2="5.420359375" width="0.254" layer="1"/>
+<wire x1="14.0995375" y1="5.420359375" x2="13.751559375" y2="5.07238125" width="0.254" layer="1"/>
+<wire x1="14.361859375" y1="5.420359375" x2="14.0995375" y2="5.420359375" width="0.254" layer="1"/>
 </signal>
 <signal name="EN">
 <contactref element="J1" pad="71"/>
@@ -10853,18 +10856,15 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <wire x1="21.25" y1="52.67" x2="21.25" y2="54.416" width="0.254" layer="1"/>
 <wire x1="21.25" y1="54.416" x2="22.0425" y2="55.2085" width="0.254" layer="1"/>
 </signal>
-<signal name="LTE_18_RTS">
+<signal name="LTE_18_CTS">
 <contactref element="U2" pad="6"/>
 <wire x1="34.192540625" y1="24.554178125" x2="34.192540625" y2="12.430759375" width="0.254" layer="16"/>
 <wire x1="34.317" y1="12.3063" x2="34.192540625" y2="12.430759375" width="0.254" layer="16"/>
 <wire x1="34.192540625" y1="24.554178125" x2="29.14141875" y2="29.6053" width="0.254" layer="16"/>
 <via x="34.317" y="12.3063" extent="1-16" drill="0.3048" diameter="0.6096"/>
-<contactref element="U1" pad="10"/>
-<wire x1="20.15" y1="52.67" x2="20.15" y2="53.59418125" width="0.254" layer="1"/>
-<wire x1="20.15" y1="53.59418125" x2="20.4851" y2="53.92928125" width="0.254" layer="1"/>
-<via x="20.4851" y="53.92928125" extent="1-16" drill="0.3048" diameter="0.6096"/>
-<wire x1="20.4851" y1="53.92928125" x2="20.03298125" y2="53.4771625" width="0.254" layer="16"/>
-<wire x1="20.03298125" y1="50.558703125" x2="20.03298125" y2="53.4771625" width="0.254" layer="16"/>
+<via x="19.931378125" y="53.947059375" extent="1-16" drill="0.3048" diameter="0.6096"/>
+<wire x1="19.931378125" y1="53.947059375" x2="20.03298125" y2="53.84545625" width="0.254" layer="16"/>
+<wire x1="20.03298125" y1="50.558703125" x2="20.03298125" y2="53.84545625" width="0.254" layer="16"/>
 <wire x1="20.513040625" y1="50.07864375" x2="20.03298125" y2="50.558703125" width="0.254" layer="16"/>
 <wire x1="29.14141875" y1="29.6053" x2="29.14141875" y2="38.361621875" width="0.254" layer="16"/>
 <wire x1="29.14141875" y1="38.361621875" x2="20.513040625" y2="46.99" width="0.254" layer="16"/>
@@ -10876,17 +10876,18 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <wire x1="34.317" y1="11.620503125" x2="33.37051875" y2="10.674021875" width="0.254" layer="2"/>
 <wire x1="30.3994" y1="6.418" x2="31.680840625" y2="6.418" width="0.254" layer="1"/>
 <wire x1="31.680840625" y1="6.418" x2="32.77108125" y2="7.508240625" width="0.254" layer="1"/>
+<contactref element="U1" pad="11"/>
+<wire x1="19.05" y1="52.67" x2="19.05" y2="53.62701875" width="0.254" layer="1"/>
+<wire x1="19.370040625" y1="53.947059375" x2="19.931378125" y2="53.947059375" width="0.254" layer="1"/>
+<wire x1="19.05" y1="53.62701875" x2="19.370040625" y2="53.947059375" width="0.254" layer="1"/>
 </signal>
-<signal name="LTE_18_CTS">
+<signal name="LTE_18_RTS">
 <contactref element="U2" pad="5"/>
 <via x="33.6439" y="12.70508125" extent="1-16" drill="0.3048" diameter="0.6096"/>
-<contactref element="U1" pad="11"/>
-<wire x1="19.05" y1="52.67" x2="19.05" y2="53.736240625" width="0.254" layer="1"/>
-<wire x1="19.331940625" y1="54.01818125" x2="19.700240625" y2="54.01818125" width="0.254" layer="1"/>
-<via x="19.700240625" y="54.01818125" extent="1-16" drill="0.3048" diameter="0.6096"/>
-<wire x1="19.700240625" y1="54.01818125" x2="19.23541875" y2="53.553359375" width="0.254" layer="16"/>
-<wire x1="19.05" y1="53.736240625" x2="19.331940625" y2="54.01818125" width="0.254" layer="1"/>
-<wire x1="19.23541875" y1="53.553359375" x2="19.23541875" y2="50.579025" width="0.254" layer="16"/>
+<via x="19.928840625" y="54.897021875" extent="1-16" drill="0.3048" diameter="0.6096"/>
+<wire x1="19.928840625" y1="54.897021875" x2="19.928840625" y2="54.7878" width="0.254" layer="16"/>
+<wire x1="19.928840625" y1="54.7878" x2="19.23541875" y2="54.094378125" width="0.254" layer="16"/>
+<wire x1="19.23541875" y1="54.094378125" x2="19.23541875" y2="50.579025" width="0.254" layer="16"/>
 <wire x1="19.23541875" y1="50.579025" x2="19.992340625" y2="49.822103125" width="0.254" layer="16"/>
 <wire x1="19.992340625" y1="49.822103125" x2="19.992340625" y2="46.80458125" width="0.254" layer="16"/>
 <wire x1="19.992340625" y1="46.80458125" x2="28.6258" y2="38.171121875" width="0.254" layer="16"/>
@@ -10904,6 +10905,11 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <wire x1="33.73881875" y1="21.061675" x2="33.6397625" y2="20.96261875" width="0.254" layer="16"/>
 <wire x1="33.6397625" y1="20.96261875" x2="33.6397625" y2="12.70921875" width="0.254" layer="16"/>
 <wire x1="33.6397625" y1="12.70921875" x2="33.6439" y2="12.70508125" width="0.254" layer="16"/>
+<contactref element="U1" pad="10"/>
+<wire x1="20.15" y1="52.67" x2="20.15" y2="53.142059375" width="0.254" layer="1"/>
+<wire x1="20.15" y1="53.142059375" x2="20.60448125" y2="53.596540625" width="0.254" layer="1"/>
+<wire x1="20.60448125" y1="53.596540625" x2="20.60448125" y2="54.22138125" width="0.254" layer="1"/>
+<wire x1="20.60448125" y1="54.22138125" x2="19.928840625" y2="54.897021875" width="0.254" layer="1"/>
 </signal>
 <signal name="LTE_18_TXI">
 <contactref element="U2" pad="3"/>
@@ -11478,12 +11484,9 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 </signal>
 <signal name="N$4">
 <contactref element="ANT_REG_EN" pad="2"/>
-<contactref element="J1" pad="55"/>
-<wire x1="14.75" y1="1.275" x2="14.75" y2="2.6998" width="0.254" layer="1"/>
-<wire x1="13.395959375" y1="3.616959375" x2="12.994640625" y2="4.018278125" width="0.254" layer="1"/>
+<wire x1="13.13688125" y1="2.567940625" x2="12.994640625" y2="2.71018125" width="0.254" layer="1"/>
+<wire x1="12.994640625" y1="2.71018125" x2="12.994640625" y2="4.018278125" width="0.254" layer="1"/>
 <via x="12.994640625" y="4.018278125" extent="1-16" drill="0.3048" diameter="0.6096"/>
-<wire x1="14.75" y1="2.6998" x2="13.832840625" y2="3.616959375" width="0.254" layer="1"/>
-<wire x1="13.832840625" y1="3.616959375" x2="13.395959375" y2="3.616959375" width="0.254" layer="1"/>
 <wire x1="12.994640625" y1="4.018278125" x2="12.994640625" y2="8.399778125" width="0.254" layer="16"/>
 <wire x1="12.994640625" y1="8.399778125" x2="10.7061" y2="10.68831875" width="0.254" layer="16"/>
 <wire x1="10.7061" y1="10.68831875" x2="10.7061" y2="13.1318" width="0.254" layer="16"/>
@@ -11498,6 +11501,9 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <wire x1="6.619240625" y1="24.4856" x2="6.619240625" y2="23.154640625" width="0.254" layer="16"/>
 <wire x1="6.619240625" y1="23.154640625" x2="5.98678125" y2="22.52218125" width="0.254" layer="16"/>
 <wire x1="5.98678125" y1="22.52218125" x2="5.98678125" y2="17.85111875" width="0.254" layer="16"/>
+<contactref element="J1" pad="61"/>
+<wire x1="13.13688125" y1="2.567940625" x2="13.25" y2="2.454821875" width="0.254" layer="1"/>
+<wire x1="13.25" y1="2.454821875" x2="13.25" y2="1.275" width="0.254" layer="1"/>
 </signal>
 <signal name="N$11" class="3">
 <contactref element="L2" pad="P$2"/>

@@ -29602,7 +29602,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="VCCIO" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".2_INCH"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".2_INCH" value="SFE_LOGO_FLAME.2_INCH"/>
-<part name="R5" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402T-1/16W-1%" value="100k"/>
+<part name="R5" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402T-1/16W-1%" value="10k"/>
 <part name="SUPPLY16" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="VCCIO" device=""/>
 <part name="LTE_PWR_ON" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
@@ -29736,7 +29736,7 @@ SARA-R5</text>
 <wire x1="261.62" y1="167.64" x2="261.62" y2="279.4" width="0.2032" layer="97" style="longdash"/>
 <wire x1="254" y1="78.74" x2="254" y2="167.64" width="0.2032" layer="97" style="longdash"/>
 <wire x1="218.44" y1="0" x2="218.44" y2="78.74" width="0.2032" layer="97" style="longdash"/>
-<text x="92.71" y="89.662" size="1.778" layer="97" font="vector">F6/F7 are shared 
+<text x="92.71" y="71.882" size="1.778" layer="97" font="vector">F3/F4 are shared 
 with RX/TX on ESP32</text>
 <text x="332.994" y="6.604" size="2.54" layer="94" font="vector">Revised by: Pete Lewis</text>
 <text x="383.794" y="274.066" size="2.54" layer="94" font="vector" align="center">GNSS Antenna</text>
@@ -30265,8 +30265,8 @@ Closed (default): connected to GND</text>
 <instance part="TP22" gate="G$1" x="411.48" y="220.98" smashed="yes">
 <attribute name="NAME" x="408.94" y="222.25" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="ANT_REG_EN" gate="G$1" x="99.06" y="99.06" smashed="yes" rot="R180">
-<attribute name="NAME" x="100.838" y="99.314" size="1.27" layer="95" font="vector"/>
+<instance part="ANT_REG_EN" gate="G$1" x="99.06" y="91.44" smashed="yes" rot="R180">
+<attribute name="NAME" x="100.838" y="91.694" size="1.27" layer="95" font="vector"/>
 </instance>
 <instance part="R2" gate="G$1" x="353.06" y="223.52" smashed="yes" rot="R90">
 <attribute name="NAME" x="351.536" y="223.52" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -31108,28 +31108,28 @@ Closed (default): connected to GND</text>
 <pinref part="U1" gate="G$2" pin="DTR_I"/>
 </segment>
 </net>
-<net name="LTE_18_RTS" class="0">
-<segment>
-<wire x1="208.28" y1="233.68" x2="205.74" y2="233.68" width="0.1524" layer="91"/>
-<label x="205.74" y="233.68" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U1" gate="G$2" pin="RTS_I"/>
-</segment>
+<net name="LTE_18_CTS" class="0">
 <segment>
 <label x="269.24" y="114.3" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <wire x1="276.86" y1="114.3" x2="269.24" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="A4"/>
 </segment>
-</net>
-<net name="LTE_18_CTS" class="0">
 <segment>
 <wire x1="208.28" y1="231.14" x2="205.74" y2="231.14" width="0.1524" layer="91"/>
 <label x="205.74" y="231.14" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U1" gate="G$2" pin="CTS_O"/>
 </segment>
+</net>
+<net name="LTE_18_RTS" class="0">
 <segment>
 <label x="269.24" y="116.84" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <wire x1="276.86" y1="116.84" x2="269.24" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="A3"/>
+</segment>
+<segment>
+<wire x1="208.28" y1="233.68" x2="205.74" y2="233.68" width="0.1524" layer="91"/>
+<label x="205.74" y="233.68" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$2" pin="RTS_I"/>
 </segment>
 </net>
 <net name="LTE_18_TXI" class="0">
@@ -31566,16 +31566,16 @@ Closed (default): connected to GND</text>
 <junction x="353.06" y="215.9"/>
 </segment>
 <segment>
-<wire x1="104.14" y1="99.06" x2="111.76" y2="99.06" width="0.1524" layer="91"/>
-<label x="111.76" y="99.06" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="104.14" y1="91.44" x2="111.76" y2="91.44" width="0.1524" layer="91"/>
+<label x="111.76" y="91.44" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="ANT_REG_EN" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="ANT_REG_EN" gate="G$1" pin="2"/>
-<pinref part="J1" gate="J1" pin="F4"/>
-<wire x1="93.98" y1="99.06" x2="91.44" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="J1" gate="J1" pin="F7"/>
+<wire x1="93.98" y1="91.44" x2="91.44" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="3">
