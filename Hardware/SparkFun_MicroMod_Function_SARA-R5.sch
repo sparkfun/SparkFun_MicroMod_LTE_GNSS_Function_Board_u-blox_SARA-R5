@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="13" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="23" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="13" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,20 +53,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="58" name="bCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -29662,12 +29662,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND28" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="F2" library="SparkFun-Fuses" deviceset="PPTC" device="_6V2A" value="6V/2A"/>
 <part name="SUPPLY23" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
+<part name="SUPPLY19" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="348.234" y="11.684" size="2.54" layer="94" font="vector">Michael Ammann</text>
-<text x="421.132" y="7.112" size="2.54" layer="94" font="vector">v03</text>
+<text x="421.132" y="7.112" size="2.54" layer="94" font="vector">v10</text>
 <text x="55.88" y="160.02" size="2.54" layer="94" font="vector" align="center">M.2 Connector Edge</text>
 <text x="53.34" y="274.32" size="2.54" layer="94" font="vector" align="center">Power Supply</text>
 <text x="58.42" y="48.26" size="2.54" layer="94" font="vector" align="center">Jumpers</text>
@@ -29989,8 +29990,8 @@ your MM PB GPIO pins. Default: closed.</text>
 <attribute name="NAME" x="132.588" y="249.047" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="132.588" y="244.475" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="SUPPLY24" gate="G$1" x="203.2" y="256.54" smashed="yes">
-<attribute name="VALUE" x="203.2" y="259.334" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY24" gate="G$1" x="205.74" y="256.54" smashed="yes">
+<attribute name="VALUE" x="205.74" y="259.334" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="C22" gate="G$1" x="162.56" y="246.38" smashed="yes">
 <attribute name="NAME" x="162.941" y="248.793" size="1.778" layer="95" font="vector"/>
@@ -30154,12 +30155,12 @@ your MM PB GPIO pins. Default: closed.</text>
 <instance part="SUPPLY9" gate="G$1" x="132.08" y="256.54" smashed="yes">
 <attribute name="VALUE" x="132.08" y="259.334" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="R1" gate="G$1" x="187.96" y="236.22" smashed="yes" rot="R180">
-<attribute name="NAME" x="187.96" y="234.696" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="187.96" y="237.744" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+<instance part="R1" gate="G$1" x="177.8" y="228.6" smashed="yes" rot="R270">
+<attribute name="NAME" x="179.324" y="228.6" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="176.276" y="228.6" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
-<instance part="GND1" gate="1" x="180.34" y="231.14" smashed="yes">
-<attribute name="VALUE" x="180.34" y="230.886" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND1" gate="1" x="177.8" y="218.44" smashed="yes">
+<attribute name="VALUE" x="177.8" y="218.186" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="SUPPLY8" gate="G$1" x="276.86" y="43.18" smashed="yes">
 <attribute name="VALUE" x="276.86" y="45.974" size="1.778" layer="96" font="vector" align="bottom-center"/>
@@ -30386,6 +30387,9 @@ your MM PB GPIO pins. Default: closed.</text>
 </instance>
 <instance part="SUPPLY23" gate="G$1" x="172.72" y="147.32" smashed="yes">
 <attribute name="VALUE" x="172.72" y="150.114" size="1.778" layer="96" font="vector" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY19" gate="G$1" x="185.42" y="218.44" smashed="yes">
+<attribute name="VALUE" x="185.42" y="221.234" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -30722,9 +30726,8 @@ your MM PB GPIO pins. Default: closed.</text>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="180.34" y1="233.68" x2="180.34" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="220.98" x2="177.8" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="182.88" y1="236.22" x2="180.34" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="GND"/>
@@ -30944,11 +30947,6 @@ your MM PB GPIO pins. Default: closed.</text>
 <wire x1="10.16" y1="254" x2="10.16" y2="259.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="208.28" y1="215.9" x2="205.74" y2="215.9" width="0.1524" layer="91"/>
-<label x="205.74" y="215.9" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="U1" gate="G$2" pin="VUSB_DET"/>
-</segment>
-<segment>
 <pinref part="SUPPLY21" gate="G$1" pin="V_USB"/>
 <wire x1="203.2" y1="134.62" x2="205.74" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="134.62" x2="205.74" y2="142.24" width="0.1524" layer="91"/>
@@ -30959,6 +30957,12 @@ your MM PB GPIO pins. Default: closed.</text>
 <wire x1="170.18" y1="144.78" x2="172.72" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="144.78" x2="172.72" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="F2" gate="F1" pin="2"/>
+</segment>
+<segment>
+<pinref part="SUPPLY19" gate="G$1" pin="V_USB"/>
+<wire x1="208.28" y1="215.9" x2="185.42" y2="215.9" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$2" pin="VUSB_DET"/>
+<wire x1="185.42" y1="215.9" x2="185.42" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EWP" class="0">
@@ -31107,7 +31111,8 @@ your MM PB GPIO pins. Default: closed.</text>
 </net>
 <net name="LTE_18_DTR" class="0">
 <segment>
-<wire x1="208.28" y1="236.22" x2="193.04" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="236.22" x2="177.8" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="236.22" x2="177.8" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="U1" gate="G$2" pin="DTR_I"/>
 </segment>
@@ -31188,8 +31193,8 @@ your MM PB GPIO pins. Default: closed.</text>
 </net>
 <net name="VCCIO" class="2">
 <segment>
-<wire x1="208.28" y1="248.92" x2="203.2" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="248.92" x2="203.2" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="248.92" x2="205.74" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="248.92" x2="205.74" y2="256.54" width="0.1524" layer="91"/>
 <pinref part="SUPPLY24" gate="G$1" pin="VCCIO"/>
 <pinref part="U1" gate="G$2" pin="V_INT"/>
 </segment>
