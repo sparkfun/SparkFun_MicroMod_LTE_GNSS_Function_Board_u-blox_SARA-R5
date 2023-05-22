@@ -29668,7 +29668,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="348.234" y="11.684" size="2.54" layer="94" font="vector">Michael Ammann</text>
-<text x="421.132" y="7.112" size="2.54" layer="94" font="vector">v10</text>
+<text x="421.132" y="7.112" size="2.54" layer="94" font="vector">v11</text>
 <text x="55.88" y="160.02" size="2.54" layer="94" font="vector" align="center">M.2 Connector Edge</text>
 <text x="53.34" y="274.32" size="2.54" layer="94" font="vector" align="center">Power Supply</text>
 <text x="58.42" y="48.26" size="2.54" layer="94" font="vector" align="center">Jumpers</text>
@@ -30711,13 +30711,13 @@ your MM PB GPIO pins. Default: closed.</text>
 </segment>
 <segment>
 <pinref part="GND70" gate="1" pin="GND"/>
-<wire x1="274.32" y1="127" x2="274.32" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="DIR4"/>
-<wire x1="274.32" y1="109.22" x2="274.32" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="109.22" x2="274.32" y2="109.22" width="0.1524" layer="91"/>
-<junction x="274.32" y="109.22"/>
+<wire x1="274.32" y1="127" x2="274.32" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="DIR1"/>
+<wire x1="274.32" y1="111.76" x2="274.32" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="127" x2="276.86" y2="127" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="DIR3"/>
+<wire x1="276.86" y1="111.76" x2="274.32" y2="111.76" width="0.1524" layer="91"/>
+<junction x="274.32" y="111.76"/>
 </segment>
 <segment>
 <pinref part="GND52" gate="1" pin="GND"/>
@@ -31216,13 +31216,13 @@ your MM PB GPIO pins. Default: closed.</text>
 </segment>
 <segment>
 <pinref part="SUPPLY55" gate="G$1" pin="VCCIO"/>
-<pinref part="U2" gate="G$1" pin="DIR3"/>
-<wire x1="276.86" y1="111.76" x2="271.78" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="111.76" x2="271.78" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="109.22" x2="271.78" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="DIR2"/>
 <wire x1="271.78" y1="124.46" x2="271.78" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="124.46" x2="271.78" y2="124.46" width="0.1524" layer="91"/>
 <junction x="271.78" y="124.46"/>
+<pinref part="U2" gate="G$1" pin="DIR4"/>
+<wire x1="276.86" y1="109.22" x2="271.78" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -31375,11 +31375,7 @@ your MM PB GPIO pins. Default: closed.</text>
 </segment>
 <segment>
 <label x="309.88" y="114.3" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="299.72" y1="114.3" x2="307.34" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="307.34" y1="114.3" x2="309.88" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="R32" gate="G$1" pin="2"/>
-<wire x1="307.34" y1="111.76" x2="307.34" y2="114.3" width="0.1524" layer="91"/>
-<junction x="307.34" y="114.3"/>
+<wire x1="299.72" y1="114.3" x2="309.88" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="B4"/>
 </segment>
 </net>
@@ -31391,8 +31387,12 @@ your MM PB GPIO pins. Default: closed.</text>
 </segment>
 <segment>
 <label x="309.88" y="116.84" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="299.72" y1="116.84" x2="309.88" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="116.84" x2="307.34" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="B3"/>
+<pinref part="R32" gate="G$1" pin="2"/>
+<wire x1="307.34" y1="116.84" x2="309.88" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="111.76" x2="307.34" y2="116.84" width="0.1524" layer="91"/>
+<junction x="307.34" y="116.84"/>
 </segment>
 </net>
 <net name="USB_P" class="4">
