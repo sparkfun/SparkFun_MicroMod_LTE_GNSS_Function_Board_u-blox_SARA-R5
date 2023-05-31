@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -21651,6 +21651,26 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
+<package name="AXIAL-0.3EZ">
+<description>This is the "EZ" version of the standard .3" spaced resistor package.&lt;br&gt;
+It has a reduced top mask to make it harder to install upside-down.</description>
+<wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0.762" x2="2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-0.762" x2="-2.54" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.794" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.794" y2="0" width="0.2032" layer="21"/>
+<pad name="P$1" x="-3.81" y="0" drill="0.9" diameter="1.8796" stop="no"/>
+<pad name="P$2" x="3.81" y="0" drill="0.9" diameter="1.8796" stop="no"/>
+<text x="0" y="1.016" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.016" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<circle x="-3.81" y="0" radius="0.508" width="0" layer="29"/>
+<circle x="3.81" y="0" radius="0.523634375" width="0" layer="29"/>
+<circle x="-3.81" y="0" radius="1.02390625" width="0" layer="30"/>
+<circle x="3.81" y="0" radius="1.04726875" width="0" layer="30"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -22306,13 +22326,61 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="330OHM" prefix="R">
-<description>&lt;h3&gt;330Ω resistor&lt;/h3&gt;
+<deviceset name="100OHM" prefix="R">
+<description>&lt;h3&gt;100Ω resistor&lt;/h3&gt;
 &lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
+<device name="-HORIZ-1/4W-1%" package="AXIAL-0.3">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-12181" constant="no"/>
+<attribute name="VALUE" value="100" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-HORIZ_KIT-1/4W-1%" package="AXIAL-0.3EZ">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-12181" constant="no"/>
+<attribute name="VALUE" value="100" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-VERT-1/4W-1%" package="AXIAL-0.1">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-12181"/>
+<attribute name="VALUE" value="100"/>
+</technology>
+</technologies>
+</device>
+<device name="-VERT_KIT-1/4W-1%" package="AXIAL-0.1-KIT">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-12181" constant="no"/>
+<attribute name="VALUE" value="100" constant="no"/>
+</technology>
+</technologies>
+</device>
 <device name="-0603-1/10W-1%" package="0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -22320,44 +22388,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="RES-00818"/>
-<attribute name="VALUE" value="330"/>
+<attribute name="PROD_ID" value="RES-07863"/>
+<attribute name="VALUE" value="100"/>
 </technology>
 </technologies>
 </device>
-<device name="-HORIZ-1/10W-5%" package="AXIAL-0.3">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-8371" constant="no"/>
-<attribute name="VALUE" value="330" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-0402-1/16W-5%" package="0402">
+<device name="-0402-TIGHT-1/16W-1%" package="0402-TIGHT">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="RES-15407"/>
-<attribute name="VALUE" value="330"/>
-</technology>
-</technologies>
-</device>
-<device name="-0402T-1/16W-5%" package="0402-TIGHT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-15407"/>
-<attribute name="VALUE" value="330"/>
+<attribute name="PROD_ID" value="RES-14962" constant="no"/>
+<attribute name="VALUE" value="100" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -28266,10 +28310,10 @@ sized tool</text>
 <pin name="VCC" x="-17.78" y="22.86" length="short"/>
 <pin name="USB_VIN" x="-17.78" y="-2.54" length="short"/>
 <pin name="PWR_EN" x="-17.78" y="17.78" length="short"/>
-<pin name="RX" x="17.78" y="5.08" length="short" rot="R180"/>
-<pin name="CTS" x="17.78" y="0" length="short" rot="R180"/>
-<pin name="TX" x="17.78" y="2.54" length="short" rot="R180"/>
-<pin name="RTS" x="17.78" y="-2.54" length="short" rot="R180"/>
+<pin name="FUNC_RX" x="17.78" y="5.08" length="short" rot="R180"/>
+<pin name="FUNC_CTS" x="17.78" y="0" length="short" rot="R180"/>
+<pin name="FUNC_TX" x="17.78" y="2.54" length="short" rot="R180"/>
+<pin name="FUNC_RTS" x="17.78" y="-2.54" length="short" rot="R180"/>
 <pin name="A0" x="17.78" y="-7.62" length="short" rot="R180"/>
 <pin name="EEPROM_A0" x="-17.78" y="-20.32" length="short"/>
 <pin name="EEPROM_A1" x="-17.78" y="-22.86" length="short"/>
@@ -28298,7 +28342,6 @@ sized tool</text>
 <connect gate="J1" pin="A0" pad="38"/>
 <connect gate="J1" pin="CAN-RX" pad="43"/>
 <connect gate="J1" pin="CAN-TX" pad="41"/>
-<connect gate="J1" pin="CTS" pad="18"/>
 <connect gate="J1" pin="DFU_!ACTIVE!" pad="10"/>
 <connect gate="J1" pin="DFU_!BOOT!" pad="66"/>
 <connect gate="J1" pin="DFU_!RST!" pad="68"/>
@@ -28316,17 +28359,18 @@ sized tool</text>
 <connect gate="J1" pin="F5" pad="57"/>
 <connect gate="J1" pin="F6" pad="59"/>
 <connect gate="J1" pin="F7" pad="61"/>
+<connect gate="J1" pin="FUNC_CTS" pad="18"/>
+<connect gate="J1" pin="FUNC_RTS" pad="16"/>
+<connect gate="J1" pin="FUNC_RX" pad="15"/>
+<connect gate="J1" pin="FUNC_TX" pad="13"/>
 <connect gate="J1" pin="GND" pad="1 2 8 33 39 45 75 GND1 GND2 GND3 GND4 GND5 GND6"/>
 <connect gate="J1" pin="I2C_!INT!" pad="23"/>
 <connect gate="J1" pin="I2C_SCL" pad="21"/>
 <connect gate="J1" pin="I2C_SDA" pad="19"/>
 <connect gate="J1" pin="PWR_EN" pad="71"/>
-<connect gate="J1" pin="RTS" pad="16"/>
-<connect gate="J1" pin="RX" pad="15"/>
 <connect gate="J1" pin="SPI_SCK" pad="3"/>
 <connect gate="J1" pin="SPI_SDI" pad="5"/>
 <connect gate="J1" pin="SPI_SDO" pad="7"/>
-<connect gate="J1" pin="TX" pad="13"/>
 <connect gate="J1" pin="USBHOST_D+" pad="35"/>
 <connect gate="J1" pin="USBHOST_D-" pad="37"/>
 <connect gate="J1" pin="USB_VIN" pad="70"/>
@@ -28342,7 +28386,6 @@ sized tool</text>
 <connect gate="J1" pin="A0" pad="38"/>
 <connect gate="J1" pin="CAN-RX" pad="43"/>
 <connect gate="J1" pin="CAN-TX" pad="41"/>
-<connect gate="J1" pin="CTS" pad="18"/>
 <connect gate="J1" pin="DFU_!ACTIVE!" pad="10"/>
 <connect gate="J1" pin="DFU_!BOOT!" pad="66"/>
 <connect gate="J1" pin="DFU_!RST!" pad="68"/>
@@ -28360,17 +28403,18 @@ sized tool</text>
 <connect gate="J1" pin="F5" pad="57"/>
 <connect gate="J1" pin="F6" pad="59"/>
 <connect gate="J1" pin="F7" pad="61"/>
+<connect gate="J1" pin="FUNC_CTS" pad="18"/>
+<connect gate="J1" pin="FUNC_RTS" pad="16"/>
+<connect gate="J1" pin="FUNC_RX" pad="15"/>
+<connect gate="J1" pin="FUNC_TX" pad="13"/>
 <connect gate="J1" pin="GND" pad="1 2 8 33 39 45 75"/>
 <connect gate="J1" pin="I2C_!INT!" pad="23"/>
 <connect gate="J1" pin="I2C_SCL" pad="21"/>
 <connect gate="J1" pin="I2C_SDA" pad="19"/>
 <connect gate="J1" pin="PWR_EN" pad="71"/>
-<connect gate="J1" pin="RTS" pad="16"/>
-<connect gate="J1" pin="RX" pad="15"/>
 <connect gate="J1" pin="SPI_SCK" pad="3"/>
 <connect gate="J1" pin="SPI_SDI" pad="5"/>
 <connect gate="J1" pin="SPI_SDO" pad="7"/>
-<connect gate="J1" pin="TX" pad="13"/>
 <connect gate="J1" pin="USBHOST_D+" pad="35"/>
 <connect gate="J1" pin="USBHOST_D-" pad="37"/>
 <connect gate="J1" pin="USB_VIN" pad="70"/>
@@ -29521,7 +29565,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C25" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
 <part name="C21" library="SparkFun-Capacitors" deviceset="10UF-POLAR" device="-EIA3216-16V-10%(TANT)" value="10uF"/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="R33" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402T-1/16W-1%" value="100k"/>
+<part name="R33" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402T-1/16W-1%" value="DNP"/>
 <part name="C28" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0603-6.3V-(10%)" value="4.7uF"/>
 <part name="C32" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
 <part name="C30" library="SparkFun-Capacitors" deviceset="0.22UF" device="-0603-25V-10%" value="0.22uF"/>
@@ -29583,7 +29627,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="D16" library="SparkFun-LED" deviceset="LED-RED" device="_0603-KB" value="RED"/>
 <part name="R43" library="SparkFun-Resistors" deviceset="240OHM" device="-0603-1/10W-1%" value="240"/>
 <part name="D17" library="SparkFun-LED" deviceset="LED-GREEN" device="0603" value="GREEN"/>
-<part name="R46" library="SparkFun-Resistors" deviceset="330OHM" device="-0603-1/10W-1%" value="330"/>
+<part name="R46" library="SparkFun-Resistors" deviceset="100OHM" device="-0603-1/10W-1%" value="100"/>
 <part name="C24" library="SparkFun-Capacitors" deviceset="8.2PF" device="-0603-50V-10%" value="8.2pF">
 <attribute name="PROD_ID" value="CAP-16662"/>
 </part>
@@ -30828,7 +30872,7 @@ your MM PB GPIO pins. Default: closed.</text>
 <net name="TX" class="0">
 <segment>
 <label x="93.98" y="124.46" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J1" gate="J1" pin="TX"/>
+<pinref part="J1" gate="J1" pin="FUNC_TX"/>
 <wire x1="91.44" y1="124.46" x2="93.98" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -31369,7 +31413,7 @@ your MM PB GPIO pins. Default: closed.</text>
 </net>
 <net name="CTS" class="0">
 <segment>
-<pinref part="J1" gate="J1" pin="CTS"/>
+<pinref part="J1" gate="J1" pin="FUNC_CTS"/>
 <wire x1="91.44" y1="121.92" x2="93.98" y2="121.92" width="0.1524" layer="91"/>
 <label x="93.98" y="121.92" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
@@ -31381,7 +31425,7 @@ your MM PB GPIO pins. Default: closed.</text>
 </net>
 <net name="RTS" class="0">
 <segment>
-<pinref part="J1" gate="J1" pin="RTS"/>
+<pinref part="J1" gate="J1" pin="FUNC_RTS"/>
 <wire x1="91.44" y1="119.38" x2="93.98" y2="119.38" width="0.1524" layer="91"/>
 <label x="93.98" y="119.38" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
@@ -31467,7 +31511,7 @@ your MM PB GPIO pins. Default: closed.</text>
 </segment>
 <segment>
 <label x="93.98" y="127" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="J1" gate="J1" pin="RX"/>
+<pinref part="J1" gate="J1" pin="FUNC_RX"/>
 <wire x1="93.98" y1="127" x2="91.44" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>

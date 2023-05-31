@@ -3,10 +3,10 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="13" fill="3" visible="no" active="yes"/>
@@ -79,7 +79,7 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
-<layer number="100" name="Muster" color="7" fill="1" visible="no" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="no"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="no"/>
 <layer number="103" name="tMap" color="7" fill="1" visible="no" active="no"/>
@@ -9465,7 +9465,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <attribute name="PROD_ID" value="CAP-00811" x="-11.149" y="60.96" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="4.091" y="9.017" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R33" library="SparkFun-Resistors" package="0402-TIGHT" value="100k" x="10.97881875" y="10.85088125" smashed="yes">
+<element name="R33" library="SparkFun-Resistors" package="0402-TIGHT" value="DNP" x="10.97881875" y="10.85088125" smashed="yes">
 <attribute name="NAME" x="10.97881875" y="11.61288125" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-13495" x="5.89881875" y="59.11088125" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="10.97881875" y="10.08888125" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
@@ -9637,10 +9637,10 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <attribute name="PROD_ID" value="DIO-00821" x="158.269" y="-71.628" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="5.234" y="17.272" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="R46" library="SparkFun-Resistors" package="0603" value="330" x="5.234" y="19.812" smashed="yes" rot="R180">
+<element name="R46" library="SparkFun-Resistors" package="0603" value="100" x="5.234" y="19.812" smashed="yes" rot="R180">
 <attribute name="NAME" x="5.234" y="19.05" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-00818" x="119.534" y="181.102" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
-<attribute name="VALUE" value="330" x="5.234" y="20.574" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<attribute name="PROD_ID" value="RES-07863" x="119.534" y="181.102" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="VALUE" value="100" x="5.234" y="20.574" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="C24" library="SparkFun-Capacitors" package="0603" value="8.2pF" x="34.6599" y="37.137340625" smashed="yes">
 <attribute name="NAME" x="34.6599" y="37.899340625" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
