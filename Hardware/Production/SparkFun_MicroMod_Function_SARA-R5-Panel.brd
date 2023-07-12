@@ -22,7 +22,7 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -67,7 +67,7 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
-<layer number="100" name="Muster" color="7" fill="1" visible="no" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="no"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="no"/>
 <layer number="103" name="tMap" color="7" fill="1" visible="no" active="no"/>
@@ -10092,9 +10092,9 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <attribute name="PROD_ID" value="RES-07849" x="-152.326340625" y="123.6869" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" value="240" x="0.581659375" y="20.8169" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="D17" library="SparkFun-LED" package="LED-0603" value="GREEN" x="4.345" y="17.272" smashed="yes" rot="R90">
+<element name="D17" library="SparkFun-LED" package="LED-0603" value="RED" x="4.345" y="17.272" smashed="yes" rot="R90">
 <attribute name="NAME" x="3.71" y="17.272" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-00821" x="158.015" y="-71.628" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="PROD_ID" value="DIO-17976" x="158.015" y="-71.628" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="4.98" y="17.272" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="R46" library="SparkFun-Resistors" package="0603" value="100" x="4.98" y="19.812" smashed="yes" rot="R180">
@@ -10559,9 +10559,9 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <attribute name="PROD_ID" value="RES-07849" x="-114.327940625" y="123.6869" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" value="240" x="38.580059375" y="20.8169" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="D12" library="SparkFun-LED" package="LED-0603" value="GREEN" x="42.3434" y="17.272" smashed="yes" rot="R90">
+<element name="D12" library="SparkFun-LED" package="LED-0603" value="RED" x="42.3434" y="17.272" smashed="yes" rot="R90">
 <attribute name="NAME" x="41.7084" y="17.272" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-00821" x="196.0134" y="-71.628" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="PROD_ID" value="DIO-17976" x="196.0134" y="-71.628" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="42.9784" y="17.272" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="R29" library="SparkFun-Resistors" package="0603" value="100" x="42.9784" y="19.812" smashed="yes" rot="R180">
@@ -11026,9 +11026,9 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <attribute name="PROD_ID" value="RES-07849" x="-76.329540625" y="123.6869" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" value="240" x="76.578459375" y="20.8169" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="D26" library="SparkFun-LED" package="LED-0603" value="GREEN" x="80.3418" y="17.272" smashed="yes" rot="R90">
+<element name="D26" library="SparkFun-LED" package="LED-0603" value="RED" x="80.3418" y="17.272" smashed="yes" rot="R90">
 <attribute name="NAME" x="79.7068" y="17.272" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-00821" x="234.0118" y="-71.628" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="PROD_ID" value="DIO-17976" x="234.0118" y="-71.628" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="80.9768" y="17.272" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="R65" library="SparkFun-Resistors" package="0603" value="100" x="80.9768" y="19.812" smashed="yes" rot="R180">
@@ -11493,9 +11493,9 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <attribute name="PROD_ID" value="RES-07849" x="189.816740625" y="12.662840625" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" value="240" x="36.908740625" y="115.532840625" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="D36" library="SparkFun-LED" package="LED-0603" value="GREEN" x="33.1454" y="119.077740625" smashed="yes" rot="R270">
+<element name="D36" library="SparkFun-LED" package="LED-0603" value="RED" x="33.1454" y="119.077740625" smashed="yes" rot="R270">
 <attribute name="NAME" x="33.7804" y="119.077740625" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-00821" x="-120.5246" y="207.977740625" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="DIO-17976" x="-120.5246" y="207.977740625" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="32.5104" y="119.077740625" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="R89" library="SparkFun-Resistors" package="0603" value="100" x="32.5104" y="116.537740625" smashed="yes">
@@ -11960,9 +11960,9 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <attribute name="PROD_ID" value="RES-07849" x="227.815140625" y="12.662840625" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" value="240" x="74.907140625" y="115.532840625" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="D46" library="SparkFun-LED" package="LED-0603" value="GREEN" x="71.1438" y="119.077740625" smashed="yes" rot="R270">
+<element name="D46" library="SparkFun-LED" package="LED-0603" value="RED" x="71.1438" y="119.077740625" smashed="yes" rot="R270">
 <attribute name="NAME" x="71.7788" y="119.077740625" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-00821" x="-82.5262" y="207.977740625" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="DIO-17976" x="-82.5262" y="207.977740625" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="70.5088" y="119.077740625" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="R113" library="SparkFun-Resistors" package="0603" value="100" x="70.5088" y="116.537740625" smashed="yes">
@@ -12427,9 +12427,9 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <attribute name="PROD_ID" value="RES-07849" x="265.813540625" y="12.662840625" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" value="240" x="112.905540625" y="115.532840625" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="D56" library="SparkFun-LED" package="LED-0603" value="GREEN" x="109.1422" y="119.077740625" smashed="yes" rot="R270">
+<element name="D56" library="SparkFun-LED" package="LED-0603" value="RED" x="109.1422" y="119.077740625" smashed="yes" rot="R270">
 <attribute name="NAME" x="109.7772" y="119.077740625" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-00821" x="-44.5278" y="207.977740625" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="DIO-17976" x="-44.5278" y="207.977740625" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="108.5072" y="119.077740625" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="R137" library="SparkFun-Resistors" package="0603" value="100" x="108.5072" y="116.537740625" smashed="yes">
