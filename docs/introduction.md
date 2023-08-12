@@ -224,7 +224,7 @@ If you aren’t familiar with the following concepts, we also recommend checking
 
     ---
 
-    <a href="https:https://learn.sparkfun.com/tutorials/getting-started-with-micromod">
+    <a href="https://learn.sparkfun.com/tutorials/getting-started-with-micromod">
       <b>Getting Started with MicroMod</b>
     </a>
 
