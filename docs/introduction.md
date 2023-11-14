@@ -58,7 +58,7 @@ To follow along with this tutorial, you will need the following materials. You m
 
 
 
-<div class="grid cards hide col-4" markdown>
+<div class="grid cards col-4" markdown>
 
 -   <a href="https://www.sparkfun.com/products/20748">
       <figure markdown>
@@ -214,7 +214,7 @@ If you aren't familiar with the MicroMod Ecosystem, we recommend reading [here f
 
 If you aren’t familiar with the following concepts, we also recommend checking out a few of these tutorials before continuing.
 
-<div class="grid cards hide col-4" markdown>
+<div class="grid cards col-4" markdown>
 
 -   <a href="https://learn.sparkfun.com/tutorials/getting-started-with-micromod">
       <figure markdown>
